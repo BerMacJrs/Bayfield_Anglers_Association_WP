@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Text_Accents" data-name="Text &amp;amp; Accents" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340.14 167.2">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-size: 23.98px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: Oswald-Bold, Oswald;
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 88.53px;
+      }
+
+      .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        font-family: Merriweather-Regular, Merriweather;
+        font-size: 34.15px;
+      }
+    </style>
+  </defs>
+  <g id="hooks">
+    <text class="cls-2" transform="translate(146.56 114.78)"><tspan x="0" y="0">1982</tspan></text>
+  </g>
+  <g id="text">
+    <text class="cls-3" transform="translate(4.42 83.17) scale(.98 1)"><tspan x="0" y="0">B</tspan><tspan class="cls-6" x="49.28" y="0">A</tspan><tspan class="cls-1" x="95.66" y="0">YFIELD</tspan></text>
+    <text class="cls-5" transform="translate(144.81 157.86)"><tspan x="0" y="0">Association</tspan></text>
+  </g>
+  <g id="lines">
+    <text class="cls-5" transform="translate(2.09 157.86)"><tspan x="0" y="0">Anglers</tspan></text>
+    <polygon class="cls-4" points="0 105.84 127.54 102.26 127.54 109.41 0 105.84"/>
+    <polyline class="cls-4" points="336.54 105.84 209 109.41 209 102.26 336.54 105.84"/>
+  </g>
+</svg>
