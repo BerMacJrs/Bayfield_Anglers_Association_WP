@@ -1,6 +1,6 @@
 # Bayfield Anglers Association Web Project :shark:
 
-Welcome! This is the repository of official website development of the Bayfield Anglers Association designed by Bernardo Macapagal in coordination with Justin Brunner. This includes the design elements, branding, elements, and website layout. Thanks for stopping by!
+Welcome! This is the repository of official website development of the Bayfield Anglers Association, designed by Bernardo Macapagal in coordination with Justin Brunner. This includes the design elements, branding features, interactive elements, and overall website layout. Thanks for stopping by!
 
 ![BAA Readme Photo](/images/BAA_Readme_V1.png)
 
