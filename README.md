@@ -26,6 +26,7 @@ Download the zipped code folder or fork the cloned repository to open the full f
 
 - June 14, 2024
 - June 15, 2024
+- June 25, 2024
 
 ## Credits :pen:
 
