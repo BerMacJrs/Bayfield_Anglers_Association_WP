@@ -9,7 +9,8 @@
 body {
     padding: 0;
     margin: 0 auto;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    color: #202020;
 }
 
 /* Font Import */
@@ -30,4 +31,77 @@ ul {
 
 ul li a {
     text-decoration: none;
+}
+
+/* Mobile Styles Start */
+
+/* Navigation Menu Section */
+
+header {
+    background-color: #022873;
+    border-bottom: 10px solid #BF0B1A;
+}
+
+#main_logo {
+    width: 10em;
+    margin: 20px;
+}
+
+#hamburger {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#burger {
+    width: 3em;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.nav-menu {
+    display: none;
+}
+
+/* Hero Section */
+
+.hero {
+    background-image: url('../images/baa_home_header_412.png');
+    background-size: cover;
+    height: 27.5em;
+    padding-left: 30px;
+}
+
+.hero p {
+    font-family: "Oswald", sans-serif;
+    font-weight: 450;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 53px;
+}
+
+.hero h3 {
+    text-transform: uppercase;
+    font-size: 3em;
+    line-height: 60px;
+    margin: 0;
+    padding: 20px 0 40px 0;
+}
+
+button {
+    border: none;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 450;
+
+    background-color: #BF0B1A;
+    color: white;
+
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
 }
