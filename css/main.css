@@ -99,6 +99,7 @@ header {
     line-height: 60px;
     margin: 0;
     padding: 20px 0 40px 0;
+    color: #202020;
 }
 
 button { 
@@ -138,10 +139,21 @@ button {
 
 /* Features Section */
 
+.features-side {
+    display: flex;
+}
+
 .features img {
     width: 3em;
 }
 
+.features h4 {
+    font-size: 18px;
+    margin: 0;
+}
+
 .features p {
-    
+    max-width: 95%;
+    font-size: 14px;
+    line-height: 21px;
 }
