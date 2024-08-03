@@ -13,6 +13,10 @@ body {
     color: #202020;
 }
 
+.main-margin {
+    margin-left: 1.5em;
+}
+
 /* Font Import */
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,6 +25,15 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     font-family: "Merriweather", serif;
+    font-size: 1em;
+}
+
+h3 {
+    color: #022873;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 33px;
+    width: 90%;
 }
 
 /* Bullet Reset */
@@ -88,7 +101,7 @@ header {
     padding: 20px 0 40px 0;
 }
 
-button {
+button { 
     border: none;
     padding: 5px 20px 5px 20px;
     border-radius: 5px;
@@ -104,4 +117,31 @@ button {
     outline: none;
     box-shadow: none;
     cursor: pointer;
+}
+
+/* Introduction Section */
+
+.intro p {
+    max-width: 90%;
+    letter-spacing: -0.5;
+    line-height: 28px;
+}
+
+.intro img:first-of-type, .intro img:last-of-type {
+    display: none;
+}
+
+.intro img {
+    margin-top: 1em;
+    width: 22.5em;
+}
+
+/* Features Section */
+
+.features img {
+    width: 3em;
+}
+
+.features p {
+    
 }
