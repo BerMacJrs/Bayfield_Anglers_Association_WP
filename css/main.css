@@ -13,8 +13,8 @@ body {
     color: #202020;
 }
 
-.main-margin {
-    margin-left: 1.5em;
+.main-padding {
+    padding-left: 1.5em;
 }
 
 /* Font Import */
@@ -34,6 +34,12 @@ h3 {
     font-size: 24px;
     line-height: 33px;
     width: 90%;
+}
+
+.main-description {
+    font-size: 1em;
+    line-height: 25px;
+    max-width: 90%
 }
 
 /* Bullet Reset */
@@ -135,16 +141,24 @@ button {
 .intro img {
     margin-top: 1em;
     width: 22.5em;
+    margin-bottom: 0.5em;
 }
 
 /* Features Section */
 
+.features {
+    background-color: #F3F3F3;
+}
+
 .features-side {
     display: flex;
+    align-items: flex-start;
 }
 
 .features img {
     width: 3em;
+    margin-right: 1em;
+    padding-top: 0.5em;
 }
 
 .features h4 {
@@ -153,7 +167,95 @@ button {
 }
 
 .features p {
-    max-width: 95%;
+    max-width: 90%;
     font-size: 14px;
     line-height: 21px;
+}
+
+/* Events Section */
+
+.events-side {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1em;
+}
+
+.events-side:first-of-type {
+    margin-top: 2em;
+}
+
+.events img {
+    width: 7em;
+    margin-right: 1.25em;
+    padding-top: 0.4em;
+}
+
+.events h4 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.events-side p {
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 90%;
+}
+
+.events-bold {
+    font-weight: 800;
+}
+
+/* Projects Section */
+
+.projects {
+    background-color: #F3F3F3;
+}
+
+.projects img {
+    width: 22em;
+    margin-bottom: 1em;
+}
+
+.projects h4 {
+    font-size: 18px;
+    margin-bottom: 1.25em;
+}
+
+.projects img:last-of-type {
+    display: none;
+}
+
+#projects-text p {
+    font-size: 1em;
+    line-height: 28px;
+    max-width: 90%;
+    margin-bottom: 1em;
+}
+
+.projects button {
+    margin: 1em 0 2em 0;
+}
+
+/* Announcements Section */
+
+.announce img {
+    width: 5em;
+    margin-right: 1.25em;
+    padding-top: 1.2em;
+}
+
+.announce-bold {
+    font-weight: 800;
+}
+
+.announce-side {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: .4em;
+}
+
+.announce-side p {
+    font-size: 14px;
+    line-height: 28px;
+    max-width: 85%;
 }
