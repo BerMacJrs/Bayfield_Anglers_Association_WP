@@ -75,6 +75,7 @@ header {
 #hamburger {
     display: flex;
     justify-content: flex-start;
+    cursor: pointer;
 }
 
 #burger {
@@ -85,6 +86,20 @@ header {
 
 .nav-menu {
     display: none;
+}
+
+.nav-menu.active {
+    display: block
+}
+
+.nav-menu a {
+    font-size: 21px;
+    color: white;
+}
+
+.nav-menu li {
+    padding-bottom: 1em;
+    margin-left: -1.1em;
 }
 
 /* Hero Section */
