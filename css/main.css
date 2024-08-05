@@ -42,6 +42,10 @@ h3 {
     max-width: 90%
 }
 
+a {
+    font-family: "Merriweather", serif;
+}
+
 /* Bullet Reset */
 
 ul {
@@ -59,6 +63,8 @@ ul li a {
 header {
     background-color: #022873;
     border-bottom: 10px solid #BF0B1A;
+    position: sticky;
+    top: 0;
 }
 
 #main_logo {
@@ -128,6 +134,11 @@ button {
 
 /* Introduction Section */
 
+.intro {
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+}
+
 .intro p {
     max-width: 90%;
     letter-spacing: -0.5;
@@ -148,6 +159,8 @@ button {
 
 .features {
     background-color: #F3F3F3;
+    padding-top: .3em;
+    padding-bottom: 1.8em;
 }
 
 .features-side {
@@ -173,6 +186,11 @@ button {
 }
 
 /* Events Section */
+
+.events {
+    padding-top: .5em;
+    padding-bottom: .65em;
+}
 
 .events-side {
     display: flex;
@@ -209,6 +227,7 @@ button {
 
 .projects {
     background-color: #F3F3F3;
+    padding-top: .3em;
 }
 
 .projects img {
@@ -238,6 +257,11 @@ button {
 
 /* Announcements Section */
 
+.announce {
+    padding-top: 0.8em;
+    padding-bottom: 1.5em;
+}
+
 .announce img {
     width: 5em;
     margin-right: 1.25em;
@@ -258,4 +282,53 @@ button {
     font-size: 14px;
     line-height: 28px;
     max-width: 85%;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #022873;
+    border-top: 10px solid #BF0B1A;
+}
+
+footer nav {
+    padding: 2.25em 0 2em 0.5em;
+}
+
+footer nav li {
+    padding-bottom: .5em;
+}
+
+footer li {
+    margin-bottom: 1em;
+}
+
+footer a {
+    color: white;
+    font-size: 20px;
+}
+
+#footer_logo {
+    width: 8em;
+    margin-bottom: 1em;
+    justify-self: center;
+}
+
+.social-media-icons {
+    justify-self: center;
+    display: flex;
+    gap: .7em;
+    margin-bottom: 3em;
+}
+
+.social-media-icons img {
+    width: 1.8em;
+}
+
+footer p {
+    font-family: "Oswald", sans-serif;
+    color: #8194B9;
+    margin: 0;
+    padding-bottom: 0.8em;
+    justify-self: center;
 }
