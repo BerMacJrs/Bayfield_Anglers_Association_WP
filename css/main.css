@@ -345,3 +345,281 @@ footer p {
     padding-bottom: 0.8em;
     justify-self: center;
 }
+
+
+
+
+
+/* Tablet Styles Start */
+
+@media screen and (min-width: 48em) {
+
+/* Tablet Navigation Menu Section */
+
+    header {
+        border-bottom: 15px solid #BF0B1A;
+    }
+
+    #main_logo {
+        width: 10em;
+        margin: 20px;
+        margin-left: 35px;
+    }
+
+    #hamburger {
+        display: none; 
+    }
+
+    .nav-menu {
+        display: block;
+    }
+
+    .nav-menu li {
+        margin-left: -1.1em;
+        padding-bottom: 0;
+    }
+
+    .nav-menu ul {
+        display: flex;
+        gap: 3.5em;
+    }
+
+    .sm-two-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    
+    .sm-two-items > div:first-child {
+        grid-column: 1;
+    }
+    
+    .sm-two-items > nav {
+        grid-column: 2;
+    }
+
+/* TAKE IT FROM HERE END-- */
+/* TAKE IT FROM HERE END-- */
+/* TAKE IT FROM HERE END-- */
+
+/* Tablet Hero Section */
+
+    .hero {
+        background-image: url('../images/baa_home_header_768.png');
+        background-size: cover;
+        height: 46em;
+        padding-left: 65px;
+    }
+
+    .hero p {
+        font-weight: 450;
+        font-size: 33px;
+        margin: 0;
+        padding-top: 100px;
+    }
+
+    .hero h3 {
+        font-size: 76px;
+        line-height: 90px;
+        margin: 0;
+        padding: 20px 0 40px 0;
+    }
+
+    button { 
+        font-size: 28px;
+    }
+
+/* Tablet Introduction Section */
+
+    .intro {
+        padding-top: 0.5em;
+        padding-bottom: 2em;
+    }
+
+    .intro p {
+        max-width: 90%;
+        letter-spacing: -0.5;
+        line-height: 28px;
+    }
+
+    .intro img:first-of-type, .intro img:last-of-type {
+        display: none;
+    }
+
+    .intro img {
+        margin: 1em 0 0.5em 0;
+        width: 22.5em;
+    }
+
+/* Tablet Features Section */
+
+    .features {
+        padding-top: .3em;
+        padding-bottom: 1.8em;
+    }
+
+    .features-side {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .features img {
+        width: 3em;
+        margin-right: 1em;
+        padding-top: 0.5em;
+    }
+
+    .features h4 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .features p {
+        max-width: 90%;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+/* Tablet Events Section */
+
+    .events {
+        padding-top: .5em;
+        padding-bottom: .65em;
+    }
+
+    .events-side {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 1em;
+    }
+
+    .events-side:first-of-type {
+        margin-top: 2em;
+    }
+
+    .events img {
+        width: 7em;
+        margin-right: 1.25em;
+        padding-top: 0.4em;
+    }
+
+    .events h4 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .events-side p {
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 90%;
+    }
+
+    .events-bold {
+        font-weight: 800;
+    }
+
+/* Tablet Projects Section */
+
+    .projects {
+        padding-top: .3em;
+    }
+
+    .projects img {
+        width: 22em;
+        margin-bottom: 1em;
+    }
+
+    .projects h4 {
+        font-size: 18px;
+        margin-bottom: 1.25em;
+    }
+
+    .projects img:last-of-type {
+        display: none;
+    }
+
+    #projects-text p {
+        font-size: 1em;
+        line-height: 28px;
+        max-width: 90%;
+        margin-bottom: 1em;
+    }
+
+    .projects button {
+        margin: 1em 0 2em 0;
+    }
+
+/* Tablet Announcements Section */
+
+    .announce {
+        padding-top: 0.8em;
+        padding-bottom: 1.5em;
+    }
+
+    .announce img {
+        width: 5em;
+        margin-right: 1.25em;
+        padding-top: 1.2em;
+    }
+
+    .announce-bold {
+        font-weight: 800;
+    }
+
+    .announce-side {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: .4em;
+    }
+
+    .announce-side p {
+        font-size: 14px;
+        line-height: 28px;
+        max-width: 85%;
+    }
+
+/* Tablet Footer Section */
+
+    footer {
+        border-top: 10px solid #BF0B1A;
+    }
+
+    footer nav {
+        padding: 2.25em 0 2em 0.5em;
+    }
+
+    footer nav li {
+        padding-bottom: .5em;
+    }
+
+    footer li {
+        margin-bottom: 1em;
+    }
+
+    footer nav a {
+        font-size: 20px;
+    }
+
+    #footer_logo {
+        width: 8em;
+        margin-bottom: 1em;
+        justify-self: center;
+    }
+
+    .social-media-icons {
+        justify-self: center;
+        display: flex;
+        gap: .7em;
+        margin-bottom: 3em;
+    }
+
+    .social-media-icons img {
+        width: 1.8em;
+    }
+
+    footer p {
+        margin: 0;
+        padding-bottom: 0.8em;
+        justify-self: center;
+    }
+}
