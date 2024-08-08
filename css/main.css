@@ -354,6 +354,25 @@ footer p {
 
 @media screen and (min-width: 48em) {
 
+/* Tablet Basic Reset */
+
+    .main-padding {
+        padding-left: 2.5em;
+    }
+
+/* Tablet Font Import */
+
+    h3 {
+        font-size: 30px;
+        width: 90%;
+    }
+
+    .main-description {
+        font-size: 16px;
+        line-height: 29px;
+        max-width: 90%
+    }
+
 /* Tablet Navigation Menu Section */
 
     header {
@@ -398,10 +417,6 @@ footer p {
         grid-column: 2;
     }
 
-/* TAKE IT FROM HERE END-- */
-/* TAKE IT FROM HERE END-- */
-/* TAKE IT FROM HERE END-- */
-
 /* Tablet Hero Section */
 
     .hero {
@@ -432,150 +447,137 @@ footer p {
 /* Tablet Introduction Section */
 
     .intro {
-        padding-top: 0.5em;
+        padding-top: 1em;
         padding-bottom: 2em;
     }
 
     .intro p {
+        font-size: 20px;
         max-width: 90%;
         letter-spacing: -0.5;
-        line-height: 28px;
+        line-height: 38px;
     }
 
     .intro img:first-of-type, .intro img:last-of-type {
-        display: none;
+        display: block;
     }
 
     .intro img {
         margin: 1em 0 0.5em 0;
-        width: 22.5em;
+        width: 13.8em;
+    }
+
+    #intro-img-wrapper {
+        display: flex;
+        gap: 1em;
     }
 
 /* Tablet Features Section */
 
     .features {
-        padding-top: .3em;
-        padding-bottom: 1.8em;
+        padding-top: 1.2em;
+        padding-bottom: 1.2em;
     }
 
     .features-side {
-        display: flex;
-        align-items: flex-start;
+        margin-bottom: 1em;
     }
 
     .features img {
-        width: 3em;
-        margin-right: 1em;
-        padding-top: 0.5em;
+        width: 4em;
+        margin-right: 1.5em;
     }
 
     .features h4 {
-        font-size: 18px;
-        margin: 0;
+        font-size: 26px;
     }
 
     .features p {
-        max-width: 90%;
-        font-size: 14px;
-        line-height: 21px;
+        max-width: 95%;
+        font-size: 1em;
+        line-height: 28px;
     }
 
 /* Tablet Events Section */
 
     .events {
-        padding-top: .5em;
+        padding-top: 1em;
         padding-bottom: .65em;
     }
 
     .events-side {
-        display: flex;
-        align-items: flex-start;
-        margin-bottom: 1em;
+        margin-bottom: 2em;
     }
 
     .events-side:first-of-type {
-        margin-top: 2em;
+        margin-top: 2.5em;
     }
 
     .events img {
-        width: 7em;
-        margin-right: 1.25em;
-        padding-top: 0.4em;
+        width: 11em;
+        margin-right: 2em;
+        padding-top: 0em;
     }
 
     .events h4 {
-        font-size: 18px;
-        margin: 0;
+        font-size: 26px;
     }
 
     .events-side p {
-        font-size: 14px;
-        line-height: 24px;
+        font-size: 17px;
+        line-height: 29px;
         max-width: 90%;
-    }
-
-    .events-bold {
-        font-weight: 800;
     }
 
 /* Tablet Projects Section */
 
     .projects {
-        padding-top: .3em;
+        padding-top: 1em;
     }
 
     .projects img {
-        width: 22em;
-        margin-bottom: 1em;
+        width: 20em;
     }
 
     .projects h4 {
-        font-size: 18px;
-        margin-bottom: 1.25em;
+        font-size: 29px;
+        margin-bottom: 1em;
     }
 
     .projects img:last-of-type {
-        display: none;
+        display: block;
     }
 
     #projects-text p {
         font-size: 1em;
-        line-height: 28px;
-        max-width: 90%;
-        margin-bottom: 1em;
+        line-height: 31px;
+        max-width: 92%;
     }
 
-    .projects button {
-        margin: 1em 0 2em 0;
+    #projects-img-wrapper {
+        display: flex;
+        gap: 1em;
     }
 
 /* Tablet Announcements Section */
 
     .announce {
         padding-top: 0.8em;
-        padding-bottom: 1.5em;
+        padding-bottom: 2em;
     }
 
     .announce img {
-        width: 5em;
-        margin-right: 1.25em;
-        padding-top: 1.2em;
-    }
-
-    .announce-bold {
-        font-weight: 800;
+        width: 6.5em;
+        margin-right: 1.8em;
     }
 
     .announce-side {
-        display: flex;
-        align-items: flex-start;
         margin-bottom: .4em;
     }
 
     .announce-side p {
-        font-size: 14px;
-        line-height: 28px;
-        max-width: 85%;
+        font-size: 1em;
+        max-width: 90%;
     }
 
 /* Tablet Footer Section */
