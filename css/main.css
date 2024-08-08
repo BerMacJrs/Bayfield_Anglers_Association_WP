@@ -598,36 +598,16 @@ footer .full {
         padding: 2.25em 0 2em 0.5em;
     }
 
-    footer nav li {
-        padding-bottom: .5em;
-    }
-
-    footer li {
-        margin-bottom: 1em;
-    }
-
     footer nav a {
         font-size: 18px;
     }
 
     #footer_logo {
         width: 13em;
-        margin-bottom: 1em;
-    }
-
-    .social-media-icons {
-        justify-self: center;
-        display: flex;
-        gap: .7em;
-        margin-bottom: 3em;
     }
 
     .social-media-icons img {
         width: 2.5em;
-    }
-
-    footer p {
-        padding-bottom: 0.8em;
     }
 
     .item-one {
