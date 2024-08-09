@@ -427,13 +427,11 @@ footer .full {
 
     .hero {
         background-image: url('../images/baa_home_header_768.png');
-        background-size: cover;
         height: 46em;
         padding-left: 65px;
     }
 
     .hero p {
-        font-weight: 450;
         font-size: 33px;
         margin: 0;
         padding-top: 100px;
@@ -460,7 +458,6 @@ footer .full {
     .intro p {
         font-size: 20px;
         max-width: 90%;
-        letter-spacing: -0.5;
         line-height: 38px;
     }
 
@@ -666,203 +663,148 @@ footer .full {
         font-size: 30px;
     }
 
-/* CONTINUE HERE */
-/* CONTINUE HERE */
-/* CONTINUE HERE */
-
 /* Monitor Hero Section */
 
     .hero {
         background-image: url('../images/baa_home_header_1200.png');
-        background-size: cover;
         height: 44em;
         padding-left: 65px;
     }
 
     .hero p {
-        font-weight: 450;
-        font-size: 33px;
+        font-size: 41px;
         margin: 0;
-        padding-top: 100px;
+        padding: 140px 0 15px 0;
     }
 
     .hero h3 {
-        font-size: 76px;
-        line-height: 90px;
-        margin: 0;
-        padding: 20px 0 40px 0;
+        font-size: 80px;
+        line-height: 100px;
+        padding: 20px 0 50px 0;
     }
 
     button { 
-        font-size: 28px;
+        font-size: 40px;
     }
 
 /* Monitor Introduction Section */
 
     .intro {
-        padding-top: 1em;
-        padding-bottom: 2em;
+        padding-bottom: 3em;
     }
 
     .intro p {
-        font-size: 20px;
-        max-width: 90%;
-        letter-spacing: -0.5;
-        line-height: 38px;
-    }
-
-    .intro img:first-of-type, .intro img:last-of-type {
-        display: block;
+        font-size: 22px;
+        max-width: 95%;
     }
 
     .intro img {
-        margin: 1em 0 0.5em 0;
-        width: 13.8em;
+        width: 18em;
     }
 
     #intro-img-wrapper {
-        display: flex;
-        gap: 1em;
+        gap: 1.5em;
     }
 
 /* Monitor Features Section */
 
     .features {
-        padding-top: 1.2em;
-        padding-bottom: 1.2em;
-    }
-
-    .features-side {
-        margin-bottom: 1em;
+        padding-top: 1.5em;
     }
 
     .features img {
-        width: 4em;
-        margin-right: 1.5em;
+        width: 4.5em;
     }
 
     .features h4 {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     .features p {
-        max-width: 95%;
-        font-size: 1em;
-        line-height: 28px;
+        max-width: 93%;
+        font-size: 21.5px;
+        line-height: 35px;
     }
 
 /* Monitor Events Section */
 
     .events {
-        padding-top: 1em;
-        padding-bottom: .65em;
+        padding-top: 1.25em;
+        padding-bottom: 1.25em;
     }
 
     .events-side {
-        margin-bottom: 2em;
-    }
-
-    .events-side:first-of-type {
-        margin-top: 2.5em;
+        margin-bottom: 2.5em;
     }
 
     .events img {
-        width: 11em;
-        margin-right: 2em;
-        padding-top: 0em;
+        width: 13em;
+        margin-right: 2.5em;
     }
 
     .events h4 {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     .events-side p {
-        font-size: 17px;
-        line-height: 29px;
-        max-width: 90%;
+        font-size: 20px;
+        line-height: 41px;
     }
 
 /* Monitor Projects Section */
 
     .projects {
-        padding-top: 1em;
+        padding-top: 2em;
     }
 
     .projects img {
-        width: 20em;
+        width: 27em;
     }
 
     .projects h4 {
-        font-size: 29px;
+        font-size: 32px;
         margin-bottom: 1em;
     }
 
-    .projects img:last-of-type {
-        display: block;
-    }
-
     #projects-text p {
-        font-size: 1em;
-        line-height: 31px;
-        max-width: 92%;
+        font-size: 21.5px;
+        line-height: 38px;
     }
 
     #projects-img-wrapper {
-        display: flex;
-        gap: 1em;
+        gap: 2em;
     }
 
 /* Monitor Announcements Section */
 
     .announce {
-        padding-top: 0.8em;
-        padding-bottom: 2em;
+        padding-top: 1em;
+        padding-bottom: 2.5em;
     }
 
     .announce img {
-        width: 6.5em;
-        margin-right: 1.8em;
+        width: 8em;
     }
 
     .announce-side {
-        margin-bottom: .4em;
+        margin-bottom: 1em;
     }
 
     .announce-side p {
-        font-size: 1em;
+        font-size: 19px;
+        line-height: 35px;
         max-width: 90%;
+        padding-top: 8px;
     }
 
 /* Monitor Footer Section */
 
     footer {
-        border-top: 15px solid #BF0B1A;
+        border-top: 18px solid #BF0B1A;
         padding-top: 2em;
     }
 
-    footer nav {
-        display: flex;
-        padding: 2.25em 0 2em 0.5em;
-    }
-
     footer nav a {
-        font-size: 18px;
-    }
-
-    #footer_logo {
-        width: 13em;
-    }
-
-    .social-media-icons img {
-        width: 2.5em;
-    }
-
-    .item-one {
-        order: 2;
-    }
-
-    .item-two {
-        order: 1;
-        margin-top: 1.5em;
+        font-size: 23px;
     }
 }
