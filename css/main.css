@@ -46,6 +46,10 @@ a {
     font-family: "Merriweather", serif;
 }
 
+nav a:hover {
+    color: #A9A9A9;
+}
+
 /* Bullet Reset */
 
 ul {
@@ -131,7 +135,7 @@ header {
 button { 
     border: none;
     padding: 5px 20px 5px 20px;
-    border-radius: 5px;
+    border-radius: 8px;
 
     font-size: 20px;
     font-family: "Oswald", sans-serif;
@@ -396,7 +400,9 @@ footer .full {
     }
 
     .nav-menu {
-        display: block;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 2.25em;
     }
 
     .nav-menu li {
@@ -656,7 +662,9 @@ footer .full {
 
     .nav-menu ul {
         gap: 4em;
-        margin-left: -1em;
+        margin: 0 2.25em 0 -1em;
+        display: flex;
+        justify-content: flex-end;
     }
 
     .nav-menu a {
