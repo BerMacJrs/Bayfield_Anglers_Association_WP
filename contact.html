@@ -18,12 +18,17 @@
   <h1 class="hidden">Bayfield Anglers Association's Contact Page</h1>
 
   <!-- Navigation Menu -->
-  <header>
+    <header class="two-items sm-two-items">
     <h2 class="hidden">Navigation Menu</h2>
       <div>
-        <img src="images/BAA_Logo.svg" alt="Bayfield Anglers Association Logo">
+        <a href="index.html"><img src="images/BAA_Logo.svg" alt="Bayfield Anglers Association Logo" id="main_logo"></a>
       </div>
-      <nav>
+
+      <div id="hamburger">
+        <img src="images/hamburger_icon.svg" alt="Hamburger Icon" id="burger">
+      </div>
+
+      <nav class="nav-menu full">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="members.html">Products</a></li>
@@ -107,30 +112,41 @@
   <!-- Footer Section -->
     <footer>
     <h2 class="hidden">Footer Menu</h2>
-      <div>
-        <img src="images/BAA_Logo.svg" alt="Bayfield Anglers Association Logo">
-      </div>
 
-      <div>
-        <img src="images/Facebook_Logo.svg" alt="Facebook Logo">
-        <img src="images/Snapchat_Logo.svg" alt="Snapchat Logo">
-        <img src="images/Twitter_Logo.svg" alt="Twitter Logo">
-        <img src="images/YouTube_Logo.svg" alt="YouTube Logo">
-      </div>
-
-      <nav>
+    <div class="sm-two-items">
+      <nav class="item-one">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="members.html">Products</a></li>
           <li><a href="contact.html">Contact</a></li>
+        </ul>
 
+        <ul>
           <li><a href="terms.html">Terms of Service</a></li>
           <li><a href="privacy.html">Privacy Policy</a></li>
           <li><a href="contact.html">FAQs</a></li>
         </ul>
       </nav>
 
-      <p>Copyright &copy; 2024 Bayfield Anglers Association.</p>
+      <div class="foot">
+        <div class="full item-two">
+          <div>
+            <a href="index.html"><img src="images/BAA_Logo.svg" alt="Bayfield Anglers Association Logo" id="footer_logo"></a>
+          </div>
+
+          <div class="social-media-icons">
+            <a href="index.html"><img src="images/Facebook_Logo.svg" alt="Facebook Logo"></a>
+            <a href="index.html"><img src="images/Snapchat_Logo.svg" alt="Snapchat Logo"></a>
+            <a href="index.html"><img src="images/Twitter_Logo.svg" alt="Twitter Logo"></a>
+            <a href="index.html"><img src="images/YouTube_Logo.svg" alt="YouTube Logo"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="one-item">
+        <p>Copyright &copy; 2024 Bayfield Anglers Association.</p>
+      </div>
     </footer>
 
   <script src="js/main.js"></script>
