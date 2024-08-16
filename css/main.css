@@ -66,7 +66,7 @@ ul li a {
 
 /* Mobile Styles Start */
 
-/* Navigation Menu Section */
+/* Navigation Menu Section - Home */
 
 header {
     background-color: #022873;
@@ -109,7 +109,7 @@ header {
     margin-left: -1.1em;
 }
 
-/* Hero Section */
+/* Hero Section - Home */
 
 .hero {
     background-image: url('../images/baa_home_header_412.png');
@@ -158,7 +158,7 @@ button:hover {
     background-color: #ab0917;
 }
 
-/* Introduction Section */
+/* Introduction Section - Home */
 
 .intro {
     padding-top: 0.5em;
@@ -180,7 +180,7 @@ button:hover {
     width: 22.5em;
 }
 
-/* Features Section */
+/* Features Section - Home */
 
 .features {
     background-color: #F3F3F3;
@@ -210,7 +210,7 @@ button:hover {
     line-height: 21px;
 }
 
-/* Events Section */
+/* Events Section - Home */
 
 .events {
     padding-top: .5em;
@@ -248,7 +248,7 @@ button:hover {
     font-weight: 800;
 }
 
-/* Projects Section */
+/* Projects Section - Home */
 
 .projects {
     background-color: #F3F3F3;
@@ -280,7 +280,7 @@ button:hover {
     margin: 1em 0 2em 0;
 }
 
-/* Announcements Section */
+/* Announcements Section - Home */
 
 .announce {
     padding-top: 0.8em;
@@ -309,7 +309,7 @@ button:hover {
     max-width: 85%;
 }
 
-/* Footer Section */
+/* Footer Section - Home */
 
 footer {
     background-color: #022873;
@@ -366,19 +366,201 @@ footer .full {
 }
 
 
+/* Members Page Styles Start */
+
+/* Hero Section - Members */
+
+.member {
+    background-image: url('../images/baa_member_header_412.png');
+    background-size: cover;
+    height: 27.5em;
+    padding-left: 30px;
+}
+
+.member h3 {
+    text-transform: uppercase;
+    font-size: 45px;
+    line-height: 60px;
+}
+
+/* Contributor Section - Members */
+
+.contributors {
+    padding-bottom: 2em;
+}
+
+.contributors .main-description {
+    line-height: 30px;
+    max-width: 80%;
+    padding-bottom: 1em;
+}
+
+.contributor-list ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.contributor-list li {
+    padding: 5px 0;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: "Merriweather", serif;
+}
+
+/* Support Section - Members */
+
+.support {
+    background-color: #F3F3F3;
+    padding-top: 2.25em;
+    padding-bottom: 2.25em;
+}
+
+.support img {
+    width: 14em;
+}
+
+.support p {
+    line-height: 30px;
+    max-width: 90%;
+    padding-bottom: .85em;
+}
+
+/* Team Section - Members */
+
+.team {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.team .main-description {
+    line-height: 30px;
+    max-width: 80%;
+    padding-bottom: 2.25em;
+}
+
+.team img {
+    width: 10em;
+}
+
+.team p, h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 .75em 0 .75em;
+}
+
+.team-container div {
+    text-align: center;
+}
+
+.team-container h4 {
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: .35em;    
+    padding-bottom: .25em;
+}
+
+.team-container p {
+    padding-bottom: 2em;
+}
+
+/* Volunteer Section - Members */
+
+.volunteer {
+    background-color: #F3F3F3;
+    padding-top: .5em;
+    padding-bottom: 2.5em;
+}
+
+.volunteer .main-description {
+    line-height: 30px;
+    max-width: 90%;
+    padding-bottom: 1.5em;
+}
+
+.volunteer img {
+    width: 14em;
+}
+
+/* Register Section - Members */
+
+.register {
+    padding-top: .25em;
+    padding-bottom: 1.85em;
+}
+
+.register .main-description {
+    line-height: 30px;
+    max-width: 90%;
+    padding-bottom: 1em;
+}
+
+.register-form textarea {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.register-form input, textarea {
+    font-family: "Oswald", sans-serif;
+    font-size: 1em;
+    
+    width: 22.5em;
+    margin-bottom: 1em;
+    padding: .5em;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #202020;
+    border-radius: 5px;
+}
+
+.register-form input[type="submit"] { 
+    border: none;
+    padding: 5px 0px 5px 0px;
+    width: 18em;
+    border-radius: 8px;
+
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 450;
+
+    background-color: #BF0B1A;
+    color: white;
+
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.register-form input[type="submit"]:hover { 
+    background-color: #ab0917;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none; 
+}
+
 
 
 /* Tablet Styles Start */
 
 @media screen and (min-width: 48em) {
 
-/* Tablet Basic Reset */
+/* Tablet Basic Reset - Home */
 
     .main-padding {
         padding-left: 2.5em;
     }
 
-/* Tablet Font Import */
+/* Tablet Font Import - Home */
 
     h3 {
         font-size: 30px;
@@ -391,7 +573,7 @@ footer .full {
         max-width: 90%
     }
 
-/* Tablet Navigation Menu Section */
+/* Tablet Navigation Menu Section - Home */
 
     header {
         border-bottom: 15px solid #BF0B1A;
@@ -437,7 +619,7 @@ footer .full {
         grid-column: 2;
     }
 
-/* Tablet Hero Section */
+/* Tablet Hero Section - Home */
 
     .hero {
         background-image: url('../images/baa_home_header_768.png');
@@ -462,7 +644,7 @@ footer .full {
         font-size: 28px;
     }
 
-/* Tablet Introduction Section */
+/* Tablet Introduction Section - Home */
 
     .intro {
         padding-top: 1em;
@@ -489,7 +671,7 @@ footer .full {
         gap: 1em;
     }
 
-/* Tablet Features Section */
+/* Tablet Features Section - Home */
 
     .features {
         padding-top: 1.2em;
@@ -515,7 +697,7 @@ footer .full {
         line-height: 28px;
     }
 
-/* Tablet Events Section */
+/* Tablet Events Section - Home */
 
     .events {
         padding-top: 1em;
@@ -546,7 +728,7 @@ footer .full {
         max-width: 90%;
     }
 
-/* Tablet Projects Section */
+/* Tablet Projects Section - Home */
 
     .projects {
         padding-top: 1em;
@@ -576,7 +758,7 @@ footer .full {
         gap: 1em;
     }
 
-/* Tablet Announcements Section */
+/* Tablet Announcements Section - Home */
 
     .announce {
         padding-top: 0.8em;
@@ -597,7 +779,7 @@ footer .full {
         max-width: 90%;
     }
 
-/* Tablet Footer Section */
+/* Tablet Footer Section - Home */
 
     footer {
         border-top: 15px solid #BF0B1A;
@@ -637,13 +819,13 @@ footer .full {
 
 @media screen and (min-width: 64em) {
 
-/* Monitor Basic Reset */
+/* Monitor Basic Reset - Home */
 
     .main-padding {
         padding-left: 3.25em;
     }
 
-/* Monitor Font Import */
+/* Monitor Font Import - Home */
 
     h3 {
         font-size: 35px;
@@ -656,7 +838,7 @@ footer .full {
         max-width: 90%
     }
 
-/* Monitor Navigation Menu Section */
+/* Monitor Navigation Menu Section - Home */
 
     header {
         border-bottom: 18px solid #BF0B1A;
@@ -679,7 +861,7 @@ footer .full {
         font-size: 30px;
     }
 
-/* Monitor Hero Section */
+/* Monitor Hero Section - Home */
 
     .hero {
         background-image: url('../images/baa_home_header_1200.png');
@@ -703,7 +885,7 @@ footer .full {
         font-size: 40px;
     }
 
-/* Monitor Introduction Section */
+/* Monitor Introduction Section - Home */
 
     .intro {
         padding-bottom: 3em;
@@ -722,7 +904,7 @@ footer .full {
         gap: 1.5em;
     }
 
-/* Monitor Features Section */
+/* Monitor Features Section - Home */
 
     .features {
         padding-top: 1.5em;
@@ -742,7 +924,7 @@ footer .full {
         line-height: 35px;
     }
 
-/* Monitor Events Section */
+/* Monitor Events Section - Home */
 
     .events {
         padding-top: 1.25em;
@@ -767,7 +949,7 @@ footer .full {
         line-height: 41px;
     }
 
-/* Monitor Projects Section */
+/* Monitor Projects Section - Home */
 
     .projects {
         padding-top: 2em;
@@ -791,7 +973,7 @@ footer .full {
         gap: 2em;
     }
 
-/* Monitor Announcements Section */
+/* Monitor Announcements Section - Home */
 
     .announce {
         padding-top: 1em;
@@ -813,7 +995,7 @@ footer .full {
         padding-top: 8px;
     }
 
-/* Monitor Footer Section */
+/* Monitor Footer Section - Home */
 
     footer {
         border-top: 18px solid #BF0B1A;
@@ -831,13 +1013,13 @@ footer .full {
 
 @media screen and (min-width: 120em) {
 
-/* Desktop Basic Reset */
+/* Desktop Basic Reset - Home */
 
     .main-padding {
         padding-left: 25em;
     }
 
-/* Desktop Font Import */
+/* Desktop Font Import - Home */
 
     h3 {
         font-size: 41px;
@@ -850,7 +1032,7 @@ footer .full {
         max-width: 70%
     }
 
-/* Desktop Navigation Menu Section */
+/* Desktop Navigation Menu Section - Home */
 
     header {
         height: 13em;
@@ -870,7 +1052,7 @@ footer .full {
         font-size: 34px;
     }
 
-/* Desktop Hero Section */
+/* Desktop Hero Section - Home */
 
     .hero {
         background-image: url('../images/baa_home_header_1920.png');
@@ -891,7 +1073,7 @@ footer .full {
         max-width: 70%;
     }
 
-/* Desktop Introduction Section */
+/* Desktop Introduction Section - Home */
 
     .intro p {
         font-size: 25px;
@@ -907,7 +1089,7 @@ footer .full {
         gap: 2em;
     }
 
-/* Desktop Features Section */
+/* Desktop Features Section - Home */
 
     .features img {
         width: 5em;
@@ -924,7 +1106,7 @@ footer .full {
         line-height: 41px;
     }
 
-/* Desktop Events Section */
+/* Desktop Events Section - Home */
 
     .events img {
         width: 15em;
@@ -941,7 +1123,7 @@ footer .full {
         max-width: 60%;
     }
 
-/* Desktop Projects Section */
+/* Desktop Projects Section - Home */
 
     .projects img {
         width: 31em;
@@ -962,7 +1144,7 @@ footer .full {
         margin-bottom: 1.50em;
     }
 
-/* Desktop Announcements Section */
+/* Desktop Announcements Section - Home */
 
     .announce {
         padding-top: 1.5em;
@@ -980,7 +1162,7 @@ footer .full {
         padding-top: 15px;
     }
 
-/* Desktop Footer Section */
+/* Desktop Footer Section - Home */
 
     footer {
         border-top: 18px solid #BF0B1A;
