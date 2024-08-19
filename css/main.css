@@ -54,6 +54,28 @@ nav a:hover {
     opacity: 50%;
 }
 
+button { 
+    border: none;
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;
+
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 450;
+
+    background-color: #BF0B1A;
+    color: white;
+
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+button:hover { 
+    background-color: #ab0917;
+}
+
 /* Bullet Reset */
 
 ul {
@@ -111,98 +133,53 @@ header {
 
 /* Hero Section - Home */
 
-/* .hero {
-    background-image: url('../images/baa_home_header_412.png');
-    background-size: cover;
-    height: 27.5em;
-    padding-left: 30px;
-}
-
-.hero p {
-    font-family: "Oswald", sans-serif;
-    font-weight: 450;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    margin: 0;
-    padding-top: 53px;
-}
-
-.hero h3 {
-    text-transform: uppercase;
-    font-size: 3em;
-    line-height: 60px;
-    margin: 0;
-    padding: 20px 0 40px 0;
-    color: #202020;
-} */
-
-button { 
-    border: none;
-    padding: 5px 20px 5px 20px;
-    border-radius: 8px;
-
-    font-size: 20px;
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    font-weight: 450;
-
-    background-color: #BF0B1A;
-    color: white;
-
-    outline: none;
-    box-shadow: none;
-    cursor: pointer;
-}
-
-button:hover { 
-    background-color: #ab0917;
-}
-
-/* New Hero Styling - Home */
-
 .hero {
     margin: 0 0;
  }
 
- .hero-img img {
+.hero-img img {
     width: 100%;
  }
 
- .hero-img {
+.hero-img {
     display: grid;
     grid-column: span 4;
     margin-bottom: 1rem;
  }
 
- .hero-img > * {
+.hero-img > * {
     grid-column: 1;
     grid-row: 1;
  }
 
- .hero-img h2 {
-    background: #fff;
-    padding: 1em 1.75em;
-    font-size: 1em;
-    font-weight: 300;
- }
+.hero-img p {
+    font-family: "Oswald", sans-serif;
+    font-weight: 450;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #202020;
 
- .hero-img h2 span {
-    font-size: .65em;
-    color: #9a2018;
- }
+    padding-top: 1em;
+    margin-left: 1.05em;
+}
 
- .hero-img h2.left {
-    align-self: flex-end;
-    justify-self: start;
-    margin-left: 1em;
- }
+.hero-img h2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    line-height: 60px;
+    color: #202020;
 
- .hero-img h2.right {
-    align-self: flex-end;
-    justify-self: end;
-    margin-right: 1em;
- }
+    padding-top: 1.5em;
+    margin-left: 0.5em;
+}
 
+.hero-img button {
+    width: 7em;
+    height: 2em;
+    padding: 0em;
+    margin: 17em 0 0 1.30em;
+}
+ 
 /* Introduction Section - Home */
 
 .intro {
