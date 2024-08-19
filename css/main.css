@@ -28,7 +28,7 @@ p {
     font-size: 1em;
 }
 
-h3 {
+h2 {
     color: #022873;
     text-transform: uppercase;
     font-size: 24px;
@@ -111,7 +111,7 @@ header {
 
 /* Hero Section - Home */
 
-.hero {
+/* .hero {
     background-image: url('../images/baa_home_header_412.png');
     background-size: cover;
     height: 27.5em;
@@ -134,7 +134,7 @@ header {
     margin: 0;
     padding: 20px 0 40px 0;
     color: #202020;
-}
+} */
 
 button { 
     border: none;
@@ -157,6 +157,51 @@ button {
 button:hover { 
     background-color: #ab0917;
 }
+
+/* New Hero Styling - Home */
+
+.hero {
+    margin: 0 0;
+ }
+
+ .hero-img img {
+    width: 100%;
+ }
+
+ .hero-img {
+    display: grid;
+    grid-column: span 4;
+    margin-bottom: 1rem;
+ }
+
+ .hero-img > * {
+    grid-column: 1;
+    grid-row: 1;
+ }
+
+ .hero-img h2 {
+    background: #fff;
+    padding: 1em 1.75em;
+    font-size: 1em;
+    font-weight: 300;
+ }
+
+ .hero-img h2 span {
+    font-size: .65em;
+    color: #9a2018;
+ }
+
+ .hero-img h2.left {
+    align-self: flex-end;
+    justify-self: start;
+    margin-left: 1em;
+ }
+
+ .hero-img h2.right {
+    align-self: flex-end;
+    justify-self: end;
+    margin-right: 1em;
+ }
 
 /* Introduction Section - Home */
 
@@ -199,7 +244,7 @@ button:hover {
     padding-top: 0.5em;
 }
 
-.features h4 {
+.features h3 {
     font-size: 18px;
     margin: 0;
 }
@@ -233,7 +278,7 @@ button:hover {
     padding-top: 0.4em;
 }
 
-.events h4 {
+.events h3 {
     font-size: 18px;
     margin: 0;
 }
@@ -260,7 +305,7 @@ button:hover {
     margin-bottom: 1em;
 }
 
-.projects h4 {
+.projects h3 {
     font-size: 18px;
     margin-bottom: 1.25em;
 }
@@ -445,7 +490,7 @@ footer .full {
     width: 10em;
 }
 
-.team p, h4 {
+.team p, h3 {
     padding: 0;
     margin: 0;
 }
@@ -460,7 +505,7 @@ footer .full {
     text-align: center;
 }
 
-.team-container h4 {
+.team-container h3 {
     font-size: 22px;
     font-weight: 400;
     padding-top: .35em;    
@@ -562,7 +607,7 @@ input:focus, textarea:focus, select:focus {
 
 /* Tablet Font Import - Home */
 
-    h3 {
+    h2 {
         font-size: 30px;
         width: 90%;
     }
@@ -687,7 +732,7 @@ input:focus, textarea:focus, select:focus {
         margin-right: 1.5em;
     }
 
-    .features h4 {
+    .features h3 {
         font-size: 26px;
     }
 
@@ -718,7 +763,7 @@ input:focus, textarea:focus, select:focus {
         padding-top: 0em;
     }
 
-    .events h4 {
+    .events h3 {
         font-size: 26px;
     }
 
@@ -738,7 +783,7 @@ input:focus, textarea:focus, select:focus {
         width: 20em;
     }
 
-    .projects h4 {
+    .projects h3 {
         font-size: 29px;
         margin-bottom: 1em;
     }
@@ -914,7 +959,7 @@ input:focus, textarea:focus, select:focus {
         width: 4.5em;
     }
 
-    .features h4 {
+    .features h3 {
         font-size: 30px;
     }
 
@@ -940,7 +985,7 @@ input:focus, textarea:focus, select:focus {
         margin-right: 2.5em;
     }
 
-    .events h4 {
+    .events h3 {
         font-size: 30px;
     }
 
@@ -959,7 +1004,7 @@ input:focus, textarea:focus, select:focus {
         width: 27em;
     }
 
-    .projects h4 {
+    .projects h3 {
         font-size: 32px;
         margin-bottom: 1em;
     }
@@ -1096,7 +1141,7 @@ input:focus, textarea:focus, select:focus {
         margin-right: 2.25em;
     }
 
-    .features h4 {
+    .features h3 {
         font-size: 36px;
     }
 
@@ -1112,7 +1157,7 @@ input:focus, textarea:focus, select:focus {
         width: 15em;
     }
 
-    .events h4 {
+    .events h3 {
         font-size: 36px;
         padding-top: 20px;
     }
@@ -1129,7 +1174,7 @@ input:focus, textarea:focus, select:focus {
         width: 31em;
     }
 
-    .projects h4 {
+    .projects h3 {
         font-size: 41px;
         margin-bottom: 1em;
     }
