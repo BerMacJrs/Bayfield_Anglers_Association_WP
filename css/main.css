@@ -76,6 +76,10 @@ button:hover {
     background-color: #ab0917;
 }
 
+.bold {
+    font-weight: 800;
+}
+
 /* Bullet Reset */
 
 ul {
@@ -135,22 +139,22 @@ header {
 
 .hero {
     margin: 0 0;
- }
+}
 
 .hero-img img {
     width: 100%;
- }
+}
 
 .hero-img {
     display: grid;
     grid-column: span 4;
     margin-bottom: 1rem;
- }
+}
 
 .hero-img > * {
     grid-column: 1;
     grid-row: 1;
- }
+}
 
 .hero-img p {
     font-family: "Oswald", sans-serif;
@@ -174,7 +178,7 @@ header {
 }
 
 .hero-img button {
-    width: 7em;
+    width: 6.5em;
     height: 2em;
     padding: 0em;
     margin: 17em 0 0 1.30em;
@@ -266,10 +270,6 @@ header {
     max-width: 90%;
 }
 
-.events-bold {
-    font-weight: 800;
-}
-
 /* Projects Section - Home */
 
 .projects {
@@ -313,10 +313,6 @@ header {
     width: 5em;
     margin-right: 1.25em;
     padding-top: 1.2em;
-}
-
-.announce-bold {
-    font-weight: 800;
 }
 
 .announce-side {
@@ -385,189 +381,6 @@ footer .full {
     flex-direction: column;
     align-items: center;
     width: 100%;
-}
-
-
-/* Members Page Styles Start */
-
-/* Hero Section - Members */
-
-.member {
-    background-image: url('../images/baa_member_header_412.png');
-    background-size: cover;
-    height: 27.5em;
-    padding-left: 30px;
-}
-
-.member h3 {
-    text-transform: uppercase;
-    font-size: 45px;
-    line-height: 60px;
-}
-
-/* Contributor Section - Members */
-
-.contributors {
-    padding-bottom: 2em;
-}
-
-.contributors .main-description {
-    line-height: 30px;
-    max-width: 80%;
-    padding-bottom: 1em;
-}
-
-.contributor-list ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    padding: 0;
-    margin: 0;
-}
-
-.contributor-list li {
-    padding: 5px 0;
-    font-size: 1em;
-    font-weight: 600;
-    font-family: "Merriweather", serif;
-}
-
-/* Support Section - Members */
-
-.support {
-    background-color: #F3F3F3;
-    padding-top: 2.25em;
-    padding-bottom: 2.25em;
-}
-
-.support img {
-    width: 14em;
-}
-
-.support p {
-    line-height: 30px;
-    max-width: 90%;
-    padding-bottom: .85em;
-}
-
-/* Team Section - Members */
-
-.team {
-    padding-top: .5em;
-    padding-bottom: .5em;
-}
-
-.team .main-description {
-    line-height: 30px;
-    max-width: 80%;
-    padding-bottom: 2.25em;
-}
-
-.team img {
-    width: 10em;
-}
-
-.team p, h3 {
-    padding: 0;
-    margin: 0;
-}
-
-.team-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0 .75em 0 .75em;
-}
-
-.team-container div {
-    text-align: center;
-}
-
-.team-container h3 {
-    font-size: 22px;
-    font-weight: 400;
-    padding-top: .35em;    
-    padding-bottom: .25em;
-}
-
-.team-container p {
-    padding-bottom: 2em;
-}
-
-/* Volunteer Section - Members */
-
-.volunteer {
-    background-color: #F3F3F3;
-    padding-top: .5em;
-    padding-bottom: 2.5em;
-}
-
-.volunteer .main-description {
-    line-height: 30px;
-    max-width: 90%;
-    padding-bottom: 1.5em;
-}
-
-.volunteer img {
-    width: 14em;
-}
-
-/* Register Section - Members */
-
-.register {
-    padding-top: .25em;
-    padding-bottom: 1.85em;
-}
-
-.register .main-description {
-    line-height: 30px;
-    max-width: 90%;
-    padding-bottom: 1em;
-}
-
-.register-form textarea {
-    padding-bottom: 2em;
-    margin-bottom: 2em;
-}
-
-.register-form input, textarea {
-    font-family: "Oswald", sans-serif;
-    font-size: 1em;
-    
-    width: 22.5em;
-    margin-bottom: 1em;
-    padding: .5em;
-
-    border-width: 2px;
-    border-style: solid;
-    border-color: #202020;
-    border-radius: 5px;
-}
-
-.register-form input[type="submit"] { 
-    border: none;
-    padding: 5px 0px 5px 0px;
-    width: 18em;
-    border-radius: 8px;
-
-    font-size: 20px;
-    font-family: "Oswald", sans-serif;
-    text-transform: uppercase;
-    font-weight: 450;
-
-    background-color: #BF0B1A;
-    color: white;
-
-    outline: none;
-    box-shadow: none;
-    cursor: pointer;
-}
-
-.register-form input[type="submit"]:hover { 
-    background-color: #ab0917;
-}
-
-input:focus, textarea:focus, select:focus {
-    outline: none; 
 }
 
 
@@ -643,27 +456,22 @@ input:focus, textarea:focus, select:focus {
 
 /* Tablet Hero Section - Home */
 
-    .hero {
-        background-image: url('../images/baa_home_header_768.png');
-        height: 46em;
-        padding-left: 65px;
-    }
-
-    .hero p {
+    .hero-img p {
         font-size: 33px;
-        margin: 0;
-        padding-top: 100px;
+        margin: 1.5em 0 0 2.1em;
     }
 
-    .hero h3 {
+    .hero-img h2 {
         font-size: 76px;
         line-height: 90px;
-        margin: 0;
-        padding: 20px 0 40px 0;
+
+        margin: .8em 0 0 .9em;
     }
 
-    button { 
+    .hero-img button {
         font-size: 28px;
+        width: 6.5em;
+        margin: 18em 0 0 2.5em;
     }
 
 /* Tablet Introduction Section - Home */
@@ -885,26 +693,22 @@ input:focus, textarea:focus, select:focus {
 
 /* Monitor Hero Section - Home */
 
-    .hero {
-        background-image: url('../images/baa_home_header_1200.png');
-        height: 44em;
-        padding-left: 65px;
-    }
-
-    .hero p {
+    .hero-img p {
         font-size: 41px;
-        margin: 0;
-        padding: 140px 0 15px 0;
+        margin: 2em 0 0 1.9em;
     }
 
-    .hero h3 {
+    .hero-img h2 {
         font-size: 80px;
         line-height: 100px;
-        padding: 20px 0 50px 0;
+        margin: 1.25em 0 0 .95em;
     }
 
-    button { 
+    .hero-img button {
         font-size: 40px;
+        width: 6.25em;
+        height: 1.8em;
+        margin: 12em 0 0 2em;
     }
 
 /* Monitor Introduction Section - Home */
@@ -1076,23 +880,27 @@ input:focus, textarea:focus, select:focus {
 
 /* Desktop Hero Section - Home */
 
-    .hero {
-        background-image: url('../images/baa_home_header_1920.png');
-        height: 55em;
-        padding-left: 25em;
+    .hero-img img {
+        height: 875px;
     }
 
-    .hero p {
+    .hero-img p {
         font-size: 41px;
-        margin: 0;
-        padding: 160px 0 15px 0;
+        margin: 3em 0 0 4.75em;
     }
 
-    .hero h3 {
+    .hero-img h2 {
         font-size: 97px;
         line-height: 125px;
-        padding: 20px 0 50px 0;
+        margin: 1.3em 0 0 2em;
         max-width: 70%;
+    }
+
+    .hero-img button {
+        font-size: 40px;
+        width: 6.25em;
+        height: 1.8em;
+        margin: 14.5em 0 0 5em;
     }
 
 /* Desktop Introduction Section - Home */
