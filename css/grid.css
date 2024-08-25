@@ -275,6 +275,12 @@ nav {
     grid-template-columns: 1fr repeat(4, minmax(auto, 30em)) 1fr;
   }
 
+  /* New Centering Code */
+  .main {
+    max-width: 1220px;
+    margin: 0 auto;
+  }
+
   .logo {
     grid-column: 1 / span 1;
   }
