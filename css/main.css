@@ -80,6 +80,10 @@ button:hover {
     font-weight: 800;
 }
 
+.wrapper {
+    background-color: #F3F3F3;
+}
+
 /* Bullet Reset */
 
 ul {
@@ -213,19 +217,20 @@ header {
 
 .features {
     background-color: #F3F3F3;
-    padding-top: .3em;
-    padding-bottom: 1.8em;
+    padding: 0.5em 0 1em 1em;
 }
 
-.features-side {
-    display: flex;
-    align-items: flex-start;
+.features .one-third {
+    margin-bottom: 0.5em;
 }
 
 .features img {
     width: 3em;
-    margin-right: 1em;
     padding-top: 0.5em;
+}
+
+.features .features-desc {
+    margin-left: -30px;
 }
 
 .features h3 {
@@ -234,7 +239,7 @@ header {
 }
 
 .features p {
-    max-width: 90%;
+    max-width: 93%;
     font-size: 14px;
     line-height: 21px;
 }
@@ -504,12 +509,15 @@ footer .full {
 /* Tablet Features Section - Home */
 
     .features {
-        padding-top: 1.2em;
-        padding-bottom: 1.2em;
+        padding: 1.5em 0 1.5em 2em;
     }
 
-    .features-side {
-        margin-bottom: 1em;
+    .features .one-third {
+        margin-bottom: 0.8em;
+    }
+    
+    .features .features-desc {
+        margin-left: -6.5em;
     }
 
     .features img {
@@ -733,11 +741,19 @@ footer .full {
 /* Monitor Features Section - Home */
 
     .features {
-        padding-top: 1.5em;
+        padding: 1.5em 0 1em 3em;
+    }
+
+    .features .one-third {
+        margin: 0.5em 0 1em 0;
+    }
+    
+    .features .features-desc {
+        margin-left: -9.5em;
     }
 
     .features img {
-        width: 4.5em;
+        width: 4.5em
     }
 
     .features h3 {
@@ -745,7 +761,7 @@ footer .full {
     }
 
     .features p {
-        max-width: 93%;
+        max-width: 95%;
         font-size: 21.5px;
         line-height: 35px;
     }
@@ -925,9 +941,20 @@ footer .full {
 
 /* Desktop Features Section - Home */
 
+    .features {
+        padding: 2em 0 2em 5.5em;
+    }
+
+    .features .one-third {
+        margin: 1em 0 1em 0;
+    }
+    
+    .features .features-desc {
+        margin-left: -12em;
+    }
+
     .features img {
-        width: 5em;
-        margin-right: 2.25em;
+        width: 5.5em;
     }
 
     .features h3 {
@@ -935,7 +962,9 @@ footer .full {
     }
 
     .features p {
-        max-width: 68%;
+        max-width: 90%;
+        margin-top: 0.5em;
+
         font-size: 25px;
         line-height: 41px;
     }

@@ -95,6 +95,9 @@ nav {
 .four-items {
   grid-template-columns: repeat(4, 1fr);
 }
+.one-third {
+  grid-template-columns: 1fr 3fr;
+}
 
 /* _____________________________________
 
