@@ -39,7 +39,7 @@ h2 {
 .main-description {
     font-size: 1em;
     line-height: 25px;
-    max-width: 90%
+    max-width: 95%
 }
 
 a {
@@ -247,18 +247,11 @@ header {
 /* Events Section - Home */
 
 .events {
-    padding-top: .5em;
-    padding-bottom: .65em;
+    padding: 0.5em 0 1em 1em;
 }
 
-.events-side {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 1em;
-}
-
-.events-side:first-of-type {
-    margin-top: 2em;
+.events h2 {
+    margin-bottom: 0.35em;
 }
 
 .events img {
@@ -267,15 +260,19 @@ header {
     padding-top: 0.4em;
 }
 
-.events h3 {
+.events-desc {
+    padding: 1em 0 0.5em 0;
+}
+
+.events-desc h3 {
     font-size: 18px;
     margin: 0;
 }
 
-.events-side p {
+.events-desc p {
     font-size: 14px;
     line-height: 24px;
-    max-width: 90%;
+    max-width: 95%;
 }
 
 /* Projects Section - Home */
@@ -411,9 +408,9 @@ footer .full {
     }
 
     .main-description {
-        font-size: 16px;
+        font-size: 1em;
         line-height: 29px;
-        max-width: 90%
+        max-width: 95%
     }
 
 /* Tablet Navigation Menu Section - Home */
@@ -538,32 +535,35 @@ footer .full {
 /* Tablet Events Section - Home */
 
     .events {
-        padding-top: 1em;
-        padding-bottom: .65em;
+        padding: 1.5em 0 2em 2em;
     }
 
-    .events-side {
-        margin-bottom: 2em;
+    .events h2 {
+        margin-bottom: 0.35em;
+    }
+    
+    .events-desc {
+        padding: 1em 0 0.5em 0;
     }
 
-    .events-side:first-of-type {
-        margin-top: 2.5em;
-    }
-
-    .events img {
+    .events-desc img {
         width: 11em;
         margin-right: 2em;
         padding-top: 0em;
     }
 
-    .events h3 {
+    .events-desc h3 {
         font-size: 26px;
     }
 
-    .events-side p {
+    .events-desc p {
         font-size: 17px;
         line-height: 29px;
         max-width: 90%;
+    }
+
+    .events-side {
+        margin-left: -1em;
     }
 
 /* Tablet Projects Section - Home */
@@ -769,26 +769,34 @@ footer .full {
 /* Monitor Events Section - Home */
 
     .events {
-        padding-top: 1.25em;
-        padding-bottom: 1.25em;
+        padding: 2em 0 2.5em 3em;
     }
 
-    .events-side {
-        margin-bottom: 2.5em;
+    .events h2 {
+        margin-bottom: 0.35em;
+    }
+    
+    .events-desc {
+        padding: 1em 0 0.8em 0;
     }
 
-    .events img {
+    .events-desc img {
         width: 13em;
         margin-right: 2.5em;
     }
 
-    .events h3 {
+    .events-desc h3 {
         font-size: 30px;
     }
 
-    .events-side p {
+    .events-desc p {
         font-size: 20px;
         line-height: 41px;
+        max-width: 91%;
+    }
+
+    .events-side {
+        margin: 0.7em 0 0 -1em;
     }
 
 /* Monitor Projects Section - Home */
@@ -871,7 +879,7 @@ footer .full {
     .main-description {
         font-size: 25px;
         line-height: 41px;
-        max-width: 70%
+        max-width: 95%
     }
 
 /* Desktop Navigation Menu Section - Home */
@@ -950,11 +958,12 @@ footer .full {
     }
     
     .features .features-desc {
-        margin-left: -12em;
+        margin-left: -11em;
     }
 
     .features img {
         width: 5.5em;
+        margin-left: 0.5em;
     }
 
     .features h3 {
@@ -971,19 +980,35 @@ footer .full {
 
 /* Desktop Events Section - Home */
 
-    .events img {
+    .events {
+        padding: 2.5em 0 3em 3em;
+    }
+
+    .events h2 {
+        margin-bottom: 0.50em;
+    }
+    
+    .events-desc {
+        padding: 1.75em 0 1em 0;
+    }
+
+    .events-desc img {
         width: 15em;
     }
 
-    .events h3 {
+    .events-desc h3 {
         font-size: 36px;
         padding-top: 20px;
     }
 
-    .events-side p {
+    .events-desc p {
         font-size: 23px;
         line-height: 41px;
-        max-width: 60%;
+        max-width: 88%;
+    }
+
+    .events-side {
+        margin: 0 0 0 -1em;
     }
 
 /* Desktop Projects Section - Home */
