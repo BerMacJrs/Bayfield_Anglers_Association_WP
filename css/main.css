@@ -317,8 +317,11 @@ header {
 /* Announcements Section - Home */
 
 .announce {
-    padding-top: 0.8em;
-    padding-bottom: 1.5em;
+    padding: 1em 0 2em 1em;
+}
+
+.announce h2 {
+    margin-bottom: 0.5em;
 }
 
 .announce img {
@@ -327,16 +330,10 @@ header {
     padding-top: 1.2em;
 }
 
-.announce-side {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: .4em;
-}
-
-.announce-side p {
+.announce .one-third p {
     font-size: 14px;
     line-height: 28px;
-    max-width: 85%;
+    max-width: 90%;
 }
 
 /* Footer Section - Home */
@@ -609,8 +606,7 @@ footer .full {
 /* Tablet Announcements Section - Home */
 
     .announce {
-        padding-top: 0.8em;
-        padding-bottom: 2em;
+        padding: 1em 0 2.5em 2em;
     }
 
     .announce img {
@@ -618,13 +614,10 @@ footer .full {
         margin-right: 1.8em;
     }
 
-    .announce-side {
-        margin-bottom: .4em;
-    }
-
-    .announce-side p {
+    .announce .one-third p {
         font-size: 1em;
-        max-width: 90%;
+        max-width: 98%;
+        margin-left: -3.5em;
     }
 
 /* Tablet Footer Section - Home */
@@ -842,23 +835,18 @@ footer .full {
 /* Monitor Announcements Section - Home */
 
     .announce {
-        padding-top: 1em;
-        padding-bottom: 2.5em;
+        padding: 1em 0 3em 3em;
     }
 
     .announce img {
         width: 8em;
     }
 
-    .announce-side {
-        margin-bottom: 1em;
-    }
-
-    .announce-side p {
+    .announce .one-third p {
         font-size: 19px;
         line-height: 35px;
         max-width: 90%;
-        padding-top: 8px;
+        margin: 0.8em 0 1.25em -4.5em;
     }
 
 /* Monitor Footer Section - Home */
@@ -895,7 +883,7 @@ footer .full {
     .main-description {
         font-size: 25px;
         line-height: 41px;
-        max-width: 95%
+        max-width: 90%
     }
 
 /* Desktop Navigation Menu Section - Home */
@@ -1060,19 +1048,20 @@ footer .full {
 /* Desktop Announcements Section - Home */
 
     .announce {
-        padding-top: 1.5em;
-        padding-bottom: 3em;
+        padding: 1.5em 0 4em 3em;
     }
 
     .announce img {
         width: 10em;
     }
 
-    .announce-side p {
+    .announce .one-third p {
         font-size: 23px;
         line-height: 41px;
-        max-width: 68%;
-        padding-top: 15px;
+
+        max-width: 105%;
+        padding-top: 18px;
+        margin-bottom: 1.5em;
     }
 
 /* Desktop Footer Section - Home */
