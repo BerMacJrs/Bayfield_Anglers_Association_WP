@@ -278,8 +278,11 @@ header {
 /* Projects Section - Home */
 
 .projects {
-    background-color: #F3F3F3;
-    padding-top: .3em;
+    padding: 1em 0 2.5em 1em;
+}
+
+.projects h2 {
+    margin-bottom: 0.5em;
 }
 
 .projects img {
@@ -289,22 +292,26 @@ header {
 
 .projects h3 {
     font-size: 18px;
-    margin-bottom: 1.25em;
+    margin: 0.75em 0 1.25em 0;
 }
 
 .projects img:last-of-type {
     display: none;
 }
 
-#projects-text p {
+.projects-text p {
     font-size: 1em;
     line-height: 28px;
     max-width: 90%;
-    margin-bottom: 1em;
+    margin-bottom: 0.75em;
 }
 
 .projects button {
-    margin: 1em 0 2em 0;
+    width: 6.5em;
+    height: 2em;
+    padding: 0;
+    margin-top: 1em;
+    font-size: 20px;
 }
 
 /* Announcements Section - Home */
@@ -569,7 +576,7 @@ footer .full {
 /* Tablet Projects Section - Home */
 
     .projects {
-        padding-top: 1em;
+        padding: 1em 0 3em 2em;
     }
 
     .projects img {
@@ -577,25 +584,28 @@ footer .full {
     }
 
     .projects h3 {
-        font-size: 29px;
-        margin-bottom: 1em;
+        font-size: 26px;
     }
 
     .projects img:last-of-type {
         display: block;
+        margin-left: -1em;
     }
 
-    #projects-text p {
+    .projects-text p {
         font-size: 1em;
         line-height: 31px;
-        max-width: 92%;
+        max-width: 95%;
     }
 
-    #projects-img-wrapper {
-        display: flex;
-        gap: 1em;
+    .projects button {
+        width: 6.5em;
+        height: 2em;
+        padding: 0;
+        margin-top: 1em;
+        font-size: 26px;
     }
-
+    
 /* Tablet Announcements Section - Home */
 
     .announce {
@@ -802,11 +812,16 @@ footer .full {
 /* Monitor Projects Section - Home */
 
     .projects {
-        padding-top: 2em;
+        padding: 1em 0 3em 3em;
     }
 
     .projects img {
         width: 27em;
+        margin-bottom: 1.5em;
+    }
+
+    .projects img:last-of-type {
+        margin-left: -1em;
     }
 
     .projects h3 {
@@ -814,13 +829,14 @@ footer .full {
         margin-bottom: 1em;
     }
 
-    #projects-text p {
+    .projects-text p {
         font-size: 21.5px;
         line-height: 38px;
     }
 
-    #projects-img-wrapper {
-        gap: 2em;
+    .projects button {
+        margin-top: 1em;
+        font-size: 30px;
     }
 
 /* Monitor Announcements Section - Home */
@@ -1013,8 +1029,16 @@ footer .full {
 
 /* Desktop Projects Section - Home */
 
+    .projects {
+        padding: 1.5em 0 4em 6em;
+    }
+
     .projects img {
         width: 31em;
+    }
+
+    .projects img:last-of-type {
+        margin-left: -4em;
     }
 
     .projects h3 {
@@ -1022,14 +1046,15 @@ footer .full {
         margin-bottom: 1em;
     }
 
-    #projects-text p {
+    .projects-text p {
         font-size: 25px;
         line-height: 46px;
-        max-width: 68%;
+        max-width: 90%;
     }
 
     .projects button {
-        margin-bottom: 1.50em;
+        margin-top: 1em;
+        font-size: 36px;
     }
 
 /* Desktop Announcements Section - Home */
