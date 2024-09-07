@@ -72,7 +72,8 @@ nav {
 .one-item,
 .two-items,
 .three-items,
-.four-items {
+.four-items,
+.one-third {
   display: grid;
   justify-items: stretch;
   grid-column-gap: var(--gap-size);
