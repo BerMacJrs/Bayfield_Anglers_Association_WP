@@ -579,6 +579,121 @@ input:focus, textarea:focus, select:focus {
 
 
 
+/* Contact Page Styles Start */
+
+/* Contact Section - Contact  */
+
+.contact {
+    padding: 0em 0 2.75em 1em;
+}
+
+.contact .main-description {
+    line-height: 30px;
+    max-width: 95%;
+    margin-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+.contact-form textarea {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.contact-form input, textarea {
+    font-family: "Oswald", sans-serif;
+    font-size: 1em;
+
+    width: 22.5em;
+    margin-bottom: 1em;
+    padding: .5em;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #202020;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"] {
+    border: none;
+    padding: 5px 0px 5px 0px;
+    margin-top: 1.5em;
+    width: 18em;
+    border-radius: 8px;
+
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 450;
+
+    background-color: #BF0B1A;
+    color: white;
+
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #ab0917;
+}
+
+.contact-check p {
+    font-size: 17px;
+    font-family: "Oswald", sans-serif;
+    margin: 0 0 0 -4em;
+    padding: 0;
+    max-width: 100%;
+}
+
+.contact input[type="checkbox"] {
+    width: 1em;
+    height: 1em;
+    margin: 0.35em 0 0 0;
+    padding: 0;
+}
+
+.contact-info h3 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 0.5em;
+}
+
+.contact-info h4 {
+    font-family: "Merriweather", serif;
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+.contact-info p {
+    margin-bottom: 2em;
+}
+
+.contact-info img {
+    width: 22em;
+    margin-top: 1em;
+}
+
+/* FAQ Section - Contact  */
+
+.faq {
+    padding: 1em 0 0.75em 1em;
+}
+
+.faq h2 {
+    margin-bottom: 1.25em;
+}
+
+.faq h3, p {
+    max-width: 95%;
+    line-height: 26px;
+}
+
+.faq p {
+    margin-bottom: 2em;
+}
+
+
+
 /* Tablet Styles Start */
 
 @media screen and (min-width: 48em) {

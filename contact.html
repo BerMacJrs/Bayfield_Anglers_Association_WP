@@ -38,22 +38,31 @@
     </header>
 
   <!-- Hero Section -->
-    <section>
-    <h2 class="hidden">Hero Section</h2>
+  <section class="hero">
+    <div class="hero-img">
+        <picture>
+          <source media="(min-width:1920px)" srcset="images/baa_contact_header_1920.png">
+          <source media="(min-width:1024px)" srcset="images/baa_contact_header_1200.png">
+          <source media="(min-width:768px)" srcset="images/baa_contact_header_768.png">
+          <img src="images/baa_contact_header_412.png" alt="Lake Boat Hero">
+        </picture> 
       <p>Bayfield Anglers Association</p>
-      <h3>Get In Touch And Report Activity</h3>
+      <h2>Get In Touch and Report Activity</h2>
       <button>Send Message</button>
+    </div>
     </section>
 
   <!-- Contact Section -->
-    <section>
-    <h2 class="hidden">Contact Section</h2>
+    <section class="contact main">
 
-      <h3>Contact Us</h3>
-      <p>Welcome to the Bayfield Anglers Association Contact Page. Here, you can find all the information you need to get in touch with us. Whether you have a question, need assistance, or want to report activity on ponds, we are here to help.</p>
+      <div class="one-item sm-one-item md-one-item lg-one-item">
+        <h2>Contact Us</h2>
+        <p class="main-description">Welcome to the Bayfield Anglers Association Contact Page. Here, you can find all the information you need to get in touch with us. Whether you have a question, need assistance, or want to report activity on ponds, we are here to help.</p>
+      </div>
 
-      <div>
-        <form>
+      <div class="one-item sm-two-items md-two-items lg-two-items">
+        <form class="contact-form">
+        <div class="one-item sm-one-item md-one-item lg-one-item">
           <input type="text" id="first-name" name="first-name" placeholder="*First Name" required>
 
           <input type="text" id="last-name" name="last-name" placeholder="*Last Name" required>
@@ -63,50 +72,65 @@
           <input type="tel" id="mobile" name="mobile" placeholder="*Mobile Number" required>
           
           <textarea id="message" name="message" rows="4" cols="50" placeholder="*Your Message" required></textarea>
-          
-          <label>
-            <input type="checkbox" id="newsletter-subscribe" name="newsletter-subscribe">
-            To subscribe to our newsletter, check the box
-          </label>
+        </div>
 
-          <input type="submit" value="Submit">
+        <div class="contact-check one-third sm-one-item md-one-item lg-one-item">
+          <input type="checkbox" id="newsletter-subscribe" name="newsletter-subscribe">
+          <p>To subscribe to our newsletter, check the box</p>
+        </div>
+
+        <input type="submit" value="Submit">
         </form>
-      </div>
 
-      <aside>
-        <h4>Contact Information</h4>
-          <h5>Email Address:</h5>
-          <p>bayfieldanglersgroup&amp;gmail.com</p>
+        <aside class="contact-info">
+          <h3>Contact Information</h3>
+            <h4>Email Address:</h4>
+            <p>bayfieldanglersgroup&amp;gmail.com</p>
 
-          <h5>Mobile Number:</h5>
-          <p>+1 (866) 237-8289 ext. 2354</p>
+            <h4>Mobile Number:</h4>
+            <p>+1 (866) 237-8289 ext. 2354</p>
 
-          <h5>Headquarters Location: </h5>
-          <p>Bayfield Resort, Ontario, Canada</p>
+            <h4>Headquarters Location:</h4>
+            <p>Bayfield Resort, Ontario, Canada</p>
 
-        <img src="images/baa_map_image.jpg" alt="Location Map of Bayfield">
-      </aside>
+          <img src="images/baa_map_image.jpg" alt="Location Map of Bayfield">
+        </aside>
+    </div>
     </section>
 
   <!-- FAQs Section -->
-    <section>
-    <h2 class="hidden">FAQs Section</h2>
-      <h3>Frequently Asked Questions</h3>
-
-        <h4>1&rpar; What is the mission of the Bayfield Anglers Association?</h4>
+    <section class="faq wrapper">
+    <div class="main">
+      <div class="one-item sm-one-item md-one-item lg-one-item">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      
+      <div class="one-item sm-one-item md-one-item lg-one-item">
+        <h3>1&rpar; What is the mission of the Bayfield Anglers Association?</h3>
         <p>The Bayfield Anglers Association is dedicated to the conservation and sustainable management of fish populations in the Bayfield area and surrounding regions.</p>
+      </div>
 
-        <h4>2&rpar; How can I become a member of the Bayfield Anglers Association?</h4>
+      <div class="one-item sm-one-item md-one-item lg-one-item">
+        <h3>2&rpar; How can I become a member of the Bayfield Anglers Association?</h3>
         <p>You can become a member by completing the membership application form available on our website and paying the annual membership fee.</p>
+      </div>
 
-        <h4>3&rpar; What types of events does the Bayfield Anglers Association organize?</h4>
+      <div class="one-item sm-one-item md-one-item lg-one-item">
+        <h3>3&rpar; What types of events does the Bayfield Anglers Association organize?</h3>
         <p>We organize a variety of events including fishing tournaments, conservation workshops, community clean-up days, educational seminars, and social events.</p>
+      </div>
 
-        <h4>4&rpar; How can I volunteer with the Bayfield Anglers Association?</h4>
+      <div class="one-item sm-one-item md-one-item lg-one-item">
+        <h3>4&rpar; How can I volunteer with the Bayfield Anglers Association?</h3>
         <p>Volunteers are always welcome! You can sign up to volunteer by filling out the volunteer registration form on our website or by contacting us directly via email.</p>
+      </div>
 
-        <h4>5&rpar; Where can I find information about upcoming events?</h4>
+      <div class="one-item sm-one-item md-one-item lg-one-item">
+        <h3>5&rpar; Where can I find information about upcoming events?</h3>
         <p>Upcoming events are listed on our website under the "Events and Activities" section. We also provide updates through our social media channels and email.</p>
+      </div>
+
+    </div>
     </section>
 
   <!-- Footer Section -->
