@@ -38,21 +38,29 @@
     </header>
 
   <!-- Hero Section -->
-    <section class="hero member">
-    <h2 class="hidden">Hero Section</h2>
-      <p>Bayfield Anglers Association</p>
-      <h3>Let's Work Together To Save Our Rivers</h3>
-      <button>Get Involved</button>
-    </section>
+    <section class="hero">
+      <div class="hero-img">
+          <picture>
+            <source media="(min-width:1920px)" srcset="images/baa_member_header_1920.png">
+            <source media="(min-width:1024px)" srcset="images/baa_member_header_1200.png">
+            <source media="(min-width:768px)" srcset="images/baa_member_header_768.png">
+            <img src="images/baa_home_header_412.png" alt="Lake Boat Hero">
+          </picture> 
+          <p>Bayfield Anglers Association</p>
+          <h2>Let's Work Together To Save Our Rivers</h2>
+          <button>Get Involved</button>
+      </div>
+      </section>
 
   <!-- Contributors Section -->
-    <article class="contributors main-padding">
-    <h2 class="hidden">Contributors Section</h2>
+    <article class="contributors main">
 
-      <h3>Our Contributors</h3>
-      <p class="main-description">We extend our deepest gratitude to all volunteers and donators who have generously supported our association's mission and initiatives. Together, we are making a difference in preserving our natural environment for future generations to enjoy.</p>
+      <div class="one-item sm-one-item md-one-item lg-one-item">
+        <h2>Our Contributors</h2>
+        <p class="main-description">We extend our deepest gratitude to all volunteers and donators who have generously supported our association's mission and initiatives. Together, we are making a difference in preserving our natural environment for future generations to enjoy.</p>
+      </div>
 
-      <div class="contributor-list">
+      <div class="contributor-list one-item sm-one-item md-one-item lg-one-item">
         <ul>
           <li>Emily Johnson</li>
           <li>Michael Smith</li>
@@ -74,69 +82,72 @@
     </article>
 
   <!-- Support Section -->
-    <section class="support main-padding">
-    <h2 class="hidden">Support Section</h2>
-
-      <img src="images/baa_donate_image.png" alt="Fishermen Fist Bumping">
-
-      <h3>Support The Group</h3>
-      <p>Your generous contributions directly fund initiatives such as habitat restoration projects, fish stocking programs, and outreach efforts.</p>
-      <button>Donate</button>
+    <section class="support wrapper">
+    <div class="main">
+      <div class="one-item sm-one-item md-one-item lg-one-item">
+        <img src="images/baa_donate_image.png" alt="Fishermen Fist Bumping">
+        <h2>Support The Group</h2>
+        <p>Your generous contributions directly fund initiatives such as habitat restoration projects, fish stocking programs, and outreach efforts.</p>
+        <button>Donate</button>
+      </div>
+    </div>
     </section>
 
   <!-- Team Section -->
-    <section class="team">
-    <h2 class="hidden">Team Section</h2>
+    <section class="team main">
 
-    <div class="main-padding">
-      <h3>The Team</h3>
-      <p class="main-description">This is the amazing people making this possible. Feel free to check them out and support the group or association to preserver and protect our waters.</p>
+    <div class="one-item sm-one-item md-one-item lg-one-item">
+      <h2>The Team</h2>
+      <p class="main-description">This is the amazing people making this possible. Feel free to check them out and support the group or association to preserve and protect our waters.</p>
     </div>
 
-    <div class="team-container">
+    <div class="team-container two-items sm-two-items md-two-items lg-two-items">
       <div>
         <img src="images/baa_team_image_1.png" alt="Photo of Man">
-        <h4>Ethan Robinson</h4>
+        <h3>Ethan Robinson</h3>
         <p>Founder</p>
       </div>
 
       <div>
         <img src="images/baa_team_image_2.png" alt="Photo of Man">
-        <h4>Samuel Johnson</h4>
+        <h3>Samuel Johnson</h3>
         <p>Manager</p>
       </div>
 
       <div>
         <img src="images/baa_team_image_3.png" alt="Photo of Man">
-        <h4>Jacob Thomas</h4>
+        <h3>Jacob Thomas</h3>
         <p>Director</p>
       </div>
 
       <div>
         <img src="images/baa_team_image_4.png" alt="Photo of Man">
-        <h4>Matthew James</h4>
+        <h3>Matthew James</h3>
         <p>Team Lead</p>
       </div>
     </div>
     </section>
 
   <!-- Volunteer Section -->
-    <section class="volunteer main-padding">
-    <h2 class="hidden">Volunteer Section</h2>
-
-      <h3>Volunteering</h3>
-      <p class="main-description">Volunteering for our association is an opportunity to make a meaningful difference in our community and environment. Whether you're passionate about conservation efforts, eager to connect with fellow enthusiasts, or simply want to give back, there's a role for.</p>
-
-      <img src="images/baa_volunteer_image.png" alt="Fisherman and Kid Fishing">
+    <section class="volunteer wrapper">
+    <div class="main">
+      <div class="one-item sm-one-item md-one-item lg-one-item">
+        <h2>Volunteering</h2>
+        <p class="main-description">Volunteering for our association is an opportunity to make a meaningful difference in our community and environment. Whether you're passionate about conservation efforts, eager to connect with fellow enthusiasts, or simply want to give back, there's a role for.</p>
+        <img src="images/baa_volunteer_image.png" alt="Fisherman and Kid Fishing">
+      </div>
+    </div>
     </section>
 
   <!-- Registration Section -->
-    <section class="register main-padding">
-    <h2 class="hidden">Registration Section</h2>
+    <section class="register main">
 
-      <h3>Register Now</h3>
+    <div class="one-item sm-one-item md-one-item lg-one-item">
+      <h2>Register Now</h2>
       <p class="main-description">To join our association as a member or volunteer, simply visit our website and access the dedicated registration page. There, you'll find a user-friendly form where you can provide your basic information and indicate your areas of interest or expertise.</p>
+    </div>
 
+    <div class="one-item sm-one-item md-one-item lg-one-item">
       <form class="register-form">
         <input type="text" id="first-name" name="first-name" placeholder="*First Name" required>
 
@@ -150,6 +161,8 @@
         
         <input type="submit" value="Register">
       </form>
+    </div>
+    
     </section>
 
   <!-- Footer Section -->

@@ -177,8 +177,9 @@ header {
     line-height: 60px;
     color: #202020;
 
-    padding-top: 1.5em;
+    padding-top: 1.50em;
     margin-left: 0.5em;
+    max-width: 85%;
 }
 
 .hero-img button {
@@ -390,6 +391,186 @@ footer .full {
     flex-direction: column;
     align-items: center;
     width: 100%;
+}
+
+
+
+/* Members Page Styles Start */
+
+/* Contributor Section - Members */
+
+.contributors {
+    padding: 0em 0 2.5em 1em;
+}
+
+.contributors h2 {
+    margin-bottom: 0.5em;
+}
+
+.contributors .main-description {
+    line-height: 30px;
+    padding-bottom: 0.75em;
+}
+
+.contributor-list ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.contributor-list li {
+    padding: 5px 0;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: "Merriweather", serif;
+}
+
+/* Support Section - Members */
+
+.support {
+    padding: 2.25em 0 2.5em 1em;
+}
+
+.support img {
+    width: 14em;
+}
+
+.support h2 {
+    margin: 1.5em 0 0.5em 0;
+}
+
+.support p {
+    line-height: 30px;
+    max-width: 90%;
+    padding-bottom: 0.5em;
+}
+
+.support button {
+    width: 5em;
+    height: 2em;
+    padding: 0;
+    margin-top: 0.5em;
+    font-size: 20px;
+}
+
+/* Team Section - Members */
+
+.team {
+    padding: 1em 0 2.5em 1em;
+}
+
+.team .main-description {
+    line-height: 30px;
+    max-width: 95%;
+    padding-bottom: 2.25em;
+}
+
+.team img {
+    width: 10em;
+}
+
+.team p, h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.team-container div {
+    text-align: center;
+    margin-left: -1.3em;
+}
+
+.team-container h3 {
+    font-size: 22px;
+    font-weight: 400;
+    padding: .35em 0 .25em 0;
+}
+
+.team-container div:nth-child(-n+2) {
+    padding-bottom: 2em;
+}
+
+/* Volunteer Section - Members */
+
+.volunteer {
+    padding: 1em 0 2.65em 1em;
+}
+
+.volunteer h2 {
+    margin-bottom: 0.5em;
+}
+
+.volunteer .main-description {
+    line-height: 30px;
+    max-width: 90%;
+    padding-bottom: 1.35em;
+}
+
+.volunteer img {
+    width: 14em;
+}
+
+/* Register Section - Members */
+
+.register {
+    padding: 1em 0 1.75em 1em;
+}
+
+.register h2 {
+    margin-bottom: 0.5em;
+}
+
+.register .main-description {
+    line-height: 30px;
+    max-width: 90%;
+    padding-bottom: 1em;
+}
+
+.register-form textarea {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.register-form input, textarea {
+    font-family: "Oswald", sans-serif;
+    font-size: 1em;
+
+    width: 22.5em;
+    margin-bottom: 1em;
+    padding: .5em;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #202020;
+    border-radius: 5px;
+}
+
+.register-form input[type="submit"] {
+    border: none;
+    padding: 5px 0px 5px 0px;
+    width: 18em;
+    border-radius: 8px;
+
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 450;
+
+    background-color: #BF0B1A;
+    color: white;
+
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.register-form input[type="submit"]:hover {
+    background-color: #ab0917;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
 }
 
 
