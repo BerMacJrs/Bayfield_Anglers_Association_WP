@@ -1618,7 +1618,7 @@ input:focus, textarea:focus, select:focus {
 
     .hero-img button {
         font-size: 40px;
-        width: 6.25em;
+        width: 7em;
         height: 1.8em;
         margin: 14.5em 0 0 5em;
     }
@@ -1792,7 +1792,6 @@ input:focus, textarea:focus, select:focus {
 
     .contributor-list li {
         font-size: 28px;
-
     }
 
 /* Desktop Support Section - Members */
@@ -1892,5 +1891,87 @@ input:focus, textarea:focus, select:focus {
     .register-form input[type="submit"] {
         font-size: 35px;
         width: 31em;
+    }
+
+
+
+/* Desktop Contact Page Styles Start */
+
+/* Desktop Contact Section - Contact  */
+
+    .hero-contact h2 {
+        max-width: 50%;
+    }
+
+    .contact {
+        padding: 0 0 0.75em 3em;
+    }
+
+    .contact .main-description {
+        font-size: 25px;
+        line-height: 45px;
+        max-width: 91%;
+    }
+
+    .contact-form input {
+        font-size: 23px;
+    }
+
+    .contact-form textarea {
+        font-size: 23px;
+        margin-bottom: 1.5em;
+    }
+
+    .contact-form input[type="submit"] {
+        width: 17.35em;
+        font-size: 30px;
+        margin-bottom: 2em;
+    }
+
+    .contact-check p {
+        font-size: 23px;
+        margin: 0.21em 0 0 -5em
+    }
+
+    .contact-info {
+        padding-left: 2em;
+    }
+
+    .contact-info h3 {
+        font-size: 36px;
+        margin-top: -2em;
+    }
+
+    .contact-info h4 {
+        font-size: 23px;
+    }
+
+    .contact-info p {
+        font-size: 23px;
+    }
+
+    .contact-info img {
+        width: 19.5em;
+    }
+
+/* Desktop FAQ Section - Contact  */
+
+    .faq {
+        padding: 1.75em 0 0.75em 6em;
+    }
+
+    .faq h2 {
+        margin-bottom: 1.5em;
+    }
+
+    .faq h3 {
+        font-size: 35px;
+    }
+
+    .faq p {
+        font-size: 25px;
+        line-height: 45px;
+        margin: 1.35em 0 2.25em 0;
+        max-width: 85%;
     }
 }
