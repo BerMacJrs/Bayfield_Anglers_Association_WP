@@ -75,3 +75,40 @@
             font-size: 26px;
         }
     }
+
+
+    
+
+
+@media screen and (min-width: 64em) {
+
+/* Monitor Projects Section - Home */
+
+    .projects {
+        padding: 1em 0 3em 3em;
+    }
+
+    .projects img {
+        width: 27em;
+        margin-bottom: 1.5em;
+    }
+
+    .projects img:last-of-type {
+        margin-left: -1em;
+    }
+
+    .projects h3 {
+        font-size: 32px;
+        margin-bottom: 1em;
+    }
+
+    .projects-text p {
+        font-size: 21.5px;
+        line-height: 38px;
+    }
+
+    .projects button {
+        margin-top: 1em;
+        font-size: 30px;
+    }
+}

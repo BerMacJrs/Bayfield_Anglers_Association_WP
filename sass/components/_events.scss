@@ -72,3 +72,43 @@
             margin-left: -1em;
         }
     }    
+
+
+
+
+
+@media screen and (min-width: 64em) {
+
+/* Monitor Events Section - Home */
+
+    .events {
+        padding: 2em 0 2.5em 3em;
+    }
+
+    .events h2 {
+        margin-bottom: 0.35em;
+    }
+    
+    .events-desc {
+        padding: 1em 0 0.8em 0;
+    }
+
+    .events-desc img {
+        width: 13em;
+        margin-right: 2.5em;
+    }
+
+    .events-desc h3 {
+        font-size: 30px;
+    }
+
+    .events-desc p {
+        font-size: 20px;
+        line-height: 41px;
+        max-width: 91%;
+    }
+
+    .events-side {
+        margin: 0.7em 0 0 -1em;
+    }
+}

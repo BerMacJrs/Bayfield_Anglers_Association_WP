@@ -92,3 +92,20 @@ footer .full {
             margin-top: 1.5em;
         }
     }
+
+
+
+
+@media screen and (min-width: 64em) {
+
+/* Monitor Footer Section - Home */
+
+    footer {
+        border-top: 18px solid #BF0B1A;
+        padding-top: 2em;
+    }
+
+    footer nav a {
+        font-size: 23px;
+    }
+}

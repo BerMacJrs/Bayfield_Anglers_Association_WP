@@ -155,3 +155,65 @@
             margin-top: 0.5em;
         }
     }
+
+
+
+
+
+
+@media screen and (min-width: 64em) {
+
+/* Monitor Contact Section - Contact  */
+
+    .contact {
+        padding: 0 0 0 3em;
+    }
+
+    .contact .main-description {
+        font-size: 23px;
+        line-height: 45px;
+    }
+
+    .contact-form input {
+        font-size: 21px;
+    }
+
+    .contact-form textarea {
+        font-size: 21px;
+        margin-bottom: 1.5em;
+    }
+
+    .contact-form input[type="submit"] {
+        width: 15.75em;
+        font-size: 30px;
+        margin-bottom: 1.85em;
+    }
+
+    .contact-check p {
+        font-size: 21px;
+        margin: 0.2em 0 0 -4.5em
+    }
+
+    .contact-info {
+        padding-left: 2.5em;
+    }
+
+    .contact-info h3 {
+        font-size: 36px;
+        margin-top: -1.5em;
+    }
+
+    .contact-info h4 {
+        font-size: 21px;
+    }
+
+    .contact-info p {
+        font-size: 21px;
+        margin-bottom: 1.5em;
+    }
+
+    .contact-info img {
+        width: 17.5em;
+        margin-top: 0.5em;
+    }
+}
