@@ -1,0 +1,49 @@
+/* Hero Section - Home */
+
+.hero {
+    margin: 0 0;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+.hero-img {
+    display: grid;
+    grid-column: span 4;
+    margin-bottom: 1rem;
+}
+
+.hero-img > * {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.hero-img p {
+    font-family: "Oswald", sans-serif;
+    font-weight: 450;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #202020;
+
+    padding-top: 1em;
+    margin-left: 1.05em;
+}
+
+.hero-img h2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    line-height: 60px;
+    color: #202020;
+
+    padding-top: 1.50em;
+    margin-left: 0.5em;
+    max-width: 85%;
+}
+
+.hero-img button {
+    width: 6.5em;
+    height: 2em;
+    padding: 0em;
+    margin: 17em 0 0 1.30em;
+}

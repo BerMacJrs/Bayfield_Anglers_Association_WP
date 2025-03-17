@@ -1,0 +1,94 @@
+/* Navigation Menu Section - Home */
+
+header {
+    background-color: #022873;
+    border-bottom: 10px solid #BF0B1A;
+    position: sticky;
+    top: 0;
+}
+
+#main_logo {
+    width: 10em;
+    margin: 20px;
+}
+
+#hamburger {
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+#burger {
+    width: 3em;
+    margin: 0 20px 0 auto;
+}
+
+.nav-menu {
+    display: none;
+}
+
+.nav-menu.active {
+    display: block;
+}
+
+.nav-menu a {
+    font-size: 21px;
+    color: white;
+}
+
+.nav-menu li {
+    padding-bottom: 1em;
+    margin-left: -1.1em;
+}
+
+
+
+
+@media screen and (min-width: 48em) {
+
+    /* Tablet Navigation Menu Section - Home */
+    
+        header {
+            border-bottom: 15px solid #BF0B1A;
+        }
+    
+        #main_logo {
+            width: 10em;
+            margin: 20px;
+            margin-left: 35px;
+        }
+    
+        #hamburger {
+            display: none; 
+        }
+    
+        .nav-menu {
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 2.25em;
+        }
+    
+        .nav-menu li {
+            margin-left: -1.1em;
+            padding-bottom: 0;
+        }
+    
+        .nav-menu ul {
+            display: flex;
+            gap: 3.5em;
+        }
+    
+        .sm-two-items {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+        }
+        
+        .sm-two-items > div:first-child {
+            grid-column: 1;
+        }
+        
+        .sm-two-items > nav {
+            grid-column: 2;
+        }
+    }

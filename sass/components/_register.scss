@@ -1,0 +1,61 @@
+/* Register Section - Members */
+
+.register {
+    padding: 1em 0 1.75em 1em;
+}
+
+.register h2 {
+    margin-bottom: 0.5em;
+}
+
+.register .main-description {
+    line-height: 30px;
+    max-width: 90%;
+    padding-bottom: 1em;
+}
+
+.register-form textarea {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+.register-form input, textarea {
+    font-family: "Oswald", sans-serif;
+    font-size: 1em;
+
+    width: 22.5em;
+    margin-bottom: 1em;
+    padding: .5em;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #202020;
+    border-radius: 5px;
+}
+
+.register-form input[type="submit"] {
+    border: none;
+    padding: 5px 0px 5px 0px;
+    width: 18em;
+    border-radius: 8px;
+
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 450;
+
+    background-color: #BF0B1A;
+    color: white;
+
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.register-form input[type="submit"]:hover {
+    background-color: #ab0917;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
