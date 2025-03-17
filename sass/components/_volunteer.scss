@@ -68,3 +68,35 @@
         margin-right: 0.5em;
     }
 }
+
+
+
+
+
+
+
+
+@media screen and (min-width: 120em) {
+
+/* Desktop Volunteer Section - Members */
+
+    .volunteer {
+        padding: 1.5em 2.25em 3em 8.5em;
+    }
+
+    .volunteer h2 {
+        padding-top: 0.5em;
+    }
+
+    .volunteer .main-description {
+        font-size: 25px;
+        line-height: 45px;
+        max-width: 80%;
+    }
+
+    .volunteer img {
+        width: 23em;
+        padding-top: 2.5em;
+        margin-right: 7em;
+    }
+}

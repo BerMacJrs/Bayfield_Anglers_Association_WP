@@ -152,3 +152,29 @@ ul li a {
                 max-width: 90%
             }
         }
+
+
+
+        
+
+@media screen and (min-width: 120em) {
+
+/* Desktop Basic Reset - Home */
+
+    .main-padding {
+        padding-left: 25em;
+    }
+
+/* Desktop Font Import - Home */
+
+    h2 {
+        font-size: 41px;
+        width: 90%;
+    }
+
+    .main-description {
+        font-size: 25px;
+        line-height: 41px;
+        max-width: 90%
+    }
+}

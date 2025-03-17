@@ -97,3 +97,33 @@
         font-size: 20px;
     }
 }
+
+
+
+
+
+@media screen and (min-width: 120em) {
+
+/* Desktop Team Section - Members */
+
+    .team {
+        padding: 2em 0 2em 3em;
+    }
+
+    .team .main-description {
+        font-size: 26px;
+        line-height: 45px;
+    }
+
+    .team-container img {
+        width: 16em;
+    }
+
+    .team-container h3 {
+        font-size: 35px;
+    }
+
+    .team-container p {
+        font-size: 25px;
+    }
+}
