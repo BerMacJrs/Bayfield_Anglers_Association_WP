@@ -107,51 +107,51 @@ ul li a {
 
 @media screen and (min-width: 48em) {
 
-    /* Tablet Basic Reset - Home */
+/* Tablet Basic Reset - Home */
+
+    .main-padding {
+        padding-left: 2.5em;
+    }
+
+/* Tablet Font Import - Home */
+
+    h2 {
+        font-size: 30px;
+        width: 90%;
+    }
+
+    .main-description {
+        font-size: 1em;
+        line-height: 29px;
+        max-width: 95%
+    }
+}
+
+
+
+
+    
+@media screen and (min-width: 64em) {
+
+    /* Monitor Basic Reset - Home */
     
         .main-padding {
-            padding-left: 2.5em;
+            padding-left: 3.25em;
         }
     
-    /* Tablet Font Import - Home */
+    /* Monitor Font Import - Home */
     
         h2 {
-            font-size: 30px;
+            font-size: 35px;
             width: 90%;
         }
     
         .main-description {
-            font-size: 1em;
-            line-height: 29px;
-            max-width: 95%
+            font-size: 21px;
+            line-height: 41px;
+            max-width: 90%
         }
     }
-
-
-
-
-    
-    @media screen and (min-width: 64em) {
-
-        /* Monitor Basic Reset - Home */
-        
-            .main-padding {
-                padding-left: 3.25em;
-            }
-        
-        /* Monitor Font Import - Home */
-        
-            h2 {
-                font-size: 35px;
-                width: 90%;
-            }
-        
-            .main-description {
-                font-size: 21px;
-                line-height: 41px;
-                max-width: 90%
-            }
-        }
 
 
 
