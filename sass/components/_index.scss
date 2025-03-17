@@ -1,9 +1,19 @@
-// @forward 'header';
-// @forward 'hero';
-// @forward 'about';
-// @forward 'manifesto';
-// @forward 'socials';
-// @forward 'whyvote';
-// @forward 'faq';
-// @forward 'footer';
-// @forward 'background';
+// Home Page
+
+@forward 'header';
+@forward 'hero';
+@forward 'intro';
+@forward 'features';
+@forward 'events';
+@forward 'projects';
+@forward 'announce';
+@forward 'footer';
+
+// Members Page
+
+@forward 'contributors';
+@forward 'support';
+@forward 'team';
+@forward 'volunteer';
+@forward 'register';
+@forward 'contact';

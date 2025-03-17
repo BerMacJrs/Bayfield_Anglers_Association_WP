@@ -1,0 +1,55 @@
+/* Footer Section - Home */
+
+footer {
+    background-color: #022873;
+    border-top: 10px solid #BF0B1A;
+}
+
+footer nav {
+    padding: 2.25em 0 2em 0.5em;
+}
+
+footer nav li {
+    padding-bottom: .5em;
+}
+
+footer li {
+    margin-bottom: 1em;
+}
+
+footer nav a {
+    color: white;
+    font-size: 20px;
+}
+
+#footer_logo {
+    width: 8em;
+    margin-bottom: 1em;
+    justify-self: center;
+}
+
+.social-media-icons {
+    justify-self: center;
+    display: flex;
+    gap: .7em;
+    margin-bottom: 3em;
+}
+
+.social-media-icons img {
+    width: 1.8em;
+}
+
+footer p {
+    font-family: "Oswald", sans-serif;
+    color: #8194B9;
+    margin: 0;
+    padding-bottom: 0.8em;
+    justify-self: center;
+}
+
+footer .full {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}

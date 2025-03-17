@@ -1,0 +1,38 @@
+/* Projects Section - Home */
+
+.projects {
+    padding: 1em 0 2.5em 1em;
+}
+
+.projects h2 {
+    margin-bottom: 0.5em;
+}
+
+.projects img {
+    width: 22em;
+    margin-bottom: 1em;
+}
+
+.projects h3 {
+    font-size: 18px;
+    margin: 0.75em 0 1.25em 0;
+}
+
+.projects img:last-of-type {
+    display: none;
+}
+
+.projects-text p {
+    font-size: 1em;
+    line-height: 28px;
+    max-width: 90%;
+    margin-bottom: 0.75em;
+}
+
+.projects button {
+    width: 6.5em;
+    height: 2em;
+    padding: 0;
+    margin-top: 1em;
+    font-size: 20px;
+}
