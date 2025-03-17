@@ -54,3 +54,27 @@
             font-size: 18px;
         }
     }    
+
+
+
+
+
+
+@media screen and (min-width: 64em) {
+
+/* Monitor Contributor Section - Members */
+
+    .contributors {
+        padding: 0 0 2.5em 3em;
+    }
+
+    .contributors .main-description {
+        font-size: 25px;
+        line-height: 45px;
+    }
+
+    .contributor-list li {
+        font-size: 25px;
+        padding-bottom: 0.5em;
+    }
+}

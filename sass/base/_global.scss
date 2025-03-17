@@ -126,3 +126,29 @@ ul li a {
             max-width: 95%
         }
     }
+
+
+
+
+    
+    @media screen and (min-width: 64em) {
+
+        /* Monitor Basic Reset - Home */
+        
+            .main-padding {
+                padding-left: 3.25em;
+            }
+        
+        /* Monitor Font Import - Home */
+        
+            h2 {
+                font-size: 35px;
+                width: 90%;
+            }
+        
+            .main-description {
+                font-size: 21px;
+                line-height: 41px;
+                max-width: 90%
+            }
+        }

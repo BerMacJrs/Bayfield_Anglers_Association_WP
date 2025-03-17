@@ -61,3 +61,29 @@
             font-size: 25px;
         }
     }
+
+
+
+    
+
+@media screen and (min-width: 64em) {
+
+/* Monitor Support Section - Members */
+
+    .support {
+        padding: 3.25em 0 3.25em 3em;
+    }
+
+    .support img {
+        width: 20em;
+    }
+
+    .support p {
+        font-size: 23px;
+        line-height: 45px;
+    }
+
+    .support button {
+        font-size: 30px;
+    }
+}

@@ -92,3 +92,33 @@ header {
             grid-column: 2;
         }
     }
+
+
+
+
+
+@media screen and (min-width: 64em) {
+
+/* Monitor Navigation Menu Section - Home */
+
+    header {
+        border-bottom: 18px solid #BF0B1A;
+    }
+
+    #main_logo {
+        width: 14em;
+        margin: 28px;
+        margin-left: 65px;
+    }
+
+    .nav-menu ul {
+        gap: 4em;
+        margin: 0 2.25em 0 -1em;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nav-menu a {
+        font-size: 30px;
+    }
+}

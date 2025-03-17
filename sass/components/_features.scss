@@ -63,3 +63,36 @@
             line-height: 28px;
         }
     }
+
+
+
+@media screen and (min-width: 64em) {
+
+/* Monitor Features Section - Home */
+
+    .features {
+        padding: 1.5em 0 1em 3em;
+    }
+
+    .features .one-third {
+        margin: 0.5em 0 1em 0;
+    }
+    
+    .features .features-desc {
+        margin-left: -9.5em;
+    }
+
+    .features img {
+        width: 4.5em
+    }
+
+    .features h3 {
+        font-size: 30px;
+    }
+
+    .features p {
+        max-width: 95%;
+        font-size: 21.5px;
+        line-height: 35px;
+    }
+}

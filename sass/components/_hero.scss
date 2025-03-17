@@ -72,3 +72,28 @@
             margin: 18em 0 0 2.5em;
         }
     }
+
+
+
+@media screen and (min-width: 64em) {
+
+/* Monitor Hero Section - Home */
+
+    .hero-img p {
+        font-size: 41px;
+        margin: 2em 0 0 1.9em;
+    }
+
+    .hero-img h2 {
+        font-size: 80px;
+        line-height: 100px;
+        margin: 1.25em 0 0 .95em;
+    }
+
+    .hero-img button {
+        font-size: 40px;
+        width: 6.25em;
+        height: 1.8em;
+        margin: 12em 0 0 2em;
+    }
+    }

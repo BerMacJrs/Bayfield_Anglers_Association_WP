@@ -99,3 +99,37 @@ input:focus, textarea:focus, select:focus {
             margin-left: -1em;
         }
     }
+
+
+
+
+@media screen and (min-width: 64em) {
+
+/* Monitor Register Section - Members */
+
+    .register {
+        padding: 1.5em 0 2em 3em;
+    }
+
+    .register .main-description {
+        font-size: 21.5px;
+        line-height: 45px;
+    }
+
+    .register-form input, textarea {
+        font-size: 24px;
+    }
+
+    .register-form input {
+        width: 18.5em;
+    }
+
+    .register-form textarea {
+        width: 38em;
+    }
+
+    .register-form input[type="submit"] {
+        font-size: 35px;
+        width: 26em;
+    }
+}
