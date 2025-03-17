@@ -122,3 +122,32 @@ header {
         font-size: 30px;
     }
 }
+
+
+
+
+
+
+
+@media screen and (min-width: 120em) {
+
+    /* Desktop Navigation Menu Section - Home */
+    
+        header {
+            height: 13em;
+        }
+    
+        #main_logo {
+            width: 17em;
+            margin: 28px;
+            margin-left: 25em;
+        }
+    
+        .nav-menu ul {
+            margin: 0 23em 0 -1em;
+        }
+    
+        .nav-menu a {
+            font-size: 34px;
+        }
+    }    

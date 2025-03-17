@@ -78,3 +78,21 @@
         padding-bottom: 0.5em;
     }
 }
+
+
+
+
+
+
+@media screen and (min-width: 120em) {
+
+/* Desktop Contributor Section - Members */
+
+    .contributors {
+        padding: 0 0 3em 3em;
+    }
+
+    .contributor-list li {
+        font-size: 28px;
+    }
+}

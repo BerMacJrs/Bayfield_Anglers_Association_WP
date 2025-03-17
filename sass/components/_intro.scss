@@ -77,3 +77,30 @@
         max-width: 94%;
     }
 }
+
+
+
+
+
+@media screen and (min-width: 120em) {
+
+    /* Desktop Introduction Section - Home */
+    
+        .intro {
+            padding: 3em 0 3.5em 3em;
+        }
+    
+        .intro p {
+            font-size: 25px;
+            line-height: 46px;
+            max-width: 90%;
+        }
+    
+        .intro img {
+            width: 21em;
+        }
+    
+        .intro .lg-three-items {
+            max-width: 95%;
+        }
+    }

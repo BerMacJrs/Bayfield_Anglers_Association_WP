@@ -96,3 +96,41 @@
         line-height: 35px;
     }
 }
+
+
+
+
+
+@media screen and (min-width: 120em) {
+
+/* Desktop Features Section - Home */
+
+    .features {
+        padding: 2em 0 2em 5.5em;
+    }
+
+    .features .one-third {
+        margin: 1em 0 1em 0;
+    }
+    
+    .features .features-desc {
+        margin-left: -11em;
+    }
+
+    .features img {
+        width: 5.5em;
+        margin-left: 0.5em;
+    }
+
+    .features h3 {
+        font-size: 36px;
+    }
+
+    .features p {
+        max-width: 90%;
+        margin-top: 0.5em;
+
+        font-size: 25px;
+        line-height: 41px;
+    }
+}

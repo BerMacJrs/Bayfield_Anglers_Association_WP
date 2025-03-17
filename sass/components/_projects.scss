@@ -112,3 +112,39 @@
         font-size: 30px;
     }
 }
+
+
+
+
+@media screen and (min-width: 120em) {
+
+/* Desktop Projects Section - Home */
+
+    .projects {
+        padding: 1.5em 0 4em 6em;
+    }
+
+    .projects img {
+        width: 31em;
+    }
+
+    .projects img:last-of-type {
+        margin-left: -4em;
+    }
+
+    .projects h3 {
+        font-size: 41px;
+        margin-bottom: 1em;
+    }
+
+    .projects-text p {
+        font-size: 25px;
+        line-height: 46px;
+        max-width: 90%;
+    }
+
+    .projects button {
+        margin-top: 1em;
+        font-size: 36px;
+    }
+}

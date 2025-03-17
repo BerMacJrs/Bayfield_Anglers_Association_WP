@@ -109,3 +109,33 @@ footer .full {
         font-size: 23px;
     }
 }
+
+
+
+
+@media screen and (min-width: 120em) {
+
+/* Desktop Footer Section - Home */
+
+    footer {
+        border-top: 18px solid #BF0B1A;
+        padding-top: 2em;
+    }
+
+    footer nav {
+        display: flex;
+        padding: 2.25em 0 2em 0.8em;
+    }
+
+    footer nav a {
+        font-size: 27px;
+    }
+
+    footer p {
+        font-size: 1.8em;
+    }
+    
+    .item-two {
+        margin-left: 10em;
+    }
+}

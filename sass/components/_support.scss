@@ -87,3 +87,36 @@
         font-size: 30px;
     }
 }
+
+
+
+
+
+
+@media screen and (min-width: 120em) {
+
+/* Desktop Support Section - Members */
+
+    .support {
+        padding: 4em 0 3.25em 6em;
+    }
+
+    .support img {
+        width: 23em;
+        margin-right: 4em;
+    }
+
+    .support h2 {
+        padding: 0 0 0.35em 0;
+    }
+
+    .support p {
+        font-size: 25px;
+        line-height: 45px;
+        max-width: 80%;
+    }
+
+    .support button {
+        font-size: 35px;
+    }
+}

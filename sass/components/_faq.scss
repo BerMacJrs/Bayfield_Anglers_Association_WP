@@ -63,3 +63,31 @@
             line-height: 45px;
         }
     }
+
+
+
+
+    
+@media screen and (min-width: 120em) {
+
+/* Desktop FAQ Section - Contact  */
+
+    .faq {
+        padding: 1.75em 0 0.75em 6em;
+    }
+
+    .faq h2 {
+        margin-bottom: 1.5em;
+    }
+
+    .faq h3 {
+        font-size: 35px;
+    }
+
+    .faq p {
+        font-size: 25px;
+        line-height: 45px;
+        margin: 1.35em 0 2.25em 0;
+        max-width: 85%;
+    }
+}
