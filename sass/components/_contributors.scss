@@ -29,3 +29,28 @@
     font-weight: 600;
     font-family: "Merriweather", serif;
 }
+
+
+
+
+@media screen and (min-width: 48em) { 
+
+    /* Tablet Contributor Section - Members */
+    
+        .contributors {
+            padding: 0 0 2.5em 2em;
+        }
+    
+        .contributors .main-description {
+            font-size: 20px;
+            line-height: 35px;
+        }
+    
+        .contributor-list ul {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    
+        .contributor-list li {
+            font-size: 18px;
+        }
+    }    

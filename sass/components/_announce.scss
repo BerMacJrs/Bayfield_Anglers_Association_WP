@@ -19,3 +19,26 @@
     line-height: 28px;
     max-width: 90%;
 }
+
+
+
+
+@media screen and (min-width: 48em) {
+    
+    /* Tablet Announcements Section - Home */
+    
+        .announce {
+            padding: 1em 0 2.5em 2em;
+        }
+    
+        .announce img {
+            width: 6.5em;
+            margin-right: 1.8em;
+        }
+    
+        .announce .one-third p {
+            font-size: 1em;
+            max-width: 98%;
+            margin-left: -3.5em;
+        }
+    }

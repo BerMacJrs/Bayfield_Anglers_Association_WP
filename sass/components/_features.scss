@@ -28,3 +28,38 @@
     font-size: 14px;
     line-height: 21px;
 }
+
+
+
+
+@media screen and (min-width: 48em) {
+
+    /* Tablet Features Section - Home */
+    
+        .features {
+            padding: 1.5em 0 1.5em 2em;
+        }
+    
+        .features .one-third {
+            margin-bottom: 0.8em;
+        }
+        
+        .features .features-desc {
+            margin-left: -6.5em;
+        }
+    
+        .features img {
+            width: 4em;
+            margin-right: 1.5em;
+        }
+    
+        .features h3 {
+            font-size: 26px;
+        }
+    
+        .features p {
+            max-width: 95%;
+            font-size: 1em;
+            line-height: 28px;
+        }
+    }
