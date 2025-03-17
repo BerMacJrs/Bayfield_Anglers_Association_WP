@@ -1,0 +1,8 @@
+@use '../abstracts/variables' as *;
+
+@mixin background-reset {
+    background-size: cover; 
+    background-position: center;
+    background-repeat: repeat;
+    background-color: $primary-color;
+}
