@@ -59,3 +59,43 @@
 input:focus, textarea:focus, select:focus {
     outline: none;
 }
+
+
+
+
+@media screen and (min-width: 48em) { 
+
+    /* Tablet Register Section - Members */
+    
+        .register {
+            padding: 1em 0 1.75em 2em;
+        }
+    
+        .register .main-description {
+            max-width: 95%;
+            padding-bottom: 1.25em;
+        }
+    
+        .register-form input {
+            width: 21em;
+            margin-bottom: 1em;
+        }
+    
+        .register-form textarea {
+            width: 43em;
+            height: 10em;
+    
+            margin-bottom: 1em;
+            padding: .5em;
+        }
+    
+        .register-form input[type="submit"] {
+            padding: 5px 0px 5px 0px;
+            margin-top: 1em;
+            width: 34.5em;
+        }
+    
+        .register-form input:nth-of-type(2), .register-form input:nth-of-type(4) {
+            margin-left: -1em;
+        }
+    }

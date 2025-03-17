@@ -36,3 +36,42 @@
     margin-top: 1em;
     font-size: 20px;
 }
+
+
+
+
+@media screen and (min-width: 48em) {
+
+    /* Tablet Projects Section - Home */
+    
+        .projects {
+            padding: 1em 0 3em 2em;
+        }
+    
+        .projects img {
+            width: 20em;
+        }
+    
+        .projects h3 {
+            font-size: 26px;
+        }
+    
+        .projects img:last-of-type {
+            display: block;
+            margin-left: -1em;
+        }
+    
+        .projects-text p {
+            font-size: 1em;
+            line-height: 31px;
+            max-width: 95%;
+        }
+    
+        .projects button {
+            width: 6.5em;
+            height: 2em;
+            padding: 0;
+            margin-top: 1em;
+            font-size: 26px;
+        }
+    }

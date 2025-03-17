@@ -25,3 +25,39 @@
     margin-top: 0.5em;
     font-size: 20px;
 }
+
+
+
+
+@media screen and (min-width: 48em) { 
+
+    /* Tablet Support Section - Members */
+    
+        .support {
+            padding: 2.75em 0 2.5em 2em;
+        }
+    
+        .support img {
+            width: 16em;
+        }
+    
+        .support-side {
+            margin-left: 2em;
+        }
+    
+        .support h2 {
+            margin: 0.75em 0 .75em;
+        }
+    
+        .support p {
+            line-height: 30px;
+            max-width: 90%;
+            padding-bottom: 0;
+        }
+    
+        .support button {
+            width: 4.5em;
+            height: 1.75em;
+            font-size: 25px;
+        }
+    }
