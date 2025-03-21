@@ -1,4 +1,6 @@
-/* Navigation Menu Section - Home */
+// Header Section - Home
+
+// Mobile Styling - Media Query
 
 header {
     background-color: #022873;
@@ -41,65 +43,58 @@ header {
     margin-left: -1.1em;
 }
 
-
-
+// Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) {
 
-    /* Tablet Navigation Menu Section - Home */
-    
-        header {
-            border-bottom: 15px solid #BF0B1A;
-        }
-    
-        #main_logo {
-            width: 10em;
-            margin: 20px;
-            margin-left: 35px;
-        }
-    
-        #hamburger {
-            display: none; 
-        }
-    
-        .nav-menu {
-            display: flex;
-            justify-content: flex-end;
-            margin-right: 2.25em;
-        }
-    
-        .nav-menu li {
-            margin-left: -1.1em;
-            padding-bottom: 0;
-        }
-    
-        .nav-menu ul {
-            display: flex;
-            gap: 3.5em;
-        }
-    
-        .sm-two-items {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            align-items: center;
-        }
-        
-        .sm-two-items > div:first-child {
-            grid-column: 1;
-        }
-        
-        .sm-two-items > nav {
-            grid-column: 2;
-        }
+    header {
+        border-bottom: 15px solid #BF0B1A;
     }
 
+    #main_logo {
+        width: 10em;
+        margin: 20px;
+        margin-left: 35px;
+    }
 
+    #hamburger {
+        display: none; 
+    }
 
+    .nav-menu {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 2.25em;
+    }
 
+    .nav-menu li {
+        margin-left: -1.1em;
+        padding-bottom: 0;
+    }
+
+    .nav-menu ul {
+        display: flex;
+        gap: 3.5em;
+    }
+
+    .sm-two-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    
+    .sm-two-items > div:first-child {
+        grid-column: 1;
+    }
+    
+    .sm-two-items > nav {
+        grid-column: 2;
+    }
+}
+
+// Desktop Styling - Media Query
 
 @media screen and (min-width: 64em) {
-
-/* Monitor Navigation Menu Section - Home */
 
     header {
         border-bottom: 18px solid #BF0B1A;
@@ -123,31 +118,25 @@ header {
     }
 }
 
-
-
-
-
-
+// Monitor Styling - Media Query
 
 @media screen and (min-width: 120em) {
 
-    /* Desktop Navigation Menu Section - Home */
-    
-        header {
-            height: 13em;
-        }
-    
-        #main_logo {
-            width: 17em;
-            margin: 28px;
-            margin-left: 25em;
-        }
-    
-        .nav-menu ul {
-            margin: 0 23em 0 -1em;
-        }
-    
-        .nav-menu a {
-            font-size: 34px;
-        }
-    }    
+    header {
+        height: 13em;
+    }
+
+    #main_logo {
+        width: 17em;
+        margin: 28px;
+        margin-left: 25em;
+    }
+
+    .nav-menu ul {
+        margin: 0 23em 0 -1em;
+    }
+
+    .nav-menu a {
+        font-size: 34px;
+    }
+}    

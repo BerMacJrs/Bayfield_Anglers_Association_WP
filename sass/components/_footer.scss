@@ -1,4 +1,6 @@
-/* Footer Section - Home */
+// Footer Section - Home
+
+// Mobile Styling - Media Query
 
 footer {
     background-color: #022873;
@@ -54,51 +56,45 @@ footer .full {
     width: 100%;
 }
 
-
-
+// Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) {
     
-    /* Tablet Footer Section - Home */
-    
-        footer {
-            border-top: 15px solid #BF0B1A;
-            padding-top: 2em;
-        }
-    
-        footer nav {
-            display: flex;
-            padding: 2.25em 0 2em 0.5em;
-        }
-    
-        footer nav a {
-            font-size: 18px;
-        }
-    
-        #footer_logo {
-            width: 13em;
-        }
-    
-        .social-media-icons img {
-            width: 2.5em;
-        }
-    
-        .item-one {
-            order: 2;
-        }
-    
-        .item-two {
-            order: 1;
-            margin-top: 1.5em;
-        }
+    footer {
+        border-top: 15px solid #BF0B1A;
+        padding-top: 2em;
     }
 
+    footer nav {
+        display: flex;
+        padding: 2.25em 0 2em 0.5em;
+    }
 
+    footer nav a {
+        font-size: 18px;
+    }
 
+    #footer_logo {
+        width: 13em;
+    }
+
+    .social-media-icons img {
+        width: 2.5em;
+    }
+
+    .item-one {
+        order: 2;
+    }
+
+    .item-two {
+        order: 1;
+        margin-top: 1.5em;
+    }
+}
+
+// Desktop Styling - Media Query
 
 @media screen and (min-width: 64em) {
-
-/* Monitor Footer Section - Home */
 
     footer {
         border-top: 18px solid #BF0B1A;
@@ -110,12 +106,9 @@ footer .full {
     }
 }
 
-
-
+// Monitor Styling - Media Query
 
 @media screen and (min-width: 120em) {
-
-/* Desktop Footer Section - Home */
 
     footer {
         border-top: 18px solid #BF0B1A;

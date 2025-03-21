@@ -1,6 +1,8 @@
 @use '../abstracts/index' as *;
 
-/* Basic Reset */
+// Global Styling - BAA
+
+// Mobile Styling - Media Query
 
 .hidden {
     display: none;
@@ -11,17 +13,12 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
     color: #202020;
-
 //     min-height: 100vh;
-//     box-sizing: border-box; 
-//     background-color: $light-bg-color;
 }
 
 html, body {
     scroll-behavior: smooth;
 }
-
-/* Font Import */
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Oswald", sans-serif;
@@ -92,8 +89,6 @@ button:hover {
     background-color: #F3F3F3;
 }
 
-/* Bullet Reset */
-
 ul {
     list-style: none;
 }
@@ -102,18 +97,13 @@ ul li a {
     text-decoration: none;
 }
 
-
-
+// Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) {
-
-/* Tablet Basic Reset - Home */
 
     .main-padding {
         padding-left: 2.5em;
     }
-
-/* Tablet Font Import - Home */
 
     h2 {
         font-size: 30px;
@@ -127,45 +117,33 @@ ul li a {
     }
 }
 
-
-
-
+// Desktop Styling - Media Query
     
 @media screen and (min-width: 64em) {
-
-    /* Monitor Basic Reset - Home */
     
-        .main-padding {
-            padding-left: 3.25em;
-        }
-    
-    /* Monitor Font Import - Home */
-    
-        h2 {
-            font-size: 35px;
-            width: 90%;
-        }
-    
-        .main-description {
-            font-size: 21px;
-            line-height: 41px;
-            max-width: 90%
-        }
+    .main-padding {
+        padding-left: 3.25em;
     }
 
+    h2 {
+        font-size: 35px;
+        width: 90%;
+    }
 
+    .main-description {
+        font-size: 21px;
+        line-height: 41px;
+        max-width: 90%
+    }
+}
 
-        
+// Monitor Styling - Media Query
 
 @media screen and (min-width: 120em) {
-
-/* Desktop Basic Reset - Home */
 
     .main-padding {
         padding-left: 25em;
     }
-
-/* Desktop Font Import - Home */
 
     h2 {
         font-size: 41px;

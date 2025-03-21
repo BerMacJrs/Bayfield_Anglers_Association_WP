@@ -1,4 +1,6 @@
-/* Announcements Section - Home */
+// Announcements Section - Home
+
+// Mobile Styling - Media Query
 
 .announce {
     padding: 1em 0 2em 1em;
@@ -20,36 +22,29 @@
     max-width: 90%;
 }
 
-
-
+// Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) {
-    
-    /* Tablet Announcements Section - Home */
-    
-        .announce {
-            padding: 1em 0 2.5em 2em;
-        }
-    
-        .announce img {
-            width: 6.5em;
-            margin-right: 1.8em;
-        }
-    
-        .announce .one-third p {
-            font-size: 1em;
-            max-width: 98%;
-            margin-left: -3.5em;
-        }
+
+    .announce {
+        padding: 1em 0 2.5em 2em;
     }
 
+    .announce img {
+        width: 6.5em;
+        margin-right: 1.8em;
+    }
 
+    .announce .one-third p {
+        font-size: 1em;
+        max-width: 98%;
+        margin-left: -3.5em;
+    }
+}
 
-
+// Desktop Styling - Media Query
 
 @media screen and (min-width: 64em) {
-
-/* Monitor Announcements Section - Home */
 
     .announce {
         padding: 1em 0 3em 3em;
@@ -67,13 +62,9 @@
     }
 }
 
-
-
-
+// Monitor Styling - Media Query
 
 @media screen and (min-width: 120em) {
-
-/* Desktop Announcements Section - Home */
 
     .announce {
         padding: 1.5em 0 4em 3em;

@@ -1,4 +1,6 @@
-/* Features Section - Home */
+// Features Section - Home
+
+// Mobile Styling - Media Query
 
 .features {
     background-color: #F3F3F3;
@@ -29,46 +31,41 @@
     line-height: 21px;
 }
 
-
-
+// Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) {
-
-    /* Tablet Features Section - Home */
     
-        .features {
-            padding: 1.5em 0 1.5em 2em;
-        }
-    
-        .features .one-third {
-            margin-bottom: 0.8em;
-        }
-        
-        .features .features-desc {
-            margin-left: -6.5em;
-        }
-    
-        .features img {
-            width: 4em;
-            margin-right: 1.5em;
-        }
-    
-        .features h3 {
-            font-size: 26px;
-        }
-    
-        .features p {
-            max-width: 95%;
-            font-size: 1em;
-            line-height: 28px;
-        }
+    .features {
+        padding: 1.5em 0 1.5em 2em;
     }
 
+    .features .one-third {
+        margin-bottom: 0.8em;
+    }
+    
+    .features .features-desc {
+        margin-left: -6.5em;
+    }
 
+    .features img {
+        width: 4em;
+        margin-right: 1.5em;
+    }
+
+    .features h3 {
+        font-size: 26px;
+    }
+
+    .features p {
+        max-width: 95%;
+        font-size: 1em;
+        line-height: 28px;
+    }
+}
+
+// Desktop Styling - Media Query
 
 @media screen and (min-width: 64em) {
-
-/* Monitor Features Section - Home */
 
     .features {
         padding: 1.5em 0 1em 3em;
@@ -97,13 +94,9 @@
     }
 }
 
-
-
-
+// Monitor Styling - Media Query
 
 @media screen and (min-width: 120em) {
-
-/* Desktop Features Section - Home */
 
     .features {
         padding: 2em 0 2em 5.5em;
