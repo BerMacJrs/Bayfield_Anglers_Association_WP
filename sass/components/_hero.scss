@@ -1,4 +1,6 @@
-/* Hero Section - Home */
+// Introduction Section - Home
+
+// Mobile Styling - Media Query
 
 .hero {
     margin: 0 0;
@@ -48,36 +50,32 @@
     margin: 17em 0 0 1.30em;
 }
 
-
+// Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) {
 
-    /* Tablet Hero Section - Home */
-    
-        .hero-img p {
-            font-size: 33px;
-            margin: 1.5em 0 0 2.1em;
-        }
-    
-        .hero-img h2 {
-            font-size: 76px;
-            line-height: 90px;
-    
-            margin: .8em 0 0 .9em;
-        }
-    
-        .hero-img button {
-            font-size: 28px;
-            width: 6.5em;
-            margin: 18em 0 0 2.5em;
-        }
+    .hero-img p {
+        font-size: 33px;
+        margin: 1.5em 0 0 2.1em;
     }
 
+    .hero-img h2 {
+        font-size: 76px;
+        line-height: 90px;
 
+        margin: .8em 0 0 .9em;
+    }
+
+    .hero-img button {
+        font-size: 28px;
+        width: 6.5em;
+        margin: 18em 0 0 2.5em;
+    }
+}
+
+// Desktop Styling - Media Query
 
 @media screen and (min-width: 64em) {
-
-/* Monitor Hero Section - Home */
 
     .hero-img p {
         font-size: 41px;
@@ -98,13 +96,9 @@
     }
 }
 
-
-
-
+// Monitor Styling - Media Query
 
 @media screen and (min-width: 120em) {
-
-/* Desktop Hero Section - Home */
 
     .hero-img img {
         height: 875px;

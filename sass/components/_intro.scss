@@ -1,4 +1,6 @@
-/* Introduction Section - Home */
+// Introduction Section - Home
+
+// Mobile Styling - Media Query
 
 .intro {
     padding: 0.5em 0 2em 1em;
@@ -23,42 +25,36 @@
     width: 22.5em;
 }
 
-
+// Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) {
 
-    /* Tablet Introduction Section - Home */
-    
-        .intro {
-            padding: 1.5em 0 2.5em 2em;
-        }
-    
-        .intro p {
-            font-size: 20px;
-            max-width: 93%;
-            line-height: 38px;
-        }
-    
-        .intro img:first-of-type, .intro img:last-of-type {
-            display: block;
-        }
-    
-        .intro .sm-three-items {
-            max-width: 90%;
-        }
-    
-        .intro img {
-            width: 13.8em;
-        }
+    .intro {
+        padding: 1.5em 0 2.5em 2em;
     }
 
+    .intro p {
+        font-size: 20px;
+        max-width: 93%;
+        line-height: 38px;
+    }
 
+    .intro img:first-of-type, .intro img:last-of-type {
+        display: block;
+    }
 
+    .intro .sm-three-items {
+        max-width: 90%;
+    }
 
+    .intro img {
+        width: 13.8em;
+    }
+}
+
+// Desktop Styling - Media Query
     
 @media screen and (min-width: 64em) {
-
-/* Monitor Introduction Section - Home */
 
     .intro {
         padding: 2em 0 3em 3em;
@@ -78,29 +74,25 @@
     }
 }
 
-
-
-
+// Monitor Styling - Media Query
 
 @media screen and (min-width: 120em) {
 
-    /* Desktop Introduction Section - Home */
-    
-        .intro {
-            padding: 3em 0 3.5em 3em;
-        }
-    
-        .intro p {
-            font-size: 25px;
-            line-height: 46px;
-            max-width: 90%;
-        }
-    
-        .intro img {
-            width: 21em;
-        }
-    
-        .intro .lg-three-items {
-            max-width: 95%;
-        }
+    .intro {
+        padding: 3em 0 3.5em 3em;
     }
+
+    .intro p {
+        font-size: 25px;
+        line-height: 46px;
+        max-width: 90%;
+    }
+
+    .intro img {
+        width: 21em;
+    }
+
+    .intro .lg-three-items {
+        max-width: 95%;
+    }
+}

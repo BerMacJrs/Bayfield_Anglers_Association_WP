@@ -1,6 +1,6 @@
-/* Members Page Styles Start */
+// Contributors Section - Members
 
-/* Contributor Section - Members */
+// Mobile Styling - Media Query
 
 .contributors {
     padding: 0 0 2.5em 1em;
@@ -30,39 +30,31 @@
     font-family: "Merriweather", serif;
 }
 
-
-
+// Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) { 
 
-    /* Tablet Contributor Section - Members */
-    
-        .contributors {
-            padding: 0 0 2.5em 2em;
-        }
-    
-        .contributors .main-description {
-            font-size: 20px;
-            line-height: 35px;
-        }
-    
-        .contributor-list ul {
-            grid-template-columns: repeat(3, 1fr);
-        }
-    
-        .contributor-list li {
-            font-size: 18px;
-        }
-    }    
+    .contributors {
+        padding: 0 0 2.5em 2em;
+    }
 
+    .contributors .main-description {
+        font-size: 20px;
+        line-height: 35px;
+    }
 
+    .contributor-list ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
+    .contributor-list li {
+        font-size: 18px;
+    }
+}    
 
-
+// Desktop Styling - Media Query
 
 @media screen and (min-width: 64em) {
-
-/* Monitor Contributor Section - Members */
 
     .contributors {
         padding: 0 0 2.5em 3em;
@@ -79,14 +71,9 @@
     }
 }
 
-
-
-
-
+// Monitor Styling - Media Query
 
 @media screen and (min-width: 120em) {
-
-/* Desktop Contributor Section - Members */
 
     .contributors {
         padding: 0 0 3em 3em;

@@ -1,4 +1,6 @@
-/* Support Section - Members */
+// Support Section - Members
+
+// Mobile Styling - Media Query
 
 .support {
     padding: 2.25em 0 2.5em 1em;
@@ -26,49 +28,42 @@
     font-size: 20px;
 }
 
-
-
+// Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) { 
 
-    /* Tablet Support Section - Members */
-    
-        .support {
-            padding: 2.75em 0 2.5em 2em;
-        }
-    
-        .support img {
-            width: 16em;
-        }
-    
-        .support-side {
-            margin-left: 2em;
-        }
-    
-        .support h2 {
-            margin: 0.75em 0 .75em;
-        }
-    
-        .support p {
-            line-height: 30px;
-            max-width: 90%;
-            padding-bottom: 0;
-        }
-    
-        .support button {
-            width: 4.5em;
-            height: 1.75em;
-            font-size: 25px;
-        }
+    .support {
+        padding: 2.75em 0 2.5em 2em;
     }
 
+    .support img {
+        width: 16em;
+    }
 
+    .support-side {
+        margin-left: 2em;
+    }
 
-    
+    .support h2 {
+        margin: 0.75em 0 .75em;
+    }
+
+    .support p {
+        line-height: 30px;
+        max-width: 90%;
+        padding-bottom: 0;
+    }
+
+    .support button {
+        width: 4.5em;
+        height: 1.75em;
+        font-size: 25px;
+    }
+}
+
+// Desktop Styling - Media Query
 
 @media screen and (min-width: 64em) {
-
-/* Monitor Support Section - Members */
 
     .support {
         padding: 3.25em 0 3.25em 3em;
@@ -88,14 +83,9 @@
     }
 }
 
-
-
-
-
+// Monitor Styling - Media Query
 
 @media screen and (min-width: 120em) {
-
-/* Desktop Support Section - Members */
 
     .support {
         padding: 4em 0 3.25em 6em;
