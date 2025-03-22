@@ -15,21 +15,6 @@
     padding-bottom: 0.75em;
 }
 
-.contributor-list ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    padding: 0;
-    margin: 0;
-}
-
-.contributor-list li {
-    padding: 5px 0;
-    font-size: 1em;
-    font-weight: 600;
-    font-family: "Merriweather", serif;
-}
-
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) { 
@@ -41,14 +26,6 @@
     .contributors .main-description {
         font-size: 20px;
         line-height: 35px;
-    }
-
-    .contributor-list ul {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .contributor-list li {
-        font-size: 18px;
     }
 }    
 
@@ -64,11 +41,6 @@
         font-size: 25px;
         line-height: 45px;
     }
-
-    .contributor-list li {
-        font-size: 25px;
-        padding-bottom: 0.5em;
-    }
 }
 
 // Monitor Styling - Media Query
@@ -77,9 +49,5 @@
 
     .contributors {
         padding: 0 0 3em 3em;
-    }
-
-    .contributor-list li {
-        font-size: 28px;
     }
 }
