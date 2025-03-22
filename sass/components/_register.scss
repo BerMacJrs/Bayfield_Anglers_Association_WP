@@ -21,7 +21,7 @@
     margin-bottom: 2em;
 }
 
-.register-form input, textarea {
+.register-form input, .register-form textarea {
     font-family: "Oswald", sans-serif;
     font-size: 1em;
 
@@ -112,7 +112,7 @@ input:focus, textarea:focus, select:focus {
         line-height: 45px;
     }
 
-    .register-form input, textarea {
+    .register-form input, .register-form textarea {
         font-size: 24px;
     }
 
@@ -144,7 +144,7 @@ input:focus, textarea:focus, select:focus {
         max-width: 91%;
     }
 
-    .register-form input, textarea {
+    .register-form input, .register-form  textarea {
         font-size: 25px;
     }
 
@@ -153,7 +153,7 @@ input:focus, textarea:focus, select:focus {
     }
 
     .register-form textarea {
-        width: 43.5em;
+        width: 94%;
     }
 
     .register-form input[type="submit"] {
