@@ -22,8 +22,10 @@
 }
 
 .team-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    margin-left: -1.3em;
 }
 
 .team-container h3 {
