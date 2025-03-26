@@ -14,6 +14,7 @@
 .intro p {
     max-width: 92%;
     line-height: 28px;
+    margin-bottom: 8px;
 }
 
 .intro img:first-of-type, .intro img:last-of-type {
@@ -21,7 +22,7 @@
 }
 
 .intro img {
-    margin: 1em 0 0.5em 0;
+    margin: 2em 0 0.5em 0;
     width: 22.5em;
 }
 
@@ -90,6 +91,7 @@
 
     .intro img {
         width: 21em;
+        margin-top: 3em;
     }
 
     .intro .lg-three-items {
