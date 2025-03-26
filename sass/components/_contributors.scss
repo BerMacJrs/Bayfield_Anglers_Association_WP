@@ -15,17 +15,26 @@
     padding-bottom: 0.75em;
 }
 
+.contributors img {
+    width: 100%;
+    padding-right: 2em;
+}
+
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) { 
 
     .contributors {
-        padding: 0 0 2.5em 2em;
+        padding: 0 0 3.5em 2em;
     }
 
     .contributors .main-description {
         font-size: 20px;
         line-height: 35px;
+    }
+
+    .contributors img {
+        padding-right: 8em;
     }
 }    
 
@@ -34,12 +43,16 @@
 @media screen and (min-width: 64em) {
 
     .contributors {
-        padding: 0 0 2.5em 3em;
+        padding: 0 0 3.5em 3em;
     }
 
     .contributors .main-description {
         font-size: 25px;
         line-height: 45px;
+    }
+
+    .contributors img {
+        padding-right: 12em;
     }
 }
 
@@ -48,6 +61,10 @@
 @media screen and (min-width: 120em) {
 
     .contributors {
-        padding: 0 0 3em 3em;
+        padding: 0 0 4em 3em;
+    }
+
+    .contributors img {
+        padding-right: 15em;
     }
 }
