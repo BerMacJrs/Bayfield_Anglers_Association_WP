@@ -1,3 +1,5 @@
+@use '../abstracts/index' as *;
+
 // Contact Section - Contact
 
 // Mobile Styling - Media Query
@@ -19,7 +21,7 @@
 }
 
 .contact-form input, textarea {
-    font-family: "Oswald", sans-serif;
+    font-family: $heading-font-family;
     font-size: 1em;
 
     width: 22.5em;
@@ -28,7 +30,7 @@
 
     border-width: 2px;
     border-style: solid;
-    border-color: #202020;
+    border-color: $text-color;
     border-radius: 5px;
 }
 
@@ -40,11 +42,11 @@
     border-radius: 8px;
 
     font-size: 20px;
-    font-family: "Oswald", sans-serif;
+    font-family: $heading-font-family;
     text-transform: uppercase;
     font-weight: 450;
 
-    background-color: #BF0B1A;
+    background-color: $secondary-color;
     color: white;
 
     outline: none;
@@ -53,12 +55,12 @@
 }
 
 .contact-form input[type="submit"]:hover {
-    background-color: #ab0917;
+    background-color: $button-hover;
 }
 
 .contact-check p {
     font-size: 17px;
-    font-family: "Oswald", sans-serif;
+    font-family: $heading-font-family;
     margin: 0 0 0 -4em;
     padding: 0;
     max-width: 100%;
@@ -78,7 +80,7 @@
 }
 
 .contact-info h4 {
-    font-family: "Merriweather", serif;
+    font-family: $body-font-family;
     font-size: 1em;
     margin-bottom: 0;
 }

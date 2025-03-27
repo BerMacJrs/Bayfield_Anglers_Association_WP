@@ -1,10 +1,12 @@
+@use '../abstracts/index' as *;
+
 // Header Section - Home
 
 // Mobile Styling - Media Query
 
 header {
-    background-color: #022873;
-    border-bottom: 10px solid #BF0B1A;
+    background-color: $primary-color;
+    border-bottom: 10px solid $secondary-color;
     position: sticky;
     top: 0;
 }
@@ -48,7 +50,7 @@ header {
 @media screen and (min-width: 48em) {
 
     header {
-        border-bottom: 15px solid #BF0B1A;
+        border-bottom: 15px solid $secondary-color;
     }
 
     #main_logo {
@@ -97,7 +99,7 @@ header {
 @media screen and (min-width: 64em) {
 
     header {
-        border-bottom: 18px solid #BF0B1A;
+        border-bottom: 18px solid $secondary-color;
     }
 
     #main_logo {

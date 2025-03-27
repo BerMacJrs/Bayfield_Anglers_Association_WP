@@ -1,10 +1,12 @@
+@use '../abstracts/index' as *;
+
 // Footer Section - Home
 
 // Mobile Styling - Media Query
 
 footer {
-    background-color: #022873;
-    border-top: 10px solid #BF0B1A;
+    background-color: $primary-color;
+    border-top: 10px solid $secondary-color;
 }
 
 footer nav {
@@ -42,7 +44,7 @@ footer nav a {
 }
 
 footer p {
-    font-family: "Oswald", sans-serif;
+    font-family: $heading-font-family;
     color: #8194B9;
     margin: 0;
     padding-bottom: 0.8em;
@@ -61,7 +63,7 @@ footer .full {
 @media screen and (min-width: 48em) {
     
     footer {
-        border-top: 15px solid #BF0B1A;
+        border-top: 15px solid $secondary-color;
         padding-top: 2em;
     }
 
@@ -97,7 +99,7 @@ footer .full {
 @media screen and (min-width: 64em) {
 
     footer {
-        border-top: 18px solid #BF0B1A;
+        border-top: 18px solid $secondary-color;
         padding-top: 2em;
     }
 
@@ -111,7 +113,7 @@ footer .full {
 @media screen and (min-width: 120em) {
 
     footer {
-        border-top: 18px solid #BF0B1A;
+        border-top: 18px solid $secondary-color;
         padding-top: 2em;
     }
 
