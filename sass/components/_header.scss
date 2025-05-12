@@ -9,6 +9,8 @@ header {
     border-bottom: 10px solid $secondary-color;
     position: sticky;
     top: 0;
+    z-index: 1000;
+    will-change: transform;
 }
 
 #main_logo {
