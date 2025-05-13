@@ -3,7 +3,7 @@
 // Mobile Styling - Media Query
 
 .events {
-    padding: 0.5em 0 1em 1em;
+    padding: 0.5em 0 1em 0;
 }
 
 .events h2 {
@@ -28,7 +28,7 @@
 .events-desc p {
     font-size: 14px;
     line-height: 24px;
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .events-side {
@@ -40,7 +40,7 @@
 @media screen and (min-width: 48em) {
     
     .events {
-        padding: 1.5em 0 2em 2em;
+        padding: 1.5em 0 2em 0;
     }
 
     .events h2 {
@@ -64,7 +64,6 @@
     .events-desc p {
         font-size: 17px;
         line-height: 29px;
-        max-width: 90%;
     }
 
     .events-side {
@@ -77,7 +76,7 @@
 @media screen and (min-width: 64em) {
 
     .events {
-        padding: 2em 0 2.5em 3em;
+        padding: 2em 0 2.5em 0;
     }
 
     .events h2 {
@@ -100,7 +99,7 @@
     .events-desc p {
         font-size: 20px;
         line-height: 41px;
-        max-width: 91%;
+        padding-right: 3rem;
     }
 
     .events-side {
@@ -113,7 +112,7 @@
 @media screen and (min-width: 120em) {
 
     .events {
-        padding: 2.5em 0 3em 3em;
+        padding: 2.5em 0 3em 0;
     }
 
     .events h2 {
@@ -136,7 +135,6 @@
     .events-desc p {
         font-size: 23px;
         line-height: 41px;
-        max-width: 88%;
     }
 
     .events-side {
