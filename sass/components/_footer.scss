@@ -30,6 +30,11 @@ footer nav a {
     width: 8em;
     margin-bottom: 1em;
     justify-self: center;
+    transition: transform 0.1s ease-out;
+}
+
+#footer_logo:hover {
+    transform:scale(0.95);
 }
 
 .social-media-icons {
@@ -37,6 +42,11 @@ footer nav a {
     display: flex;
     gap: .7em;
     margin-bottom: 3em;
+    transition: transform 0.2s ease-out;
+}
+
+.social-media-icons img:hover {
+    transform:scale(0.95);
 }
 
 .social-media-icons img {

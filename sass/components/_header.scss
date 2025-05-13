@@ -16,6 +16,11 @@ header {
 #main_logo {
     width: 10em;
     margin: 20px;
+    transition: transform 0.1s ease-out;
+}
+
+#main_logo:hover {
+    transform:scale(0.95);
 }
 
 #hamburger {
