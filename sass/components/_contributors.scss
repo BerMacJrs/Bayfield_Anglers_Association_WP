@@ -3,7 +3,7 @@
 // Mobile Styling - Media Query
 
 .contributors {
-    padding: 0 0 2.5em 1em;
+    padding: 0 0 2.5em 0;
 }
 
 .contributors h2 {
@@ -13,6 +13,7 @@
 .contributors .main-description {
     line-height: 30px;
     padding-bottom: 0.75em;
+    max-width: 100%;
 }
 
 .contributors img {
@@ -25,7 +26,7 @@
 @media screen and (min-width: 48em) { 
 
     .contributors {
-        padding: 0 0 3.5em 2em;
+        padding: 0 0 3.5em 0;
     }
 
     .contributors .main-description {
@@ -43,7 +44,7 @@
 @media screen and (min-width: 64em) {
 
     .contributors {
-        padding: 0 0 3.5em 3em;
+        padding: 0 0 3.5em 0;
     }
 
     .contributors .main-description {
@@ -61,7 +62,7 @@
 @media screen and (min-width: 120em) {
 
     .contributors {
-        padding: 0 0 4em 3em;
+        padding: 0 0 4em 0;
     }
 
     .contributors img {

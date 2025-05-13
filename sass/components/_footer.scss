@@ -43,12 +43,13 @@ footer nav a {
     width: 1.8em;
 }
 
-footer p {
+footer p, .credits a {
     font-family: $heading-font-family;
     color: #8194B9;
     margin: 0;
-    padding-bottom: 0.8em;
+    margin-bottom: 0.8em;
     justify-self: center;
+    text-align: center;
 }
 
 footer .full {
@@ -57,6 +58,29 @@ footer .full {
     align-items: center;
     width: 100%;
 }
+
+footer a {
+    text-decoration: none;
+}
+
+.footer-mobile {
+    display: block;
+}
+
+.footer-desktop {
+    display: none;
+}
+
+.footer-mobile p {
+    margin: 0;
+    padding: 0;
+}
+
+.credits {
+    padding-bottom: 1rem;
+}
+
+
 
 // Tablet Styling - Media Query
 
@@ -70,6 +94,7 @@ footer .full {
     footer nav {
         display: flex;
         padding: 2.25em 0 2em 0.5em;
+        transform: translateX(-3rem);
     }
 
     footer nav a {
@@ -92,6 +117,18 @@ footer .full {
         order: 1;
         margin-top: 1.5em;
     }
+
+    .footer-mobile {
+        display: none;
+    }
+
+    .footer-desktop {
+        display: block;
+    }
+
+    .credits {
+        padding-bottom: 0;
+    }
 }
 
 // Desktop Styling - Media Query
@@ -105,6 +142,10 @@ footer .full {
 
     footer nav a {
         font-size: 23px;
+    }
+
+    .credits p {
+        font-size: 1.25rem;
     }
 }
 
@@ -132,5 +173,9 @@ footer .full {
     
     .item-two {
         margin-left: 10em;
+    }
+
+    .credits p {
+        font-size: 1.5rem;
     }
 }

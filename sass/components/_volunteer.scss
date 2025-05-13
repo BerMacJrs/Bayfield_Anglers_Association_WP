@@ -3,7 +3,7 @@
 // Mobile Styling - Media Query
 
 .volunteer {
-    padding: 1em 0 2.65em 1em;
+    padding: 1em 0 2.65em 0;
 }
 
 .volunteer h2 {
@@ -12,7 +12,7 @@
 
 .volunteer .main-description {
     line-height: 30px;
-    max-width: 90%;
+    max-width: 100%;
     padding-bottom: 1.35em;
 }
 
@@ -25,7 +25,7 @@
 @media screen and (min-width: 48em) { 
     
     .volunteer {
-        padding: 2em 2.25em 1em 2em;
+        padding: 2em 0 1em 0;
     }
 
     .volunteer h2 {
@@ -33,8 +33,7 @@
     }
 
     .volunteer .main-description {
-        max-width: 90%;
-        padding-bottom: 1.35em;
+        padding: 0 1.75em 1.35em 0;
     }
 
     .volunteer img {
@@ -48,7 +47,7 @@
 @media screen and (min-width: 64em) {
 
     .volunteer {
-        padding: 2em 2.25em 2.5em 3em;
+        padding: 2em 0 2.5em 0;
     }
 
     .volunteer .main-description {
@@ -69,7 +68,7 @@
 @media screen and (min-width: 120em) {
 
     .volunteer {
-        padding: 1.5em 2.25em 3em 8.5em;
+        padding: 1.5em 0 3em 0;
     }
 
     .volunteer h2 {
@@ -79,7 +78,7 @@
     .volunteer .main-description {
         font-size: 25px;
         line-height: 45px;
-        max-width: 80%;
+        padding: 0 7rem 0 0;
     }
 
     .volunteer img {

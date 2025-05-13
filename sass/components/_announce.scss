@@ -3,7 +3,7 @@
 // Mobile Styling - Media Query
 
 .announce {
-    padding: 1em 0 2em 1em;
+    padding: 1em 0 2em 0;
 }
 
 .announce h2 {
@@ -19,7 +19,7 @@
 .announce .one-third p {
     font-size: 14px;
     line-height: 28px;
-    max-width: 90%;
+    max-width: 100%;
 }
 
 // Tablet Styling - Media Query
@@ -27,7 +27,7 @@
 @media screen and (min-width: 48em) {
 
     .announce {
-        padding: 1em 0 2.5em 2em;
+        padding: 1em 0 2.5em 0;
     }
 
     .announce img {
@@ -37,7 +37,6 @@
 
     .announce .one-third p {
         font-size: 1em;
-        max-width: 98%;
         margin-left: -3.5em;
     }
 }
@@ -47,7 +46,7 @@
 @media screen and (min-width: 64em) {
 
     .announce {
-        padding: 1em 0 3em 3em;
+        padding: 1em 0 3em 0;
     }
 
     .announce img {
@@ -57,8 +56,8 @@
     .announce .one-third p {
         font-size: 19px;
         line-height: 35px;
-        max-width: 90%;
-        margin: 0.8em 0 1.25em -7em;
+        margin: 1.80rem 0 1.25rem -7rem;
+        padding-right: 0;
     }
 }
 
@@ -67,7 +66,7 @@
 @media screen and (min-width: 120em) {
 
     .announce {
-        padding: 1.5em 0 4em 3em;
+        padding: 1.5em 0 4em 0;
     }
 
     .announce img {
@@ -77,8 +76,6 @@
     .announce .one-third p {
         font-size: 23px;
         line-height: 41px;
-
-        max-width: 105%;
         padding-top: 18px;
         margin: 0.8em 0 1.5em -4em;
     }

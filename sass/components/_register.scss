@@ -5,7 +5,7 @@
 // Mobile Styling - Media Query
 
 .register {
-    padding: 1em 0 1.75em 1em;
+    padding: 1em 0 1.75em 0;
 }
 
 .register h2 {
@@ -14,7 +14,7 @@
 
 .register .main-description {
     line-height: 30px;
-    max-width: 90%;
+    max-width: 100%;
     padding-bottom: 1em;
 }
 
@@ -70,35 +70,45 @@ input:focus, textarea:focus, select:focus {
 @media screen and (min-width: 48em) { 
 
     .register {
-        padding: 1em 0 1.75em 2em;
+        padding: 1em 0 1.75em 0;
     }
 
     .register .main-description {
-        max-width: 95%;
         padding-bottom: 1.25em;
     }
 
-    .register-form input {
-        width: 21em;
+    .register-form textarea {
+        padding-bottom: 1em;
         margin-bottom: 1em;
+        width: 100%;
     }
 
-    .register-form textarea {
-        width: 43em;
-        height: 10em;
-
-        margin-bottom: 1em;
-        padding: .5em;
+    .register-form input, .register-form textarea {
+        width: 100%;
+        margin-bottom: 0.5rem;
+        padding: 0.5em;
     }
 
     .register-form input[type="submit"] {
         padding: 5px 0px 5px 0px;
-        margin-top: 1em;
-        width: 34.5em;
+        width: 100%;
     }
 
-    .register-form input:nth-of-type(2), .register-form input:nth-of-type(4) {
-        margin-left: -1em;
+    .form-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="tel"] {
+        flex: 1 1 calc(50% - 1rem);
+    }
+
+    .form-group textarea,
+    .form-group input[type="submit"] {
+        flex: 1 1 100%;
     }
 }
 
@@ -107,7 +117,7 @@ input:focus, textarea:focus, select:focus {
 @media screen and (min-width: 64em) {
 
     .register {
-        padding: 1.5em 0 2em 3em;
+        padding: 1.5em 0 3em 0;
     }
 
     .register .main-description {
@@ -138,13 +148,12 @@ input:focus, textarea:focus, select:focus {
 @media screen and (min-width: 120em) {
 
     .register {
-        padding: 1.5em 0 2em 3em;
+        padding: 1.5em 0 3em 0;
     }
 
     .register .main-description {
         font-size: 25px;
         line-height: 45px;
-        max-width: 91%;
     }
 
     .register-form input, .register-form  textarea {

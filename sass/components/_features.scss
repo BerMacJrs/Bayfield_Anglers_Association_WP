@@ -3,7 +3,7 @@
 // Mobile Styling - Media Query
 
 .features {
-    padding: 0.5em 0 1em 1em;
+    padding: 0.5em 0 1em 0;
 }
 
 .features .one-third {
@@ -25,7 +25,7 @@
 }
 
 .features p {
-    max-width: 93%;
+    max-width: 100%;
     font-size: 14px;
     line-height: 21px;
 }
@@ -35,7 +35,7 @@
 @media screen and (min-width: 48em) {
     
     .features {
-        padding: 1.5em 0 1.5em 2em;
+        padding: 1.5em 0 1.5em 0;
     }
 
     .features .one-third {
@@ -56,7 +56,6 @@
     }
 
     .features p {
-        max-width: 95%;
         font-size: 1em;
         line-height: 28px;
     }
@@ -67,7 +66,7 @@
 @media screen and (min-width: 64em) {
 
     .features {
-        padding: 1.5em 0 1em 3em;
+        padding: 1.5em 0 1em 0;
     }
 
     .features .one-third {
@@ -87,9 +86,9 @@
     }
 
     .features p {
-        max-width: 95%;
         font-size: 21.5px;
         line-height: 35px;
+        padding-right: 3rem;
     }
 }
 
@@ -98,7 +97,7 @@
 @media screen and (min-width: 120em) {
 
     .features {
-        padding: 2em 0 2em 5.5em;
+        padding: 2em 0 2em 0;
     }
 
     .features .one-third {
@@ -119,9 +118,7 @@
     }
 
     .features p {
-        max-width: 90%;
         margin-top: 0.5em;
-
         font-size: 25px;
         line-height: 41px;
     }
