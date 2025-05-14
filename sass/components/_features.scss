@@ -6,17 +6,8 @@
     padding: 0.5em 0 1em 0;
 }
 
-.features .one-third {
-    margin-bottom: 0.5em;
-}
-
 .features img {
     width: 3em;
-    padding-top: 0.5em;
-}
-
-.features .features-desc {
-    margin-left: -30px;
 }
 
 .features h3 {
@@ -30,6 +21,18 @@
     line-height: 21px;
 }
 
+.features-sides {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.features-sides:first-of-type {
+    margin-bottom: 0.5rem;
+}
+
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) {
@@ -38,17 +41,8 @@
         padding: 1.5em 0 1.5em 0;
     }
 
-    .features .one-third {
-        margin-bottom: 0.8em;
-    }
-    
-    .features .features-desc {
-        margin-left: -6.5em;
-    }
-
     .features img {
         width: 4em;
-        margin-right: 1.5em;
     }
 
     .features h3 {
@@ -59,6 +53,14 @@
         font-size: 1em;
         line-height: 28px;
     }
+
+    .features-sides {
+        gap: 2rem;
+    }
+
+    .features-sides:first-of-type {
+        margin-bottom: 0.5rem;
+    }
 }
 
 // Desktop Styling - Media Query
@@ -66,19 +68,15 @@
 @media screen and (min-width: 64em) {
 
     .features {
-        padding: 1.5em 0 1em 0;
-    }
-
-    .features .one-third {
-        margin: 0.5em 0 1em 0;
-    }
-    
-    .features .features-desc {
-        margin-left: -11.5em;
+        padding: 1.5em 0 1.75em 0;
     }
 
     .features img {
         width: 4.5em
+    }
+
+    .features h2 {
+        margin-bottom: 2.5rem;
     }
 
     .features h3 {
@@ -88,7 +86,14 @@
     .features p {
         font-size: 21.5px;
         line-height: 35px;
-        padding-right: 3rem;
+    }
+
+    .features-sides {
+        gap: 2.5rem;
+    }
+
+    .features-sides:first-of-type {
+        margin-bottom: 0.5rem;
     }
 }
 
@@ -100,17 +105,12 @@
         padding: 2em 0 2em 0;
     }
 
-    .features .one-third {
-        margin: 1em 0 1em 0;
-    }
-    
-    .features .features-desc {
-        margin-left: -11em;
-    }
-
     .features img {
         width: 5.5em;
-        margin-left: 0.5em;
+    }
+
+    .features h2 {
+        margin-bottom: 3rem;
     }
 
     .features h3 {
@@ -118,7 +118,6 @@
     }
 
     .features p {
-        margin-top: 0.5em;
         font-size: 25px;
         line-height: 41px;
     }
