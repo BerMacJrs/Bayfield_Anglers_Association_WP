@@ -52,6 +52,14 @@
     margin: 17em 0 0 1.30em;
 }
 
+.hero-mobile {
+    display: block;
+}
+
+.hero-desktop {
+    display: none;
+}
+
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) {
@@ -64,7 +72,6 @@
     .hero-img h2 {
         font-size: 76px;
         line-height: 90px;
-
         margin: .8em 0 0 .9em;
     }
 
@@ -72,6 +79,14 @@
         font-size: 28px;
         width: 6.5em;
         margin: 18em 0 0 2.5em;
+    }
+
+    .hero-mobile {
+        display: none;
+    }
+
+    .hero-desktop {
+        display: block;
     }
 }
 
