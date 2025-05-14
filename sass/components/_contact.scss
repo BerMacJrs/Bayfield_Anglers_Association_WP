@@ -24,7 +24,7 @@
     font-family: $heading-font-family;
     font-size: 1em;
 
-    width: 22.5em;
+    width: 100%;
     margin-bottom: 1em;
     padding: .5em;
 
@@ -32,13 +32,14 @@
     border-style: solid;
     border-color: $text-color;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 
 .contact-form input[type="submit"] {
     border: none;
     padding: 5px 0px 5px 0px;
     margin-top: 0;
-    width: 18em;
+    width: 100%;
     border-radius: 8px;
 
     font-size: 20px;
