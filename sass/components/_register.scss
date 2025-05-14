@@ -5,7 +5,7 @@
 // Mobile Styling - Media Query
 
 .register {
-    padding: 1em 0 1.75em 0;
+    padding: 1em 0 1em 0;
 }
 
 .register h2 {
@@ -40,9 +40,11 @@
 
 .register-form input[type="submit"] {
     border: none;
-    padding: 5px 0px 5px 0px;
-    width: 18em;
     border-radius: 8px;
+
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 1rem;
+    width: 18em;
 
     font-size: 20px;
     font-family: $heading-font-family;
@@ -70,7 +72,7 @@ input:focus, textarea:focus, select:focus {
 @media screen and (min-width: 48em) { 
 
     .register {
-        padding: 1em 0 1.75em 0;
+        padding: 1em 0 1em 0;
     }
 
     .register .main-description {
@@ -117,7 +119,7 @@ input:focus, textarea:focus, select:focus {
 @media screen and (min-width: 64em) {
 
     .register {
-        padding: 1.5em 0 3em 0;
+        padding: 1.5em 0 1.5em 0;
     }
 
     .register .main-description {
@@ -148,7 +150,7 @@ input:focus, textarea:focus, select:focus {
 @media screen and (min-width: 120em) {
 
     .register {
-        padding: 1.5em 0 3em 0;
+        padding: 1.5em 0 1.5em 0;
     }
 
     .register .main-description {

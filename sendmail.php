@@ -32,7 +32,7 @@ $stmt->bindParam(5, $msg, PDO::PARAM_STR);
 
 if ($stmt->execute()) {
     $to = 'bernardomacfanshawe@gmail.com';
-    $subject = "New registration form submission";
+    $subject = "BAA Website - Email Received";
     $body = "You've received a new message:\n\n";
     $body .= "Name: $fname $lname\n";
     $body .= "Email: $email\n";
