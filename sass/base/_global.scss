@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
     color: $text-color;
-//     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 html, body {
