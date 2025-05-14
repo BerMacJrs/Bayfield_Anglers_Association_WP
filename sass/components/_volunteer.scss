@@ -17,7 +17,7 @@
 }
 
 .volunteer img {
-    width: 14em;
+    width: 100%;
 }
 
 // Tablet Styling - Media Query
@@ -25,7 +25,7 @@
 @media screen and (min-width: 48em) { 
     
     .volunteer {
-        padding: 2em 0 1em 0;
+        padding: 2em 0 2em 0;
     }
 
     .volunteer h2 {
@@ -33,12 +33,19 @@
     }
 
     .volunteer .main-description {
-        padding: 0 1.75em 1.35em 0;
+        padding: 0;
     }
 
     .volunteer img {
-        width: 16em;
-        padding-top: 1em;
+        width: 100%;
+    }
+
+    .volunteer-sides {
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
     }
 }
 
@@ -53,13 +60,14 @@
     .volunteer .main-description {
         font-size: 23px;
         line-height: 45px;
-        padding-bottom: 0em;
     }
 
     .volunteer img {
-        width: 20em;
-        padding-top: 2.5em;
-        margin-right: 0.5em;
+        width: 100%;
+    }
+
+    .volunteer-sides {
+        gap: 3rem;
     }
 }
 
@@ -68,22 +76,23 @@
 @media screen and (min-width: 120em) {
 
     .volunteer {
-        padding: 1.5em 0 3em 0;
+        padding: 3.5em 0 3em 0;
     }
 
     .volunteer h2 {
-        padding-top: 0.5em;
+        padding-top: 0;
     }
 
     .volunteer .main-description {
         font-size: 25px;
         line-height: 45px;
-        padding: 0 7rem 0 0;
     }
 
     .volunteer img {
-        width: 23em;
-        padding-top: 2.5em;
-        margin-right: 7em;
+        width: 20rem;
+    }
+
+    .volunteer-sides {
+        gap: 3rem;
     }
 }

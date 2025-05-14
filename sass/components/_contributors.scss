@@ -18,7 +18,6 @@
 
 .contributors img {
     width: 100%;
-    padding-right: 2em;
 }
 
 // Tablet Styling - Media Query
@@ -32,10 +31,6 @@
     .contributors .main-description {
         font-size: 20px;
         line-height: 35px;
-    }
-
-    .contributors img {
-        padding-right: 8em;
     }
 }    
 
@@ -51,10 +46,6 @@
         font-size: 25px;
         line-height: 45px;
     }
-
-    .contributors img {
-        padding-right: 12em;
-    }
 }
 
 // Monitor Styling - Media Query
@@ -63,9 +54,5 @@
 
     .contributors {
         padding: 0 0 4em 0;
-    }
-
-    .contributors img {
-        padding-right: 15em;
     }
 }
