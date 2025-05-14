@@ -7,32 +7,37 @@
 }
 
 .events h2 {
-    margin-bottom: 0.35em;
+    margin-bottom: 0.5em;
+}
+
+.events .main-description {
+    margin-bottom: 2rem;
 }
 
 .events img {
-    width: 7em;
-    margin-right: 1.25em;
-    padding-top: 0.4em;
+    width: 100%;
+    margin-top: 0.5rem;
 }
 
-.events-desc {
-    padding: 1em 0 0.5em 0;
-}
-
-.events-desc h3 {
+.events-sides h3 {
     font-size: 18px;
     margin: 0;
+    padding: 0;
 }
 
-.events-desc p {
+.events-sides p {
     font-size: 14px;
     line-height: 24px;
     max-width: 100%;
+    margin-bottom: 1.5rem;
 }
 
-.events-side {
-    margin-left: -0.30em;
+.events-sides {
+    display: flex;
+    justify-content: space-between;
+    justify-content: top;
+    align-items: top;
+    gap: 2rem;
 }
 
 // Tablet Styling - Media Query
@@ -40,34 +45,36 @@
 @media screen and (min-width: 48em) {
     
     .events {
-        padding: 1.5em 0 2em 0;
+        padding: 1.5em 0 1.5em 0;
     }
 
     .events h2 {
         margin-bottom: 0.35em;
     }
     
-    .events-desc {
-        padding: 1em 0 0.5em 0;
+    .events .main-description {
+        margin-bottom: 2rem;
+        font-size: 20px;
+        line-height: 38px;
     }
 
-    .events-desc img {
+    .events-sides img {
         width: 11em;
-        margin-right: 2em;
-        padding-top: 0em;
+        padding-top: 0;
     }
 
-    .events-desc h3 {
+    .events-sides h3 {
         font-size: 26px;
     }
 
-    .events-desc p {
+    .events-sides p {
         font-size: 17px;
         line-height: 29px;
     }
 
-    .events-side {
-        margin-left: -1em;
+    .events-sides {
+        gap: 2rem;
+        margin-bottom: 1rem;
     }
 }    
 
@@ -76,34 +83,41 @@
 @media screen and (min-width: 64em) {
 
     .events {
-        padding: 2em 0 2.5em 0;
+        padding: 2em 0 2em 0;
     }
 
     .events h2 {
         margin-bottom: 0.35em;
     }
-    
-    .events-desc {
-        padding: 1em 0 0.8em 0;
+
+    .events .main-description {
+        margin-bottom: 2rem;
+        font-size: 22px;
+        line-height: 38px;
     }
 
-    .events-desc img {
+    .events-sides img {
         width: 13em;
-        margin-right: 2.5em;
     }
 
-    .events-desc h3 {
+    .events-sides h3 {
         font-size: 30px;
+        margin-top: 2rem;
     }
 
-    .events-desc p {
+    .events-sides p {
         font-size: 20px;
         line-height: 41px;
-        padding-right: 3rem;
     }
 
-    .events-side {
-        margin: 0.7em 0 0 -2em;
+    .events-sides {
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    .events-sides {
+        margin-bottom: 0.75rem;
     }
 }
 
@@ -118,26 +132,29 @@
     .events h2 {
         margin-bottom: 0.50em;
     }
-    
-    .events-desc {
-        padding: 1.75em 0 1em 0;
+
+    .events .main-description {
+        margin-bottom: 2.5rem;
+        font-size: 25px;
+        line-height: 38px;
     }
 
-    .events-desc img {
+    .events-sides img {
         width: 15em;
     }
 
-    .events-desc h3 {
+    .events-sides h3 {
         font-size: 36px;
         padding-top: 20px;
     }
 
-    .events-desc p {
+    .events-sides p {
         font-size: 23px;
         line-height: 41px;
     }
-
-    .events-side {
-        margin: 0 0 0 -1em;
+    
+    .events-sides {
+        gap: 3rem;
+        margin-bottom: 0.5rem;
     }
 }
