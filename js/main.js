@@ -30,3 +30,57 @@
       });
     });  
 })();
+
+// Contact Form Functionality
+
+(() => {
+    const forms = document.querySelectorAll("form");
+    const feedback = document.querySelector("#feedback");
+
+    function handleFormSubmission(event) {
+        event.preventDefault();
+        const form = event.currentTarget;
+        const url = "sendmail.php";
+
+        const formData = new URLSearchParams();
+        formData.append('first-name', form.elements['first-name'].value);
+        formData.append('last-name', form.elements['last-name'].value);
+        formData.append('email', form.elements['email'].value);
+        formData.append('mobile', form.elements['mobile'].value);
+        formData.append('message', form.elements['message'].value);
+
+        fetch(url, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded"
+            },
+            body: formData.toString()
+        })
+        .then(response => response.json())
+        .then(response => {
+            feedback.innerHTML = "";
+            if (response.errors) {
+                response.errors.forEach(error => {
+                    const errorElement = document.createElement("p");
+                    errorElement.textContent = error;
+                    feedback.appendChild(errorElement);
+                });
+            } else {
+                form.reset();
+                const messageElement = document.createElement("p");
+                messageElement.textContent = response.message;
+                feedback.appendChild(messageElement);
+            }
+            feedback.scrollIntoView({ behavior: 'smooth', block: 'end' });
+        })
+        .catch(error => {
+            console.log(error);
+            feedback.innerHTML = "";
+            feedback.innerHTML = `<p>An error occurred. You might be using an older browser or JavaScript is disabled.</p>`;
+        });
+    }
+
+    forms.forEach(form => {
+        form.addEventListener("submit", handleFormSubmission);
+    });
+})();

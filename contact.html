@@ -78,21 +78,19 @@
       </div>
 
       <div class="one-item sm-two-items md-two-items lg-two-items">
+        <div>
         <form class="contact-form" action="sendmail.php" method="POST">
-        <div class="one-item sm-one-item md-one-item lg-one-item">
-          <input type="text" id="first-name" name="first-name" placeholder="*First Name" required>
-
-          <input type="text" id="last-name" name="last-name" placeholder="*Last Name" required>
-          
-          <input type="email" id="email" name="email" placeholder="*Email Address" required>
-          
-          <input type="tel" id="mobile" name="mobile" placeholder="*Mobile Number" required>
-          
-          <textarea id="message" name="message" rows="4" cols="50" placeholder="*Your Message" required></textarea>
-        </div>
-
-        <input type="submit" value="Submit">
+          <div class="one-item sm-one-item md-one-item lg-one-item">
+            <input type="text" id="first-name" name="first-name" placeholder="*First Name" required>
+            <input type="text" id="last-name" name="last-name" placeholder="*Last Name" required>
+            <input type="email" id="email" name="email" placeholder="*Email Address" required>
+            <input type="tel" id="mobile" name="mobile" placeholder="*Mobile Number" required>
+            <textarea id="message" name="message" rows="4" placeholder="*Your Message" required></textarea>
+            <input type="submit" value="Register">
+          </div>
         </form>
+        <section id="feedback" class="main-description"><p>Please fill out all required sections.</p></section>
+        </div>
 
         <aside class="contact-info">
           <h3>Contact Information</h3>
