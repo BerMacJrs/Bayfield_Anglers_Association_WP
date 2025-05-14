@@ -32,15 +32,14 @@ $stmt->bindParam(5, $msg, PDO::PARAM_STR);
 
 if ($stmt->execute()) {
     $to = 'bernardomacfanshawe@gmail.com';
-    $subject = "BAA Website - Email Received";
-    $body = "You've received a new message:\n\n";
-    $body .= "Name: $fname $lname\n";
-    $body .= "Email: $email\n";
-    $body .= "Mobile: $mobile\n";
-    $body .= "Message: $msg\n";
-    $headers = "From: $email\r\n";
+    $email_subject = "BAA Website - Email Received";
+    $email_message = "You've received a new message:\n\n";
+    $email_message .= "Name: $fname $lname\n";
+    $email_message .= "Email: $email\n";
+    $email_message .= "Mobile: $mobile\n";
+    $email_message .= "Message: $msg\n";
 
-    mail($to, $subject, $body, $headers);
+    mail($to, $email_subject, $email_message);
     echo json_encode(["message" => "Form submitted. Thank you!"]);
 } else {
     echo json_encode(["errors" => ["Database error. Please try again later."]]);
