@@ -53,6 +53,7 @@
     outline: none;
     box-shadow: none;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .contact-form input[type="submit"]:hover {
@@ -91,7 +92,7 @@
 }
 
 .contact-info img {
-    width: 22em;
+    width: 100%;
     margin-top: 1em;
 }
 
@@ -112,28 +113,25 @@
         line-height: 35px;
     }
 
-    .contact-form textarea {
-        margin-bottom: 0;
+    .sides {
+        display: flex;
+        justify-content: space-between;
+        gap: 4rem;
+        flex-wrap: wrap;
     }
 
+    .form-box, .contact-info {
+        flex: 1;
+        min-width: 300px;
+    }
+    
     .contact-form input[type="submit"] {
         margin: 1.5rem 0 1rem 0;
     }
 
-    .contact-check p {
-        font-size: 1em;
-        margin: 0 0 0 -4.5em;
-        max-width: 105%;
-    }
-
-    .contact-info {
-        padding-left: 2.5em;
-        transform: translateY(-2rem);
-    }
-
     .contact-info h3 {
         font-size: 22px;
-        margin-top: -3em;
+        margin-top: 0;
     }
 
     .contact-info h4 {
@@ -147,7 +145,7 @@
     }
 
     .contact-info img {
-        width: 14.25em;
+        width: 15rem;
         margin-top: 0.5em;
     }
 }
@@ -175,7 +173,7 @@
     }
 
     .contact-form input[type="submit"] {
-        width: 15.75em;
+        width: 100%;
         font-size: 30px;
         margin: 1.5rem 0 1rem 0;
     }
@@ -192,7 +190,7 @@
 
     .contact-info h3 {
         font-size: 36px;
-        margin-top: -1.5em;
+        margin-top: 0;
     }
 
     .contact-info h4 {
@@ -210,7 +208,7 @@
     }
 }
 
-// Desktop Styling - Media Query
+// Monitor Styling - Media Query
 
 @media screen and (min-width: 120em) {
 
@@ -237,7 +235,7 @@
     }
 
     .contact-form input[type="submit"] {
-        width: 17.35em;
+        width: 100%;
         font-size: 30px;
         margin: 2rem 0 1rem 0;
     }
