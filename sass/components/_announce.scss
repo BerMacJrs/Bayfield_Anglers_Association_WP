@@ -3,7 +3,7 @@
 // Mobile Styling - Media Query
 
 .announce {
-    padding: 1em 0 2em 0;
+    padding: 1em 0 1.5em 0;
 }
 
 .announce h2 {
@@ -12,14 +12,21 @@
 
 .announce img {
     width: 5em;
-    margin-right: 1.25em;
     padding-top: 1.2em;
 }
 
-.announce .one-third p {
+.announce-sides p {
     font-size: 14px;
     line-height: 28px;
     max-width: 100%;
+}
+
+.announce-sides {
+    display: flex;
+    justify-content: space-between;
+    justify-content: top;
+    align-items: top;
+    gap: 1.5rem;
 }
 
 // Tablet Styling - Media Query
@@ -27,17 +34,23 @@
 @media screen and (min-width: 48em) {
 
     .announce {
-        padding: 1em 0 2.5em 0;
+        padding: 1em 0 2em 0;
+    }
+
+    .announce .main-description {
+        margin-bottom: 1.5rem;
     }
 
     .announce img {
         width: 6.5em;
-        margin-right: 1.8em;
     }
 
-    .announce .one-third p {
+    .announce-sides p {
         font-size: 1em;
-        margin-left: -3.5em;
+    }
+
+    .announce-sides {
+        gap: 2rem;
     }
 }
 
@@ -53,11 +66,15 @@
         width: 8em;
     }
 
-    .announce .one-third p {
+    .announce-sides p {
         font-size: 19px;
         line-height: 35px;
-        margin: 1.80rem 0 1.25rem -7rem;
+        margin: 1.8rem 0 1.25rem 0;
         padding-right: 0;
+    }
+
+    .announce-sides {
+        gap: 2.5rem;
     }
 }
 
@@ -66,17 +83,25 @@
 @media screen and (min-width: 120em) {
 
     .announce {
-        padding: 1.5em 0 4em 0;
+        padding: 1.5em 0 3em 0;
+    }
+
+    .announce .main-description {
+        margin-bottom: 2rem;
     }
 
     .announce img {
         width: 10em;
     }
 
-    .announce .one-third p {
+    .announce-sides p {
         font-size: 23px;
         line-height: 41px;
         padding-top: 18px;
-        margin: 0.8em 0 1.5em -4em;
+        margin: 0.8em 0 1.5em 0;
+    }
+
+    .announce-sides {
+        gap: 2.75rem;
     }
 }
