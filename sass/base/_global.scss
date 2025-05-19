@@ -13,7 +13,6 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
     color: $text-color;
-    overflow-x: hidden;
 }
 
 html, body {
@@ -37,15 +36,13 @@ p {
 h2 {
     color: $primary-color;
     text-transform: uppercase;
-    font-size: 24px;
-    line-height: 33px;
-    width: 90%;
+    font-size: clamp(1.5625rem, 1.25rem + 1vw, 2.5rem);
+    line-height: 2.375rem;
 }
 
 .main-description {
     font-size: 1em;
     line-height: 25px;
-    max-width: 95%
 }
 
 a {
@@ -76,10 +73,6 @@ button {
     outline: none;
     box-shadow: none;
     cursor: pointer;
-
-//     all: unset;
-//     box-sizing: border-box;
-//     display: inline-block;
 }
 
 button:hover { 
@@ -107,39 +100,19 @@ ul li a {
 
 @media screen and (min-width: 48em) {
 
-    .main-padding {
-        padding-left: 2.5em;
-    }
-
-    h2 {
-        font-size: 30px;
-        width: 90%;
-    }
-
     .main-description {
         font-size: 1em;
         line-height: 29px;
-        max-width: 95%
     }
 }
 
 // Desktop Styling - Media Query
     
 @media screen and (min-width: 64em) {
-    
-    .main-padding {
-        padding-left: 3.25em;
-    }
-
-    h2 {
-        font-size: 35px;
-        width: 90%;
-    }
 
     .main-description {
-        font-size: 21px;
+        font-size: 22px;
         line-height: 41px;
-        max-width: 90%
     }
 
     html, body {
@@ -151,18 +124,8 @@ ul li a {
 
 @media screen and (min-width: 120em) {
 
-    .main-padding {
-        padding-left: 25em;
-    }
-
-    h2 {
-        font-size: 41px;
-        width: 90%;
-    }
-
     .main-description {
         font-size: 25px;
         line-height: 41px;
-        max-width: 90%
     }
 }
