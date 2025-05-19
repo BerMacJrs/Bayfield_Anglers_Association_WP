@@ -5,7 +5,7 @@
 // Mobile Styling - Media Query
 
 .hero {
-    margin: 0 0;
+    margin: 0;
 }
 
 .hero-img img {
@@ -23,33 +23,32 @@
     grid-row: 1;
 }
 
+.hero-img p, .hero-img h2 {
+    text-transform: uppercase;
+    color: $text-color;
+}
+
 .hero-img p {
     font-family: $heading-font-family;
     font-weight: 450;
     font-size: 1.5em;
-    text-transform: uppercase;
-    color: $text-color;
 
     padding-top: 1em;
     margin-left: 1.05em;
 }
 
 .hero-img h2 {
-    text-transform: uppercase;
     font-size: clamp(2.75em, 2vw, 3em);
     line-height: 60px;
-    color: $text-color;
 
     padding-top: 1.50em;
     margin-left: 0.5em;
-    max-width: 100%;
-    width: 100%;
 }
 
 .hero-img button {
     width: 6.5em;
     height: 2em;
-    padding: 0em;
+    padding: 0;
     margin: 17em 0 0 1.30em;
 }
 
@@ -82,7 +81,7 @@
 
     .hero-img button {
         font-size: 28px;
-        width: 6.5em;
+        width: 12rem;
         margin: 18em 0 0 2.5em;
     }
 
@@ -151,7 +150,6 @@
         font-size: 97px;
         line-height: 125px;
         margin: 1.3em 0 0 2em;
-        max-width: 100%;
     }
 
     .hero-img button {
