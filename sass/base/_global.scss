@@ -41,8 +41,8 @@ h2 {
 }
 
 .main-description {
-    font-size: 1em;
-    line-height: 25px;
+    font-size: clamp(1rem, 0.9rem + 0.8vw, 1.5625rem);
+    line-height: clamp(1.875rem, 1.5rem + 1.8vw, 2.8125rem);
 }
 
 a {
@@ -96,36 +96,11 @@ ul li a {
     text-decoration: none;
 }
 
-// Tablet Styling - Media Query
-
-@media screen and (min-width: 48em) {
-
-    .main-description {
-        font-size: 1em;
-        line-height: 29px;
-    }
-}
-
 // Desktop Styling - Media Query
     
 @media screen and (min-width: 64em) {
 
-    .main-description {
-        font-size: 22px;
-        line-height: 41px;
-    }
-
     html, body {
         scroll-padding-top: 13rem;
-    }
-}
-
-// Monitor Styling - Media Query
-
-@media screen and (min-width: 120em) {
-
-    .main-description {
-        font-size: 25px;
-        line-height: 41px;
     }
 }

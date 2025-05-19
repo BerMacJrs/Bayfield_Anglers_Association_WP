@@ -11,8 +11,6 @@
 }
 
 .volunteer .main-description {
-    line-height: 30px;
-    max-width: 100%;
     padding-bottom: 1.35em;
 }
 
@@ -42,8 +40,6 @@
 
     .volunteer-sides {
         display: flex;
-        justify-content: space-between;
-        justify-content: center;
         align-items: center;
         gap: 3rem;
     }
@@ -55,11 +51,6 @@
 
     .volunteer {
         padding: 2em 0 2.5em 0;
-    }
-
-    .volunteer .main-description {
-        font-size: 23px;
-        line-height: 45px;
     }
 
     .volunteer img {
@@ -81,11 +72,6 @@
 
     .volunteer h2 {
         padding-top: 0;
-    }
-
-    .volunteer .main-description {
-        font-size: 25px;
-        line-height: 45px;
     }
 
     .volunteer img {

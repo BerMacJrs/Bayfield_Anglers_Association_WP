@@ -12,6 +12,7 @@
 }
 
 .intro p {
+    font-size: clamp(1rem, 0.9rem + 0.8vw, 1.5625rem);
     max-width: 100%;
     line-height: 28px;
     margin-bottom: 8px;
@@ -35,7 +36,6 @@
     }
 
     .intro p {
-        font-size: 20px;
         line-height: 38px;
     }
 
@@ -60,10 +60,6 @@
         padding: 2em 0 3em 0;
     }
 
-    .intro p {
-        font-size: 22px;
-    }
-
     .intro img {
         width: 22rem;
     }
@@ -82,7 +78,6 @@
     }
 
     .intro p {
-        font-size: 25px;
         line-height: 46px;
     }
 

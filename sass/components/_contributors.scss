@@ -11,9 +11,7 @@
 }
 
 .contributors .main-description {
-    line-height: 30px;
     padding-bottom: 0.75em;
-    max-width: 100%;
 }
 
 .contributors img {
@@ -27,11 +25,6 @@
     .contributors {
         padding: 0 0 3.5em 0;
     }
-
-    .contributors .main-description {
-        font-size: 20px;
-        line-height: 35px;
-    }
 }    
 
 // Desktop Styling - Media Query
@@ -40,11 +33,6 @@
 
     .contributors {
         padding: 0 0 3.5em 0;
-    }
-
-    .contributors .main-description {
-        font-size: 25px;
-        line-height: 45px;
     }
 }
 
