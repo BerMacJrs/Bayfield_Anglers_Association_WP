@@ -47,8 +47,20 @@
         max-width: 90%;
     }
 
-    .intro img {
-        width: 13.8em;
+    .intro-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        flex-wrap: nowrap;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .intro-img {
+        width: calc((100% - 4vw) / 3);
+        height: auto;
+        object-fit: cover;
     }
 }
 
@@ -58,14 +70,6 @@
 
     .intro {
         padding: 2em 0 3em 0;
-    }
-
-    .intro img {
-        width: 22rem;
-    }
-
-    .intro .md-three-items {
-        max-width: 85%;
     }
 }
 
@@ -79,14 +83,5 @@
 
     .intro p {
         line-height: 46px;
-    }
-
-    .intro img {
-        width: 21em;
-        margin-top: 3em;
-    }
-
-    .intro .lg-three-items {
-        max-width: 95%;
     }
 }

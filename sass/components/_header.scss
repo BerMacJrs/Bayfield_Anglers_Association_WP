@@ -14,7 +14,7 @@ header {
 }
 
 #main_logo {
-    width: 10em;
+    width: clamp(10rem, 5rem + 12vw, 16rem);
     margin: 20px;
     transition: transform 0.1s ease-out;
 }
@@ -30,7 +30,7 @@ header {
 }
 
 #burger {
-    width: 3em;
+    width: 3rem;
     margin: 0 20px 0 auto;
 }
 
@@ -43,13 +43,16 @@ header {
 }
 
 .nav-menu a {
-    font-size: 21px;
-    color: white;
+    font-size: clamp(1rem, 2.08vw, 1.5625rem);
+}
+
+.nav-menu ul {
+    padding-left: 1.5rem;
 }
 
 .nav-menu li {
-    padding-bottom: 1em;
-    margin-left: -1.1em;
+    padding-bottom: 1rem;
+
 }
 
 // Tablet Styling - Media Query
@@ -58,32 +61,31 @@ header {
 
     header {
         border-bottom: 15px solid $secondary-color;
-    }
-
-    #main_logo {
-        width: 10em;
-        margin: 20px;
-        margin-left: 35px;
+        padding: 0 3rem 0 3rem;
+        height: clamp(8.5rem, 6.5rem + 6vw, 13rem);
     }
 
     #hamburger {
         display: none; 
     }
 
+    #main_logo, .nav-menu {
+        padding: 0;
+        margin: 0;
+    }
+
     .nav-menu {
         display: flex;
         justify-content: flex-end;
-        margin-right: 2.25em;
     }
 
     .nav-menu li {
-        margin-left: -1.1em;
         padding-bottom: 0;
     }
 
     .nav-menu ul {
         display: flex;
-        gap: 3.5em;
+        gap: clamp(2.5rem, 4.5vw, 3.5rem);
     }
 
     .sm-two-items {
@@ -107,23 +109,7 @@ header {
 
     header {
         border-bottom: 18px solid $secondary-color;
-    }
-
-    #main_logo {
-        width: 14em;
-        margin: 28px;
-        margin-left: 65px;
-    }
-
-    .nav-menu ul {
-        gap: 4em;
-        margin: 0 2.25em 0 -1em;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .nav-menu a {
-        font-size: 30px;
+        padding: 0 3.75rem 0 3.75rem;
     }
 }
 
@@ -132,20 +118,6 @@ header {
 @media screen and (min-width: 120em) {
 
     header {
-        height: 13em;
+        padding: 0 20rem 0 20rem;
     }
-
-    #main_logo {
-        width: 17em;
-        margin: 28px;
-        margin-left: 25em;
-    }
-
-    .nav-menu ul {
-        margin: 0 23em 0 -1em;
-    }
-
-    .nav-menu a {
-        font-size: 34px;
-    }
-}    
+}   
