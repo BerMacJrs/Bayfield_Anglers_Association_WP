@@ -97,11 +97,33 @@ ul li a {
     text-decoration: none;
 }
 
+// Tablet Styling - Media Query
+
+@media screen and (min-width: 48em) {
+
+    .hero-img button {
+        font-size: 28px;
+    }
+}
+
 // Desktop Styling - Media Query
-    
+
 @media screen and (min-width: 64em) {
 
     html, body {
         scroll-padding-top: 13rem;
+    }
+
+    .hero-img button {
+        font-size: 40px;
+    }
+}
+
+// Monitor Styling - Media Query
+
+@media screen and (min-width: 120em) {
+
+    .hero-img button {
+        font-size: 40px;
     }
 }
