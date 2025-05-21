@@ -42,7 +42,7 @@
 }
 
 .hero-img h2 {
-    font-size: clamp(2.75em, 2vw, 3em);
+    font-size: 44px;
     line-height: 60px;
     margin: 1.5rem 0 2rem 0;
 }
@@ -60,9 +60,6 @@
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) {
-    .hero-content {
-        left: 8vw;
-    }
 
     .hero-img p {
         font-size: 32px;
@@ -89,10 +86,6 @@
 
 @media screen and (min-width: 64em) {
 
-    .hero-content {
-        left: 8vw;
-    }
-
     .hero-img p {
         font-size: 41px;
     }
@@ -117,10 +110,6 @@
 // Monitor Styling - Media Query
 
 @media screen and (min-width: 120em) {
-
-    .hero-content {
-        left: 8vw;
-    }
 
     .hero-img p {
         font-size: 41px;
