@@ -2,14 +2,6 @@
 
 // Mobile Styling - Media Query
 
-.announce {
-    padding: 1em 0 1.5em 0;
-}
-
-.announce h2 {
-    margin-bottom: 0.5em;
-}
-
 .announce img {
     width: 5em;
     padding-top: 1.2em;
@@ -29,10 +21,6 @@
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) {
-
-    .announce {
-        padding: 1em 0 2em 0;
-    }
 
     .announce .main-description {
         margin-bottom: 1.5rem;
@@ -55,10 +43,6 @@
 
 @media screen and (min-width: 64em) {
 
-    .announce {
-        padding: 1em 0 3em 0;
-    }
-
     .announce img {
         width: 8em;
     }
@@ -78,10 +62,6 @@
 // Monitor Styling - Media Query
 
 @media screen and (min-width: 120em) {
-
-    .announce {
-        padding: 1.5em 0 3em 0;
-    }
 
     .announce .main-description {
         margin-bottom: 2rem;
