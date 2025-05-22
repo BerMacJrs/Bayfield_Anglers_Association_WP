@@ -38,10 +38,11 @@ h2 {
     text-transform: uppercase;
     font-size: clamp(1.5625rem, 1.25rem + 1vw, 2.5rem);
     line-height: 2.375rem;
-    margin: 1.5rem 0 1.5rem 0;
+    margin: 1.5rem 0 1rem 0;
 }
 
 .main-description {
+    margin: 0 0 2rem 0;
     font-size: clamp(1rem, 0.9rem + 0.6vw, 1.5625rem);
     line-height: clamp(1.875rem, 1.36rem + 1.5vw, 2.8125rem);
 }
@@ -106,6 +107,10 @@ ul li a {
         margin: 2.5rem 0 1.85rem 0;
     }
 
+    .main-description {
+        margin: 0 0 2rem 0;;
+    }
+
     .hero-img button {
         font-size: 28px;
         padding: 6px 28px 6px 28px;
@@ -124,6 +129,11 @@ ul li a {
         margin: 3rem 0 2.5rem 0;
     }
 
+    .main-description {
+        margin: 0 0 2rem 0;;
+    }
+
+
     .hero-img button {
         font-size: 40px;
     }
@@ -135,6 +145,10 @@ ul li a {
 
     h2 {
         margin: 3.75rem 0 2.75rem 0;
+    }
+
+    .main-description {
+        margin: 0 0 2rem 0;;
     }
 
     .hero-img button {
