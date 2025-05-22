@@ -38,6 +38,7 @@ h2 {
     text-transform: uppercase;
     font-size: clamp(1.5625rem, 1.25rem + 1vw, 2.5rem);
     line-height: 2.375rem;
+    margin: 1.5rem 0 1.5rem 0;
 }
 
 .main-description {
@@ -101,6 +102,10 @@ ul li a {
 
 @media screen and (min-width: 48em) {
 
+    h2 {
+        margin: 2.5rem 0 1.85rem 0;
+    }
+
     .hero-img button {
         font-size: 28px;
         padding: 6px 28px 6px 28px;
@@ -115,6 +120,10 @@ ul li a {
         scroll-padding-top: 13rem;
     }
 
+    h2 {
+        margin: 3rem 0 2.5rem 0;
+    }
+
     .hero-img button {
         font-size: 40px;
     }
@@ -123,6 +132,10 @@ ul li a {
 // Monitor Styling - Media Query
 
 @media screen and (min-width: 120em) {
+
+    h2 {
+        margin: 3.75rem 0 2.75rem 0;
+    }
 
     .hero-img button {
         font-size: 40px;

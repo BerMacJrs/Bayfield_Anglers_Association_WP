@@ -2,20 +2,11 @@
 
 // Mobile Styling - Media Query
 
-.intro {
-    padding: 0.5em 0 2em 0;
-}
-
-.intro h2 {
-    margin: 0;
-    padding-bottom: 0.35em;
-}
-
 .intro p {
     font-size: clamp(1rem, 0.9rem + 0.8vw, 1.5625rem);
+    line-height: clamp(1.875rem, 1.36rem + 1.5vw, 2.8125rem);
+    margin: 0 0 1.5rem 0;
     max-width: 100%;
-    line-height: 28px;
-    margin-bottom: 8px;
 }
 
 .intro img:nth-of-type(2), .intro img:last-of-type {
@@ -23,7 +14,7 @@
 }
 
 .intro img {
-    margin: 2em 0 0.5em 0;
+    margin: 0.75rem 0 2.15rem 0;
     max-width: 100%;
 }
 
@@ -32,19 +23,15 @@
 @media screen and (min-width: 48em) {
 
     .intro {
-        padding: 1.5em 0 2.5em 0;
+        padding-bottom: 1rem;
     }
 
     .intro p {
-        line-height: 38px;
+        margin: 0 0 1.75rem 0;
     }
 
     .intro img:nth-of-type(2), .intro img:last-of-type {
         display: block;
-    }
-
-    .intro .sm-three-items {
-        max-width: 90%;
     }
 
     .intro-flex {
@@ -69,7 +56,11 @@
 @media screen and (min-width: 64em) {
 
     .intro {
-        padding: 2em 0 3em 0;
+        padding-bottom: 1.5rem;
+    }
+
+    .intro p {
+        margin: 0 0 2rem 0;
     }
 }
 
@@ -78,10 +69,10 @@
 @media screen and (min-width: 120em) {
 
     .intro {
-        padding: 3em 0 3.5em 0;
+        padding-bottom: 2rem;
     }
 
     .intro p {
-        line-height: 46px;
+        margin: 0 0 2rem 0;
     }
 }
