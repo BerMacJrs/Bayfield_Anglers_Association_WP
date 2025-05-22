@@ -3,61 +3,36 @@
 // Mobile Styling - Media Query
 
 .features {
-    padding: 0.5em 0 1em 0;
+    padding: 0.35rem 0 0.5rem 0;
 }
 
 .features img {
-    width: 3em;
+    width: clamp(3rem, 2.1rem + 4.5vw, 5.5rem);
 }
 
 .features h3 {
-    font-size: 18px;
+    font-size: clamp(1.125rem, 0.9rem + 1.2vw, 2.1875rem);
     margin: 0;
 }
 
 .features p {
-    max-width: 100%;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: clamp(0.875rem, 0.65rem + 1.1vw, 1.5625rem);
+    line-height: clamp(1.5rem, 1.1rem + 1.6vw, 2.8125rem);
+    padding-bottom: 0.75rem;
 }
 
 .features-sides {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
-}
-
-.features-sides:first-of-type {
-    margin-bottom: 0.5rem;
+    gap: clamp(1.5rem, 1.1rem + 1.5vw, 2.5rem);
 }
 
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) {
-    
+
     .features {
-        padding: 1.5em 0 1.5em 0;
-    }
-
-    .features img {
-        width: 4em;
-    }
-
-    .features h3 {
-        font-size: 26px;
-    }
-
-    .features p {
-        font-size: 1em;
-        line-height: 28px;
-    }
-
-    .features-sides {
-        gap: 2rem;
-    }
-
-    .features-sides:first-of-type {
-        margin-bottom: 0.5rem;
+        padding: 0.25rem 0 1rem 0;
     }
 }
 
@@ -66,57 +41,10 @@
 @media screen and (min-width: 64em) {
 
     .features {
-        padding: 1.5em 0 1.75em 0;
-    }
-
-    .features img {
-        width: 4.5em
-    }
-
-    .features h2 {
-        margin-bottom: 2.5rem;
-    }
-
-    .features h3 {
-        font-size: 30px;
+        padding: 0.25rem 0 1.5rem 0;
     }
 
     .features p {
-        font-size: 21.5px;
-        line-height: 35px;
-    }
-
-    .features-sides {
-        gap: 2.5rem;
-    }
-
-    .features-sides:first-of-type {
-        margin-bottom: 0.5rem;
-    }
-}
-
-// Monitor Styling - Media Query
-
-@media screen and (min-width: 120em) {
-
-    .features {
-        padding: 2em 0 2em 0;
-    }
-
-    .features img {
-        width: 5.5em;
-    }
-
-    .features h2 {
-        margin-bottom: 3rem;
-    }
-
-    .features h3 {
-        font-size: 36px;
-    }
-
-    .features p {
-        font-size: 25px;
-        line-height: 41px;
+        max-width: 60ch;
     }
 }
