@@ -2,28 +2,22 @@
 
 // Mobile Styling - Media Query
 
-.contributors {
-    padding: 0 0 2.5em 0;
-}
-
-.contributors h2 {
-    margin-bottom: 0.5em;
-}
-
 .contributors .main-description {
-    padding-bottom: 0.75em;
+    padding-bottom: 0.35rem;
 }
 
 .contributors img {
     width: 100%;
+    padding-bottom: 2.5rem;
 }
 
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) { 
 
-    .contributors {
-        padding: 0 0 3.5em 0;
+    .contributors img {
+        width: 90%;
+        padding-bottom: 3.5rem;
     }
 }    
 
@@ -31,8 +25,9 @@
 
 @media screen and (min-width: 64em) {
 
-    .contributors {
-        padding: 0 0 3.5em 0;
+    .contributors img {
+        width: 80%;
+        padding-bottom: 3.75rem;
     }
 }
 
@@ -40,7 +35,8 @@
 
 @media screen and (min-width: 120em) {
 
-    .contributors {
-        padding: 0 0 4em 0;
+    .contributors img {
+        width: 75%;
+        padding-bottom: 4rem;
     }
 }
