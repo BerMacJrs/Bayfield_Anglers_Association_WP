@@ -2,46 +2,31 @@
 
 // Mobile Styling - Media Query
 
-.volunteer {
-    padding: 1em 0 2.65em 0;
-}
-
-.volunteer h2 {
-    margin-bottom: 0.5em;
-}
-
-.volunteer .main-description {
-    padding-bottom: 1.35em;
-}
-
 .volunteer img {
     width: 100%;
+}
+
+.volunteer-sides {
+    padding: 0 0 2.5rem 0;
 }
 
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) { 
     
-    .volunteer {
-        padding: 2em 0 2em 0;
-    }
-
-    .volunteer h2 {
-        margin-bottom: 1em;
+    .volunteer img {
+        width: 100%;
     }
 
     .volunteer .main-description {
-        padding: 0;
-    }
-
-    .volunteer img {
-        width: 100%;
+        padding-bottom: 1rem;
     }
 
     .volunteer-sides {
         display: flex;
         align-items: center;
-        gap: 3rem;
+        gap: 2.5rem;
+        padding: 0;
     }
 }
 
@@ -49,12 +34,8 @@
 
 @media screen and (min-width: 64em) {
 
-    .volunteer {
-        padding: 2em 0 2.5em 0;
-    }
-
-    .volunteer img {
-        width: 100%;
+    .volunteer .main-description {
+        padding-bottom: 1.5rem;
     }
 
     .volunteer-sides {
@@ -66,19 +47,7 @@
 
 @media screen and (min-width: 120em) {
 
-    .volunteer {
-        padding: 3.5em 0 3em 0;
-    }
-
-    .volunteer h2 {
-        padding-top: 0;
-    }
-
-    .volunteer img {
-        width: 20rem;
-    }
-
-    .volunteer-sides {
-        gap: 3rem;
+    .volunteer .main-description {
+        padding-bottom: 1.75rem;
     }
 }
