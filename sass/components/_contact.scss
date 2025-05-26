@@ -5,26 +5,21 @@
 // Mobile Styling - Media Query
 
 .contact {
-    padding: 0 0 2.75em 0;
-}
-
-.contact .main-description {
-    margin-top: 0.5em;
-    padding-bottom: 1em;
+    padding: 0 0 2.5rem 0;
 }
 
 .contact-form textarea {
-    padding-bottom: 2em;
-    margin-bottom: 2em;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .contact-form input, textarea {
     font-family: $heading-font-family;
-    font-size: 1em;
+    font-size: 1rem;
 
     width: 100%;
-    margin-bottom: 1em;
-    padding: .5em;
+    margin-bottom: 1rem;
+    padding: .5rem;
 
     border: 2px solid $text-color;
     border-radius: 5px;
@@ -56,58 +51,38 @@
     background-color: $button-hover;
 }
 
-.contact-check p {
-    font-size: 17px;
-    font-family: $heading-font-family;
-    margin: 0 0 0 -4em;
-    padding: 0;
-    max-width: 100%;
-}
-
-.contact input[type="checkbox"] {
-    width: 1em;
-    height: 1em;
-    margin: 0.35em 0 0 0;
-    padding: 0;
-}
-
 .contact-info h3 {
     font-size: 28px;
     font-weight: 400;
-    margin-top: 0.5em;
+    margin-top: 0.5rem;
 }
 
 .contact-info h4 {
     font-family: $body-font-family;
-    font-size: 1em;
+    font-size: 1rem;
     margin-bottom: 0;
 }
 
 .contact-info p {
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
 }
 
 .contact-info img {
     width: 100%;
-    margin-top: 1em;
+    margin-top: 1rem;
 }
 
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) { 
-    
-    .hero-contact h2 {
-        max-width: 70%;
-    }
 
     .contact {
-        padding: 0;
+        padding: 0 0 2.5rem 0;
     }
 
     .sides {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        align-items: flex-start;
         gap: 4rem;
     }
 
@@ -116,8 +91,12 @@
         min-width: 300px;
     }
     
+    .form-box textarea {
+        margin-bottom: 0;
+    }
+
     .contact-form input[type="submit"] {
-        margin: 1.5rem 0 1rem 0;
+        margin: 1rem 0 1rem 0;
     }
 
     .contact-info h3 {
@@ -127,17 +106,21 @@
 
     .contact-info h4 {
         font-size: 14px;
-        margin-bottom: -0.5em;
+        margin-bottom: -0.5rem;
     }
 
     .contact-info p {
         font-size: 14px;
-        margin-bottom: 1.5em;
+        margin-bottom: 1.5rem;
     }
 
     .contact-info img {
-        width: 15rem;
-        margin-top: 0.5em;
+        width: 13rem;
+        margin-top: 0.5rem;
+    }
+
+    .contact #feedback {
+        margin-bottom: 0;
     }
 }
 
@@ -146,7 +129,11 @@
 @media screen and (min-width: 64em) {
 
     .contact {
-        padding: 0 0 1em 0;
+        padding: 0 0 2.75rem 0;
+    }
+
+    .contact .main-description {
+        margin-bottom: 2.5rem;
     }
 
     .contact-form input {
@@ -159,19 +146,12 @@
     }
 
     .contact-form input[type="submit"] {
-        width: 100%;
         font-size: 30px;
         margin: 1.5rem 0 1rem 0;
     }
 
-    .contact-check p {
-        font-size: 21px;
-        margin: 0.2em 0 0 -4.5em
-    }
-
     .contact-info {
-        padding-left: 2.5em;
-        transform: translateY(-0.50rem);
+        padding-left: 2.5rem;
     }
 
     .contact-info h3 {
@@ -185,12 +165,11 @@
 
     .contact-info p {
         font-size: 21px;
-        margin-bottom: 1.5em;
+        margin-bottom: 1.5rem;
     }
 
     .contact-info img {
-        width: 15em;
-        margin-top: 0.5em;
+        margin-top: 0.5rem;
     }
 }
 
@@ -198,12 +177,8 @@
 
 @media screen and (min-width: 120em) {
 
-    .hero-contact h2 {
-        max-width: 50%;
-    }
-
     .contact {
-        padding: 0 0 3rem 0;
+        padding: 0 0 3.25rem 0;
     }
 
     .contact-form input {
@@ -216,19 +191,8 @@
     }
 
     .contact-form input[type="submit"] {
-        width: 100%;
         font-size: 30px;
         margin: 2rem 0 1rem 0;
-    }
-
-    .contact-check p {
-        font-size: 23px;
-        margin: 0.21em 0 0 -5em
-    }
-
-    .contact-info {
-        padding-left: 2em;
-        transform: translateY(-1.75rem);
     }
 
     .contact-info h3 {
@@ -245,6 +209,6 @@
     }
 
     .contact-info img {
-        width: 18rem;
+        margin-top: 1.25rem;
     }
 }
