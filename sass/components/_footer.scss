@@ -10,25 +10,20 @@ footer {
 }
 
 footer nav {
-    padding: 2.25em 0 2em 0.5em;
-}
-
-footer nav li {
-    padding-bottom: .5em;
+    padding: 2.25rem 0 2rem 0.5rem;
 }
 
 footer li {
-    margin-bottom: 1em;
+    margin-bottom: 1.5rem;
 }
 
 footer nav a {
-    color: white;
     font-size: 20px;
 }
 
 #footer_logo {
-    width: 8em;
-    margin-bottom: 1em;
+    width: 8rem;
+    margin-bottom: 1rem;
     justify-self: center;
     transition: transform 0.1s ease-out;
 }
@@ -38,10 +33,9 @@ footer nav a {
 }
 
 .social-media-icons {
-    justify-self: center;
     display: flex;
-    gap: .7em;
-    margin-bottom: 3em;
+    gap: .7rem;
+    margin-bottom: 3rem;
     transition: transform 0.2s ease-out;
 }
 
@@ -50,15 +44,13 @@ footer nav a {
 }
 
 .social-media-icons img {
-    width: 1.8em;
+    width: 1.8rem;
 }
 
 footer p, .credits a {
     font-family: $heading-font-family;
     color: #8194B9;
-    margin: 0;
-    margin-bottom: 0.8em;
-    justify-self: center;
+    margin: 0 0 0.8rem 0;
     text-align: center;
 }
 
@@ -66,7 +58,6 @@ footer .full {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
 }
 
 footer a {
@@ -88,7 +79,6 @@ footer a {
 
 .credits {
     padding-bottom: 1rem;
-    max-width: 100%;
     width: 100%;
 }
 
@@ -100,12 +90,11 @@ footer a {
     
     footer {
         border-top: 15px solid $secondary-color;
-        padding-top: 2em;
+        padding-top: 2rem;
     }
 
     footer nav {
         display: flex;
-        padding: 2.25em 0 2em 0.5em;
         transform: translateX(-3rem);
     }
 
@@ -114,11 +103,11 @@ footer a {
     }
 
     #footer_logo {
-        width: 13em;
+        width: 13rem;
     }
 
     .social-media-icons img {
-        width: 2.5em;
+        width: 2.5rem;
     }
 
     .item-one {
@@ -127,7 +116,7 @@ footer a {
 
     .item-two {
         order: 1;
-        margin-top: 1.5em;
+        margin-top: 1.5rem;
     }
 
     .footer-mobile {
@@ -149,7 +138,11 @@ footer a {
 
     footer {
         border-top: 18px solid $secondary-color;
-        padding-top: 2em;
+        padding-top: 2rem;
+    }
+
+    footer nav ul:first-of-type {
+        padding-right: 2rem;
     }
 
     footer nav a {
@@ -163,16 +156,16 @@ footer a {
 
 // Monitor Styling - Media Query
 
-@media screen and (min-width: 120em) {
+@media screen and (min-width: 120rem) {
 
     footer {
         border-top: 18px solid $secondary-color;
-        padding-top: 2em;
+        padding-top: 2rem;
     }
 
     footer nav {
         display: flex;
-        padding: 2.25em 0 2em 0.8em;
+        padding: 2.25rem 0 2rem 0.8rem;
     }
 
     footer nav a {
@@ -180,11 +173,11 @@ footer a {
     }
 
     footer p {
-        font-size: 1.8em;
+        font-size: 1.8rem;
     }
     
     .item-two {
-        margin-left: 10em;
+        margin-left: 10rem;
     }
 
     .credits p {
