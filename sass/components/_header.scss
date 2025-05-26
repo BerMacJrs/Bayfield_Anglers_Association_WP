@@ -55,6 +55,34 @@ header {
 
 }
 
+.nav-menu ul li a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: $background-color;
+    padding-bottom: 6px;
+    transition: color 0.3s ease, transform 0.3s ease;;
+}
+
+.nav-menu ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: $background-color;
+    transition: width 0.2s ease; 
+}
+
+// .nav-menu ul li a:hover {
+//     transform: scale(1.05);
+// }
+
+.nav-menu ul li a:hover::after {
+    width: 100%;
+}
+
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) {
