@@ -55,6 +55,25 @@
     display: none;
 }
 
+.image-wrapper {
+  overflow: hidden;
+}
+
+.image-wrapper picture, .image-wrapper img {
+  display: block;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-active .image-wrapper picture {
+  transform: scale(1.05);
+}
+
+.zoom-active .image-wrapper picture,
+.zoom-active .image-wrapper img {
+  transform: scale(1.05);
+}
+
 
 
 // Tablet Styling - Media Query
