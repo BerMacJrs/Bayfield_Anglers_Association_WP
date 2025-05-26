@@ -84,3 +84,24 @@
         form.addEventListener("submit", handleFormSubmission);
     });
 })();
+
+
+(() => {
+    document.addEventListener('DOMContentLoaded', () => {
+    const zoomBtn = document.querySelector('.zoom-trigger');
+    const hero = document.querySelector('.hero-img');
+
+    if (!zoomBtn || !hero) {
+        console.warn('Zoom trigger or hero section not found');
+        return;
+    }
+
+    zoomBtn.addEventListener('pointerenter', () => {
+        hero.classList.add('zoom-active');
+    });
+
+    zoomBtn.addEventListener('pointerleave', () => {
+        hero.classList.remove('zoom-active');
+    });
+});
+})();
