@@ -2,6 +2,10 @@
 
 // Mobile Styling - Media Query
 
+.volunteer {
+    padding-top: 0.75rem;
+}
+
 .volunteer img {
     width: 100%;
 }
@@ -14,6 +18,10 @@
 
 @media screen and (min-width: 48em) { 
     
+    .volunteer {
+        padding-top: 0rem;
+    }
+
     .volunteer img {
         width: 100%;
     }

@@ -4,6 +4,10 @@
 
 // Mobile Styling - Media Query
 
+.register {
+    padding-top: 0.75rem;
+}
+
 .register-form textarea {
     padding-bottom: 2rem;
     margin-bottom: 2rem;
@@ -61,6 +65,10 @@ input:focus, textarea:focus, select:focus {
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) { 
+
+    .register {
+        padding-top: 0;
+    }
 
     .register-form textarea {
         padding-bottom: 1rem;

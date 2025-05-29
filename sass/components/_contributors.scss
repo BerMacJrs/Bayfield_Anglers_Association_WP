@@ -2,6 +2,10 @@
 
 // Mobile Styling - Media Query
 
+.contributors {
+    padding-top: 0.5rem;
+}
+
 .contributors .main-description {
     padding-bottom: 0.35rem;
 }
@@ -14,6 +18,10 @@
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) { 
+
+    .contributors {
+        padding-top: 0;
+    }
 
     .contributors img {
         width: 90%;
