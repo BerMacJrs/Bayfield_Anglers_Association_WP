@@ -99,6 +99,21 @@ ul li a {
     text-decoration: none;
 }
 
+.h2-side {
+    display: flex;
+    align-items: center !important;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.h2-side img {
+    width: 3.5rem !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block !important;
+    transform: translateY(0.35rem) !important;
+}
+
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) {
@@ -153,5 +168,10 @@ ul li a {
 
     .hero-img button {
         font-size: 40px;
+    }
+
+    .h2-side img {
+        width: 4rem !important;
+        transform: translateY(0.7rem) !important;
     }
 }
