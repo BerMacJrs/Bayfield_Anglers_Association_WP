@@ -85,6 +85,7 @@
     });
 })();
 
+// Hero Zoom Functionality
 
 (() => {
     document.addEventListener('DOMContentLoaded', () => {
@@ -104,4 +105,25 @@
         hero.classList.remove('zoom-active');
     });
 });
+})();
+
+// Header Disappear Functionality
+
+(() => {
+  const header = document.getElementById("header");
+  const footer = document.querySelector("footer");
+
+  const observer = new IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) {
+        header.style.transition = "transform 0.4s ease-in-out";
+        header.style.transform = "translateY(-100%)";
+      } else {
+        header.style.transform = "translateY(0)";
+      }
+    },
+    { threshold: 0.1 }
+  );
+
+  observer.observe(footer);
 })();
