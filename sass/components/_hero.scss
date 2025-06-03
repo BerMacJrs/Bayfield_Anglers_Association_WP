@@ -4,26 +4,28 @@
 
 // Mobile Styling - Media Query
 
-.hero-img {
-    display: grid;
+.hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    height: 29rem;
+    display: flex;
     align-items: center;
-    position: relative;
 }
 
-.hero-img img {
-    width: 100%;
+.hero-index {
+    background-image: url('../images/baa_new_header_1920.png');
 }
 
-.hero-img picture, .hero-content {
-    grid-column: 1;
-    grid-row: 1;
+.hero-contact {
+    background-image: url('../images/baa_member_header_1920.png');
 }
 
-.hero-img picture {
-    z-index: 0;
+.hero-members {
+    background-image: url('../images/baa_home_header_1920.png');
 }
 
-.hero-img p, .hero-img h2 {
+.hero-content p, .hero-content h2 {
     text-transform: uppercase;
     color: $text-color;
 }
@@ -34,14 +36,14 @@
     position: relative;
 }
 
-.hero-img p {
+.hero-content p {
     font-family: $heading-font-family;
     font-weight: 450;
     font-size: 1.5rem;
     margin: 0;
 }
 
-.hero-img h2 {
+.hero-content h2 {
     font-size: 44px;
     line-height: 60px;
     margin: 1.5rem 0 2rem 0;
@@ -55,36 +57,20 @@
     display: none;
 }
 
-.image-wrapper {
-  overflow: hidden;
-}
-
-.image-wrapper picture, .image-wrapper img {
-  display: block;
-  width: 100%;
-  transition: transform 0.3s ease-in-out;
-}
-
-.zoom-active .image-wrapper picture {
-  transform: scale(1.05);
-}
-
-.zoom-active .image-wrapper picture,
-.zoom-active .image-wrapper img {
-  transform: scale(1.05);
-}
-
-
 
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 48em) {
 
-    .hero-img p {
+    .hero {
+        height: 40rem;
+    }
+
+    .hero-content p {
         font-size: 32px;
     }
 
-    .hero-img h2 {
+    .hero-content h2 {
         font-size: 76px;
         line-height: 90px;
         margin: 3rem 0 3.5rem 0;
@@ -105,11 +91,15 @@
 
 @media screen and (min-width: 64em) {
 
-    .hero-img p {
+    .hero {
+        height: 45rem;
+    }
+
+    .hero-content p {
         font-size: 41px;
     }
 
-    .hero-img h2 {
+    .hero-content h2 {
         font-size: 80px;
         line-height: 100px;
         margin: 4rem 0 4.5rem 0;
@@ -130,7 +120,11 @@
 
 @media screen and (min-width: 120em) {
 
-    .hero-img p {
+    .hero {
+        height: 55rem;
+    }
+
+    .hero-content p {
         font-size: 41px;
     }
 
