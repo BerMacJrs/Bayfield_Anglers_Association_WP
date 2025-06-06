@@ -20,7 +20,7 @@
 
 // Tablet Styling - Media Query
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 768px) {
 
     .intro {
         padding-bottom: 1rem;
@@ -51,9 +51,22 @@
     }
 }
 
+// Small Desktop Styling - Media Query
+    
+@media screen and (min-width: 992px) {
+
+    .intro {
+        padding-bottom: 1.5rem;
+    }
+
+    .intro p {
+        margin: 0 0 2rem 0;
+    }
+}
+
 // Desktop Styling - Media Query
     
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 1200px) {
 
     .intro {
         padding-bottom: 1.5rem;
@@ -66,7 +79,7 @@
 
 // Monitor Styling - Media Query
 
-@media screen and (min-width: 120em) {
+@media screen and (min-width: 1920px) {
 
     .intro {
         padding-bottom: 2rem;
