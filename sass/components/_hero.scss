@@ -60,7 +60,7 @@
 
 // Tablet Styling - Media Query
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 768px) {
 
     .hero {
         height: 40rem;
@@ -87,9 +87,38 @@
 
 
 
+// Small Desktop Styling - Media Query
+
+@media screen and (min-width: 992px) {
+
+    .hero {
+        height: 45rem;
+    }
+
+    .hero-content p {
+        font-size: 41px;
+    }
+
+    .hero-content h2 {
+        font-size: 80px;
+        line-height: 100px;
+        margin: 4rem 0 4.5rem 0;
+    }
+
+    .hero-mobile, .hero-tablet {
+        display: none;
+    }
+
+    .hero-desktop {
+        display: block;
+    }
+}
+
+
+
 // Desktop Styling - Media Query
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 1200px) {
 
     .hero {
         height: 45rem;
@@ -118,8 +147,8 @@
 
 // Monitor Styling - Media Query
 
-@media screen and (min-width: 120em) {
-
+@media screen and (min-width: 1920px) {
+    
     .hero {
         height: 55rem;
     }

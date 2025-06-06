@@ -1,8 +1,10 @@
 // Hamburger Menu Functionality
 
 (() => {
-    document.getElementById('burger').addEventListener('click', () => {
+    const burger = document.getElementById('burger');
+    burger.addEventListener('click', () => {
         document.querySelector('.nav-menu').classList.toggle('active');
+        burger.classList.toggle('rotate');  // toggle 90deg rotation
     });
 })();
 

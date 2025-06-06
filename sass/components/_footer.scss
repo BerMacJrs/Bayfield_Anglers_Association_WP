@@ -102,19 +102,13 @@ footer ul li a::after {
     transition: width 0.2s ease; 
 }
 
-// footer ul li a:hover {
-//     transform: scale(1.05);
-// }
-
 footer ul li a:hover::after {
     width: 100%;
 }
 
-
-
 // Tablet Styling - Media Query
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 768px) {
     
     footer {
         border-top: 15px solid $secondary-color;
@@ -160,9 +154,31 @@ footer ul li a:hover::after {
     }
 }
 
+// Small Desktop Styling - Media Query
+
+@media screen and (min-width: 992px) {
+
+    footer {
+        border-top: 18px solid $secondary-color;
+        padding-top: 2rem;
+    }
+
+    footer nav ul:first-of-type {
+        padding-right: 2rem;
+    }
+
+    footer nav a {
+        font-size: 23px;
+    }
+
+    .credits p {
+        font-size: 1.25rem;
+    }
+}
+
 // Desktop Styling - Media Query
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 1200px) {
 
     footer {
         border-top: 18px solid $secondary-color;
@@ -184,7 +200,7 @@ footer ul li a:hover::after {
 
 // Monitor Styling - Media Query
 
-@media screen and (min-width: 120rem) {
+@media screen and (min-width: 1920px) {
 
     footer {
         border-top: 18px solid $secondary-color;

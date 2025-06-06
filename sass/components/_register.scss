@@ -64,7 +64,7 @@ input:focus, textarea:focus, select:focus {
 
 // Tablet Styling - Media Query
 
-@media screen and (min-width: 48em) { 
+@media screen and (min-width: 768px) {
 
     .register {
         padding-top: 0;
@@ -106,9 +106,26 @@ input:focus, textarea:focus, select:focus {
     }
 }
 
+// Small Desktop Styling - Media Query
+
+@media screen and (min-width: 992px) {
+
+    .register-form input, .register-form textarea {
+        font-size: 24px;
+    }
+
+    .register-form input[type="submit"] {
+        font-size: 35px;
+    }
+
+    #feedback {
+        margin-bottom: 2.5rem;
+    }
+}
+
 // Desktop Styling - Media Query
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 1200px) {
 
     .register-form input, .register-form textarea {
         font-size: 24px;
@@ -125,7 +142,7 @@ input:focus, textarea:focus, select:focus {
 
 // Monitor Styling - Media Query
 
-@media screen and (min-width: 120em) {
+@media screen and (min-width: 1920px) {
 
     .register-form input, .register-form  textarea {
         font-size: 25px;

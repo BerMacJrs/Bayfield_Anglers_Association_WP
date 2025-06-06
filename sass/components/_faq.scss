@@ -28,7 +28,7 @@
 
 // Tablet Styling - Media Query
 
-@media screen and (min-width: 48em) { 
+@media screen and (min-width: 768px) {
 
     .faq {
         padding: 0.5rem 0 2.5rem 0;
@@ -48,9 +48,31 @@
     }
 }
 
+// Small Desktop Styling - Media Query
+
+@media screen and (min-width: 992px) {
+
+    .faq {
+        padding: 1 0 2.5rem 0;
+    }
+
+    .faq h3 {
+        font-size: 30px;
+    }
+
+    .faq p {
+        font-size: 22.5px;
+        line-height: 45px;
+    }
+
+    .faq .h2-side img {
+        transform: translateY(1rem) !important;
+    }
+}
+
 // Desktop Styling - Media Query
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 1200px) {
 
     .faq {
         padding: 1 0 2.5rem 0;
@@ -72,8 +94,8 @@
 
 // Monitor Styling - Media Query
     
-@media screen and (min-width: 120em) {
-
+@media screen and (min-width: 1920px) {
+    
     .faq {
         padding: 1rem 0 3rem 0;
     }
