@@ -5,7 +5,7 @@
 // Mobile Styling - Media Query
 
 .contact {
-    padding: 0.5rem 0 2.5rem 0;
+    padding: 0 0 2.25rem 0;
 }
 
 .contact-form textarea {
@@ -54,13 +54,13 @@
 .contact-info h3 {
     font-size: 28px;
     font-weight: 400;
-    margin-top: 0.5rem;
+    margin: 0.5rem 0 1.5rem 0;
 }
 
 .contact-info h4 {
     font-family: $body-font-family;
     font-size: 1rem;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
 }
 
 .contact-info p {
@@ -69,7 +69,7 @@
 
 .contact-info img {
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 // Tablet Styling - Media Query
@@ -100,22 +100,22 @@
     }
 
     .contact-info h3 {
-        font-size: 22px;
+        font-size: 28px;
         margin-top: 0;
     }
 
     .contact-info h4 {
-        font-size: 14px;
-        margin-bottom: -0.5rem;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
     }
 
     .contact-info p {
-        font-size: 14px;
+        font-size: 1rem;
         margin-bottom: 1.5rem;
     }
 
     .contact-info img {
-        width: 13rem;
+        width: 12.5rem;
         margin-top: 0.5rem;
     }
 
@@ -161,6 +161,7 @@
 
     .contact-info h4 {
         font-size: 21px;
+        margin-bottom: 1rem;
     }
 
     .contact-info p {
@@ -169,7 +170,7 @@
     }
 
     .contact-info img {
-        margin-top: 0.5rem;
+        margin-top: 1rem;
     }
 }
 
@@ -255,9 +256,10 @@
 
     .contact-info p {
         font-size: 23px;
+        margin-bottom: 2rem;
     }
 
     .contact-info img {
-        margin-top: 1.25rem;
+        margin-top: 1rem;
     }
 }

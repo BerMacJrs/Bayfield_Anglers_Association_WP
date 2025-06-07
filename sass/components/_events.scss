@@ -3,30 +3,36 @@
 // Mobile Styling - Media Query
 
 .events {
-    padding: 0.4rem 0 0.4rem 0;
+    padding: 0.4rem 0 0.15rem 0;
 }
 
 .events-sides {
     display: flex;
     align-items: flex-start;
     gap: clamp(1.5rem, 1.14rem + 1.5vw, 3rem);
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
-.events img {
-    width: clamp(5rem, 2rem + 15vw, 15rem);
+.events-sides img {
+    width: clamp(6rem, 2rem + 15vw, 12rem);
     margin-top: 0.5rem;
 }
 
 .events-sides h3 {
-    font-size: clamp(1.125rem, 0.9rem + 1.2vw, 2.1875rem);
+    font-size: clamp(1.25rem, 0.9rem + 1.2vw, 1.85rem);
     margin: 0;
     padding: 0;
+}
+
+.events-sides > div:first-child,
+.events-sides img {
+    flex-shrink: 0;
 }
 
 .events-sides p {
     font-size: clamp(1rem, 0.9rem + 0.6vw, 1.5625rem);
     line-height: clamp(1.875rem, 1.36rem + 1.5vw, 2.8125rem);
+    padding: 1rem 0 1rem 0;
 }
 
 // Tablet Styling - Media Query
@@ -34,13 +40,13 @@
 @media screen and (min-width: 768px) {
 
     .events {
-        padding: 0.4rem 0 1.5rem 0;
+        padding: 0.4rem 0 0.25rem 0;
     }
 
     .events-sides {
         align-items: center;
         justify-content: center;
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
     }
 
     .events-sides img {
@@ -58,7 +64,7 @@
 @media screen and (min-width: 992px) {
 
     .events {
-        padding: 0.4rem 0 1.5rem 0;
+        padding: 0.4rem 0 1rem 0;
     }
 
     .events .main-description {
@@ -66,7 +72,7 @@
     }
 
     .events-sides {
-        margin-bottom: 2rem;
+        margin-bottom: 0.5rem;
     }
 }
 
@@ -75,15 +81,11 @@
 @media screen and (min-width: 1200px) {
 
     .events {
-        padding: 0.4rem 0 1.5rem 0;
+        padding: 0.4rem 0 1.35rem 0;
     }
 
     .events .main-description {
         max-width: 60ch;
-    }
-
-    .events-sides {
-        margin-bottom: 2rem;
     }
 }
 
@@ -92,10 +94,10 @@
 @media screen and (min-width: 1920px) {
 
     .events {
-        padding: 0.4rem 0 1.75rem 0;
+        padding: 0.4rem 0 1.35rem 0;
     }
 
     .events-sides {
-        margin-bottom: 2rem;
+        margin-bottom: 0.5rem;
     }
 }

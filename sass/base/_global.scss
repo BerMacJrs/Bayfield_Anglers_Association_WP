@@ -95,17 +95,16 @@ ul li a {
 
 .h2-side {
     display: flex;
-    align-items: center !important;
+    align-items: center;
     gap: 1rem;
     margin: 1.5rem 0 1rem 0;
 }
 
-.h2-side img {
-    width: 3.5rem !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    display: block !important;
-    transform: translateY(0.35rem) !important;
+.h2-icon {
+    width: 3.5rem;
+    margin: 0;
+    padding: 0;
+    display: block;
 }
 
 #hamburger {
@@ -136,10 +135,10 @@ ul li a {
 @media screen and (min-width: 1920px) {
 
     .h2-side {
-        margin: 1.75rem 0 2rem 0;
+        margin: 2rem 0 2rem 0;
     }
     
-    .h2-side img {
-        width: 4rem !important;
+    .h2-icon {
+        width: 4rem;
     }
 }

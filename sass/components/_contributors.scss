@@ -3,29 +3,24 @@
 // Mobile Styling - Media Query
 
 .contributors {
-    padding-top: 0.5rem;
+    padding-top: 0;
 }
 
 .contributors .main-description {
-    padding-bottom: 0.35rem;
+    padding-bottom: 0.30rem;
 }
 
-.contributors img {
+.contributor-img {
     width: 100%;
-    padding-bottom: 2.5rem;
+    padding-bottom: 2.15rem;
 }
 
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 768px) {
 
-    .contributors {
-        padding-top: 0;
-    }
-
-    .contributors img {
+    .contributor-img {
         width: 90%;
-        padding-bottom: 3.5rem;
     }
 }    
 
@@ -33,9 +28,9 @@
 
 @media screen and (min-width: 992px) {
 
-    .contributors img {
-        width: 80%;
-        padding-bottom: 3.75rem;
+    .contributor-img {
+        width: 85%;
+        padding-bottom: 2.5rem;
     }
 }
 
@@ -43,9 +38,9 @@
 
 @media screen and (min-width: 1200px) {
 
-    .contributors img {
+    .contributor-img {
         width: 80%;
-        padding-bottom: 3.75rem;
+        padding-bottom: 2.5rem;
     }
 }
 
@@ -53,8 +48,8 @@
 
 @media screen and (min-width: 1920px) {
 
-    .contributors img {
+    .contributor-img {
         width: 75%;
-        padding-bottom: 4rem;
+        padding-bottom: 2.65rem;
     }
 }
