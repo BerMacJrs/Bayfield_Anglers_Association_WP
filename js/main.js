@@ -90,23 +90,16 @@
 // Hero Zoom Functionality
 
 (() => {
-    document.addEventListener('DOMContentLoaded', () => {
-    const zoomBtn = document.querySelector('.zoom-trigger');
-    const hero = document.querySelector('.hero-img');
+  const button = document.querySelector('.zoom-trigger');
+  const hero = document.querySelector('.hero');
 
-    if (!zoomBtn || !hero) {
-        console.warn('Zoom trigger or hero section not found');
-        return;
-    }
+  button.addEventListener('mouseenter', () => {
+    hero.classList.add('zoomed');
+  });
 
-    zoomBtn.addEventListener('pointerenter', () => {
-        hero.classList.add('zoom-active');
-    });
-
-    zoomBtn.addEventListener('pointerleave', () => {
-        hero.classList.remove('zoom-active');
-    });
-});
+  button.addEventListener('mouseleave', () => {
+    hero.classList.remove('zoomed');
+  });
 })();
 
 // Header Disappear Functionality
