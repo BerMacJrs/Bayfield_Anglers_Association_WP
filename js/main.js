@@ -160,7 +160,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
     if (targetElement) {
       e.preventDefault();
-      
+
       const header = document.querySelector('header');
       const headerHeight = header ? header.offsetHeight : 0;
 
