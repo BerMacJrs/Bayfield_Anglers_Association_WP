@@ -4,7 +4,7 @@
     const burger = document.getElementById('burger');
     burger.addEventListener('click', () => {
         document.querySelector('.nav-menu').classList.toggle('active');
-        burger.classList.toggle('rotate');  // toggle 90deg rotation
+        burger.classList.toggle('rotate');
     });
 })();
 
@@ -13,7 +13,7 @@
 (() => {
     gsap.registerPlugin(ScrollTrigger);
 
-    gsap.utils.toArray(".hero p, .hero h2, .hero button, .intro > *, .features > *, .events > *, .announce > *, .contact > *, .faq > *, .contributors > *, .volunteer > *, .register > *").forEach((item) => {
+    gsap.utils.toArray(".hero > *, .intro > *, .features > *, .events > *, .announce > *, .contact > *, .faq > *, .contributors > *, .volunteer > *, .register > *").forEach((item) => {
       gsap.set(item, { opacity: 0, y: 50 });
   
       gsap.to(item, {
@@ -128,4 +128,31 @@
   );
 
   observer.observe(footer);
+})();
+
+// Hero Viewport Height Functionality
+
+(() => {
+  const adjustHeroHeight = () => {
+    const header = document.getElementById('header');
+    const hero = document.querySelector('.hero');
+    if (!header || !hero) return;
+
+    const headerHeight = header.offsetHeight;
+    hero.style.height = `calc(100vh - ${headerHeight}px)`;
+  };
+
+  const mediaQuery = window.matchMedia('(min-width: 992px)');
+
+  const handleResize = () => {
+    if (mediaQuery.matches) {
+      adjustHeroHeight();
+    } else {
+      const hero = document.querySelector('.hero');
+      if (hero) hero.style.height = ''; 
+    }
+  };
+
+  window.addEventListener('load', handleResize);
+  window.addEventListener('resize', handleResize);
 })();
