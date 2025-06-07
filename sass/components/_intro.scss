@@ -23,11 +23,11 @@
 @media screen and (min-width: 768px) {
 
     .intro {
-        padding-bottom: 1rem;
+        padding-bottom: 0.35rem;
     }
 
     .intro p {
-        margin: 0 0 1.75rem 0;
+        margin: 0 0 1.5rem 0;
     }
 
     .intro img:nth-of-type(2), .intro img:last-of-type {
@@ -56,11 +56,11 @@
 @media screen and (min-width: 992px) {
 
     .intro {
-        padding-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
     }
 
     .intro p {
-        margin: 0 0 2rem 0;
+        margin: 0 0 1.45rem 0;
     }
 }
 
@@ -69,11 +69,11 @@
 @media screen and (min-width: 1200px) {
 
     .intro {
-        padding-bottom: 1.5rem;
+        padding-bottom: 0.75rem;
     }
 
     .intro p {
-        margin: 0 0 2rem 0;
+        margin: 0 0 1.25rem 0;
     }
 }
 
@@ -82,10 +82,10 @@
 @media screen and (min-width: 1920px) {
 
     .intro {
-        padding-bottom: 2rem;
+        padding-bottom: 0.75rem;
     }
 
     .intro p {
-        margin: 0 0 2rem 0;
+        margin: 0 0 1.65rem 0;
     }
 }

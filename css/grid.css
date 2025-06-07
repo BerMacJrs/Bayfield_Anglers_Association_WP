@@ -186,8 +186,8 @@ body, p, h1, h2, h3, h4, h5 {
     display: grid; 
     grid-template-columns: repeat(12, minmax(0, 1fr));
     grid-column-gap: 40px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 55px;
+    padding-right: 55px;
 }
 
 .l-col-auto {grid-column: auto;}
