@@ -53,7 +53,7 @@
     display: block;
 }
 
-.hero-tablet, .hero-desktop {
+.hero-desktop {
     display: none;
 }
 
@@ -63,24 +63,29 @@
 @media screen and (min-width: 768px) {
 
     .hero {
-        height: 40rem;
+        height: 29rem;
     }
 
     .hero-content p {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .hero-content h2 {
-        font-size: 76px;
-        line-height: 90px;
-        margin: 3rem 0 3.5rem 0;
+        font-size: 60px;
+        line-height: 70px;
+        margin: 2rem 0 2.5rem 0;
     }
 
-    .hero-mobile, .hero-desktop {
+    .hero-content button {
+        font-size: 24px;
+        padding: 6px 20px 6px 20px;
+    }
+
+    .hero-mobile {
         display: none;
     }
-    
-    .hero-tablet {
+
+    .hero-desktop {
         display: block;
     }
 }
@@ -92,25 +97,22 @@
 @media screen and (min-width: 992px) {
 
     .hero {
-        height: 45rem;
+        background-position: left bottom;
+        // height: 23rem;
     }
 
     .hero-content p {
-        font-size: 41px;
+        font-size: 30px;
     }
 
     .hero-content h2 {
-        font-size: 80px;
-        line-height: 100px;
-        margin: 4rem 0 4.5rem 0;
+        font-size: 60px;
+        line-height: 70px;
+        margin: 2rem 0 2rem 0;
     }
 
-    .hero-mobile, .hero-tablet {
-        display: none;
-    }
-
-    .hero-desktop {
-        display: block;
+    .hero-content button {
+        font-size: 22px;
     }
 }
 
@@ -121,11 +123,11 @@
 @media screen and (min-width: 1200px) {
 
     .hero {
-        height: 45rem;
+        height: 38rem;
     }
 
     .hero-content p {
-        font-size: 41px;
+        font-size: 38px;
     }
 
     .hero-content h2 {
@@ -134,12 +136,8 @@
         margin: 4rem 0 4.5rem 0;
     }
 
-    .hero-mobile, .hero-tablet {
-        display: none;
-    }
-
-    .hero-desktop {
-        display: block;
+    .hero-content button {
+        font-size: 30px;
     }
 }
 
@@ -150,16 +148,24 @@
 @media screen and (min-width: 1920px) {
     
     .hero {
-        height: 55rem;
+        height: 34rem;
+    }
+
+    .hero-content {
+        left: 10vw;
     }
 
     .hero-content p {
-        font-size: 41px;
+        font-size: 35px;
     }
 
-    .hero-img h2 {
-        font-size: 97px;
-        line-height: 125px;
-        margin: 3.5rem 0 4rem 0;
+    .hero-content h2 {
+        font-size: 85px;
+        line-height: 100px;
+        margin: 2.5rem 0 3.5rem 0;
+    }
+
+    .hero-content button {
+        font-size: 30px;
     }
 }

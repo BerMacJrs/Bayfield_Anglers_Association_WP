@@ -17,7 +17,6 @@ body {
 
 html, body {
     scroll-behavior: smooth;
-    scroll-padding-top: 9rem;
 }
 
 .overflow-wrapper {
@@ -36,9 +35,8 @@ p {
 h2 {
     color: $primary-color;
     text-transform: uppercase;
-    font-size: clamp(1.5625rem, 1.25rem + 1vw, 2.5rem);
+    font-size: clamp(1.5625rem, 1.25rem + 1vw, 2.25rem);
     line-height: 2.375rem;
-    margin: 1.5rem 0 1rem 0;
 }
 
 .main-description {
@@ -99,7 +97,7 @@ ul li a {
     display: flex;
     align-items: center !important;
     gap: 1rem;
-    margin-bottom: 0.5rem;
+    margin: 1.5rem 0 1rem 0;
 }
 
 .h2-side img {
@@ -118,39 +116,8 @@ ul li a {
 
 @media screen and (min-width: 768px) {
 
-    h2 {
-        margin: 2.5rem 0 1.85rem 0;
-    }
-
-    .main-description {
-        margin: 0 0 2rem 0;;
-    }
-
-    .hero-content button {
-        font-size: 28px;
-        padding: 6px 28px 6px 28px;
-    }
-}
-
-// Small Desktop Styling - Media Query
-
-@media screen and (min-width: 992px) {
-
-    html, body {
-        scroll-padding-top: 13rem;
-    }
-
-    h2 {
-        margin: 3rem 0 2.5rem 0;
-    }
-
-    .main-description {
-        margin: 0 0 2rem 0;;
-    }
-
-
-    .hero-content button {
-        font-size: 40px;
+    .h2-side {
+        margin: 1.5rem 0 1.35rem 0;
     }
 }
 
@@ -159,21 +126,8 @@ ul li a {
 
 @media screen and (min-width: 1200px) {
 
-    html, body {
-        scroll-padding-top: 13rem;
-    }
-
-    h2 {
-        margin: 3rem 0 2.5rem 0;
-    }
-
-    .main-description {
-        margin: 0 0 2rem 0;;
-    }
-
-
-    .hero-content button {
-        font-size: 40px;
+    .h2-side {
+        margin: 2rem 0 1.75rem 0;
     }
 }
 
@@ -181,20 +135,11 @@ ul li a {
 
 @media screen and (min-width: 1920px) {
 
-    h2 {
-        margin: 3.75rem 0 2.75rem 0;
+    .h2-side {
+        margin: 1.75rem 0 2rem 0;
     }
-
-    .main-description {
-        margin: 0 0 2rem 0;;
-    }
-
-    .hero-content button {
-        font-size: 40px;
-    }
-
+    
     .h2-side img {
         width: 4rem !important;
-        transform: translateY(0.7rem) !important;
     }
 }

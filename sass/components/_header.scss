@@ -20,7 +20,7 @@ header {
 }
 
 #main_logo {
-    width: clamp(10rem, 5rem + 12vw, 16rem);
+    width: 10rem;
     transition: transform 0.1s ease-out;
 }
 
@@ -47,7 +47,7 @@ header {
 }
 
 .nav-menu a {
-    font-size: clamp(1rem, 2.08vw, 1.5625rem);
+    font-size: 1rem;
 }
 
 .nav-menu ul {
@@ -87,14 +87,11 @@ header {
 @media screen and (min-width: 768px) {
 
     header {
-        border-bottom: 12px solid $secondary-color;
-        height: clamp(8.5rem, 6.5rem + 6vw, 13rem);
-    
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 0 25px 0 25px;
-        height: 8.5rem;
+        height: 6.5rem;
     }
 
     .header-side {
@@ -103,6 +100,10 @@ header {
 
     #hamburger {
         display: none; 
+    }
+
+    #main_logo {
+        width: 8.5rem;
     }
 
     .nav-menu {
@@ -115,7 +116,7 @@ header {
 
     .nav-menu ul {
         display: flex;
-        gap: clamp(2.5rem, 4.5vw, 3.5rem);
+        gap: clamp(2.5rem, 4.5vw, 3rem);
     }
 }
 
@@ -124,9 +125,12 @@ header {
 @media screen and (min-width: 992px) {
 
     header {
-        border-bottom: 14px solid $secondary-color;
         padding: 0 50px 0 50px;
-        height: 9.5rem;
+        height: 5.75rem;
+    }
+
+    #main_logo {
+        width: 7.5rem;
     }
 }
 
@@ -136,7 +140,11 @@ header {
 
     header {
         padding: 0 60px 0 60px;
-        height: 10.5rem;
+        height: 7.35rem;
+    }
+
+    #main_logo {
+        width: 10rem;
     }
 }
 
@@ -145,8 +153,6 @@ header {
 @media screen and (min-width: 1920px) {
 
     header {
-        border-bottom: 16px solid $secondary-color;
         padding: 0 70px 0 70px;
-        height: 12rem;
     }
 }   
