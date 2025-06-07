@@ -3,31 +3,32 @@
 // Mobile Styling - Media Query
 
 .volunteer {
-    padding-top: 0.75rem;
+    padding-top: 0;
 }
 
-.volunteer img {
+.volunteer-img {
     width: 100%;
 }
 
 .volunteer-sides {
-    padding: 0 0 2.5rem 0;
+    padding: 0 0 2.25rem 0;
+}
+
+.volunteer .main-description {
+    width: 95%;
 }
 
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 768px) {
-    
-    .volunteer {
-        padding-top: 0rem;
-    }
 
-    .volunteer img {
+    .volunteer-img {
         width: 100%;
     }
 
     .volunteer .main-description {
-        padding-bottom: 1rem;
+        padding-bottom: 0.35rem;
+        width: 100%;
     }
 
     .volunteer-sides {
@@ -43,7 +44,7 @@
 @media screen and (min-width: 992px) {
 
     .volunteer .main-description {
-        padding-bottom: 1.5rem;
+        padding-bottom: 0.5rem;
     }
 
     .volunteer-sides {
@@ -55,10 +56,6 @@
 
 @media screen and (min-width: 1200px) {
 
-    .volunteer .main-description {
-        padding-bottom: 1.5rem;
-    }
-
     .volunteer-sides {
         gap: 3rem;
     }
@@ -69,6 +66,6 @@
 @media screen and (min-width: 1920px) {
 
     .volunteer .main-description {
-        padding-bottom: 1.75rem;
+        padding-bottom: 1rem;
     }
 }

@@ -3,23 +3,28 @@
 // Mobile Styling - Media Query
 
 .features {
-    padding: 0.35rem 0 0.5rem 0;
+    padding: 0.3rem 0 0.75rem 0;
 }
 
-.features img {
-    width: 10rem;
-    // width: clamp(3rem, 2.1rem + 4.5vw, 5.5rem);
+.features .h2-side {
+    margin-bottom: 1.5rem;
+}
+
+.features-sides img {
+    width: clamp(3.5rem, 2.1rem + 3.5vw, 5.5rem);
+    min-width: 3.5rem;
 }
 
 .features h3 {
-    font-size: clamp(1.125rem, 0.9rem + 1.2vw, 2.1875rem);
+    font-size: clamp(1.125rem, 0.9rem + 1.2vw, 1.85rem);
+    padding-bottom: 1rem;
     margin: 0;
 }
 
 .features p {
-    font-size: clamp(0.875rem, 0.65rem + 1.1vw, 1.5625rem);
-    line-height: clamp(1.5rem, 1.1rem + 1.6vw, 2.8125rem);
-    padding-bottom: 0.75rem;
+    font-size: clamp(1rem, 0.9rem + 0.6vw, 1.5625rem);
+    line-height: clamp(1.875rem, 1.36rem + 1.5vw, 2.8125rem);
+    padding-bottom: 1.35rem;
 }
 
 .features-sides {
@@ -42,7 +47,7 @@
 @media screen and (min-width: 992px) {
 
     .features {
-        padding: 0.25rem 0 1.5rem 0;
+        padding: 0.25rem 0 0.95rem 0;
     }
 
     .features p {
@@ -55,10 +60,6 @@
 @media screen and (min-width: 1200px) {
 
     .features {
-        padding: 0.25rem 0 1.5rem 0;
-    }
-
-    .features p {
-        max-width: 60ch;
+        padding: 0.25rem 0 1.25rem 0;
     }
 }

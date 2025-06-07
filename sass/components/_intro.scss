@@ -2,6 +2,10 @@
 
 // Mobile Styling - Media Query
 
+.intro .h2-side {
+    margin-bottom: 1.5rem;
+}
+
 .intro p {
     font-size: clamp(1rem, 0.9rem + 0.6vw, 1.4rem);
     line-height: clamp(1.875rem, 1.36rem + 1.5vw, 2.7rem);
@@ -9,11 +13,11 @@
     max-width: 100%;
 }
 
-.intro img:nth-of-type(2), .intro img:last-of-type {
+.intro-flex img:nth-of-type(2), .intro-flex img:last-of-type {
     display: none;
 }
 
-.intro img {
+.intro-flex img {
     margin: 0.75rem 0 2.15rem 0;
     max-width: 100%;
 }
@@ -30,7 +34,7 @@
         margin: 0 0 1.5rem 0;
     }
 
-    .intro img:nth-of-type(2), .intro img:last-of-type {
+    .intro-flex img:nth-of-type(2), .intro-flex img:last-of-type {
         display: block;
     }
 
@@ -82,7 +86,7 @@
 @media screen and (min-width: 1920px) {
 
     .intro {
-        padding-bottom: 0.75rem;
+        padding: 0.25rem 0 0.75rem 0;
     }
 
     .intro p {

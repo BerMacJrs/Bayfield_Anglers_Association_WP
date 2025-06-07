@@ -3,10 +3,10 @@
 // Mobile Styling - Media Query
 
 .announce {
-    padding: 1rem 0 0 0;
+    padding: 0.5rem 0 0 0;
 }
 
-.announce img {
+.announce-sides img {
     width: 50%;
     padding: 1.2rem 0 2.25rem 0;
 }
@@ -30,9 +30,15 @@
         margin: 0;
     }
 
-    .announce img {
+    .announce-sides img {
         width: clamp(6.5rem, 5.5rem + 3.25vw, 10rem);
         padding: 0;
+        flex-shrink: 0;
+    }
+
+    .announce-sides > div:nth-child(2),
+    .announce-sides img {
+        flex-shrink: 0;
     }
 
     .announce-sides {
@@ -53,7 +59,7 @@
 @media screen and (min-width: 992px) {
 
     .announce {
-        padding: 0 0 1.5rem 0;
+        padding: 0.75rem 0 1rem 0;
     }
 
     .announce-sides {
@@ -66,7 +72,7 @@
 @media screen and (min-width: 1200px) {
 
     .announce {
-        padding: 0 0 1.5rem 0;
+        padding: 0.5rem 0 1rem 0;
     }
 
     .announce-sides {
@@ -79,6 +85,6 @@
 @media screen and (min-width: 1920px) {
 
     .announce {
-        padding: 0 0 2rem 0;
+        padding: 0.5rem 0 1rem 0;
     }
 }
