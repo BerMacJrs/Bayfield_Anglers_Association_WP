@@ -98,7 +98,6 @@
 
     .hero {
         background-position: left bottom;
-        // height: 23rem;
     }
 
     .hero-content p {
@@ -122,10 +121,6 @@
 
 @media screen and (min-width: 1200px) {
 
-    .hero {
-        height: 38rem;
-    }
-
     .hero-content p {
         font-size: 38px;
     }
@@ -146,10 +141,6 @@
 // Monitor Styling - Media Query
 
 @media screen and (min-width: 1920px) {
-    
-    .hero {
-        height: 34rem;
-    }
 
     .hero-content {
         left: 10vw;
