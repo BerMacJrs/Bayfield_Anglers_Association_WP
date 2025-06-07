@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     font-family: $body-font-family;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 h2 {
@@ -89,7 +89,7 @@ ul {
     list-style: none;
 }
 
-ul li a {
+ul li a, a {
     text-decoration: none;
 }
 
