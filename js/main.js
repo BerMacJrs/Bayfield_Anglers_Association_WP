@@ -149,3 +149,28 @@
   window.addEventListener('load', handleResize);
   window.addEventListener('resize', handleResize);
 })();
+
+// ID Scroll Compensation Functionality
+
+(() => {
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    const targetID = this.getAttribute('href').substring(1);
+    const targetElement = document.getElementById(targetID);
+
+    if (targetElement) {
+      e.preventDefault();
+      
+      const header = document.querySelector('header');
+      const headerHeight = header ? header.offsetHeight : 0;
+
+      const offsetTop = targetElement.getBoundingClientRect().top + window.scrollY - headerHeight;
+
+      window.scrollTo({
+        top: offsetTop,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+})();
