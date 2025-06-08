@@ -59,29 +59,6 @@ header {
     padding-bottom: 1rem;
 }
 
-.nav-menu ul li a {
-    position: relative;
-    text-decoration: none;
-    color: $background-color;
-    padding-bottom: 6px;
-    transition: transform 0.3s ease;;
-}
-
-.nav-menu ul li a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 2px;
-    width: 0%;
-    background-color: $background-color;
-    transition: width 0.2s ease; 
-}
-
-.nav-menu ul li a:hover::after {
-    width: 100%;
-}
-
 // Tablet Styling - Media Query
 
 @media screen and (min-width: 768px) {
@@ -131,6 +108,29 @@ header {
 
     #main_logo {
         width: 7.5rem;
+    }
+
+    .nav-menu ul li a {
+        position: relative;
+        text-decoration: none;
+        color: $background-color;
+        padding-bottom: 6px;
+        transition: transform 0.3s ease;;
+    }
+
+    .nav-menu ul li a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        width: 0%;
+        background-color: $background-color;
+        transition: width 0.2s ease; 
+    }
+
+    .nav-menu ul li a:hover::after {
+        width: 100%;
     }
 }
 
